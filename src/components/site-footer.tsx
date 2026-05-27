@@ -121,7 +121,7 @@ export function SiteFooter() {
 
         {/* Contact */}
         <div className="lg:col-span-2">
-          <h4 className="text-sm font-semibold tracking-widest text-white/60 mb-7">
+          <h4 className="text-sm font-semibold tracking-widest text-white/75 mb-7">
             GET IN TOUCH
           </h4>
 
