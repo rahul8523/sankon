@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+
 import { useState } from "react";
 import { SiteHeader } from "../../components/site-header";
 import { SiteFooter } from "../../components/site-footer";
@@ -22,16 +22,6 @@ import {
   Plus,
   ArrowRight,
 } from "lucide-react";
-
-export const Route = createFileRoute("/product/$slug")({
-  head: () => ({
-    meta: [
-      { title: "Product — Sankon Technologies" },
-      { name: "description", content: "Product details" },
-    ],
-  }),
-  component: ProductPage,
-});
 
 const IMAGES = [
   "/upload/normalImag/ProdImg500006.png",
@@ -60,7 +50,7 @@ const FEATURES = [
   { title: "Self-Calibration", body: "Built-in multi-function calibration software keeps the instrument accurate between services." },
 ];
 
-function ProductPage() {
+export default function ProductPage() {
   const [active, setActive] = useState(0);
   const [qty, setQty] = useState(1);
   const [tab, setTab] = useState<"overview" | "features" | "specs" | "brochure">("overview");

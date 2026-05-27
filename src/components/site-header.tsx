@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "@tanstack/react-router";
 import { Menu, X, ChevronDown, Search } from "lucide-react";
 
 const productCategories = [
@@ -25,16 +24,15 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all ${
-        scrolled
-          ? "bg-[var(--ivory)]/90 backdrop-blur-md border-b border-[var(--hairline)]"
-          : "bg-[var(--ivory)] border-b border-transparent"
-      }`}
+      className={`sticky top-0 z-50 w-full transition-all ${scrolled
+        ? "bg-[var(--ivory)]/90 backdrop-blur-md border-b border-[var(--hairline)]"
+        : "bg-[var(--ivory)] border-b border-transparent"
+        }`}
     >
       {/* Utility strip */}
-      <div className="hidden md:block border-b border-[var(--hairline)]">
+      <div className="hidden md:block border-b border-[var(--hairline)] bg-[#ffc800] py-3">
         <div className="container-page flex h-8 items-center justify-between eyebrow">
-          <span>Authorized Distributor — Trimble · Nikon · Spectra Precision</span>
+          <span>Authorized Distributor & Service Centre - Trimble Nikon Spectra Precision</span>
           <div className="flex items-center gap-6">
             <a href="tel:09971615537" className="hover:text-[var(--ink)] transition-colors">+91 99716 15537</a>
             <a href="mailto:nikon@sankon.in" className="hover:text-[var(--ink)] transition-colors">nikon@sankon.in</a>
@@ -44,12 +42,9 @@ export function SiteHeader() {
 
       {/* Main bar */}
       <div className="container-page flex h-20 items-center justify-between gap-8">
-        <Link to="/" className="flex items-baseline gap-2 shrink-0">
-          <span className="font-serif text-2xl font-medium tracking-tight text-[var(--ink)]" style={{ fontFamily: "Fraunces, serif" }}>
-            Sankon
-          </span>
-          <span className="eyebrow hidden sm:inline">— Technologies India</span>
-        </Link>
+        <a href="/" className="flex items-baseline gap-2 shrink-0">
+          <img src="/upload/logo/logo.png" alt="HTS-521L10 Total Station" />
+        </a>
 
         <nav className="hidden lg:flex items-center gap-8 text-sm">
           <NavItem label="Home" />
@@ -70,7 +65,7 @@ export function SiteHeader() {
           >
             Enquiry Now
             <span className="flex h-7 w-7 items-center justify-center rounded-full bg-[var(--ivory)] text-[var(--ink)] group-hover:bg-[var(--ivory)] transition">
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M1 5h8m0 0L5 1m4 4L5 9" stroke="currentColor" strokeWidth="1.4"/></svg>
+              <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M1 5h8m0 0L5 1m4 4L5 9" stroke="currentColor" strokeWidth="1.4" /></svg>
             </span>
           </a>
           <button

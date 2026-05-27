@@ -1,4 +1,3 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ShieldCheck, Wrench, Headphones, Award, MapPin, Mail, Phone, ArrowUpRight, Download, Calendar, MessageSquare, Plus, Minus, Building2, TrainFront, Mountain, Waves, HardHat, Factory } from "lucide-react";
 import { useState } from "react";
 import heroImg from "@/assets/hero-survey.jpg";
@@ -7,19 +6,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { MobileCtaBar } from "@/components/mobile-cta-bar";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-  head: () => ({
-    meta: [
-      { title: "Sankon Technologies India Pvt Ltd — Surveying & Measuring Instruments" },
-      {
-        name: "description",
-        content:
-          "Authorized Distributor and Service Centre in India for Trimble, Nikon and Spectra Precision surveying instruments — Total Stations, GNSS, Auto Levels, Theodolites and more.",
-      },
-    ],
-  }),
-});
+
 
 const products = [
   { title: "Mileseey S50 Laser Distance Meter (Green Beam)", desc: "Mileseey S50 Laser Distance Meter is a compact and highly accurate digital measuring tool designed for construction, engineering, and site work. It de...", img: "/upload/normalImag/ProdImg875035.png" },
@@ -65,7 +52,7 @@ const categories = [
 
 const brandIds = ["IMG1235","IMG1799","IMG7597","IMG4516","IMG5244","IMG5863","IMG9430","IMG5577","IMG6170","IMG4081","IMG4576","IMG1307","IMG5056","IMG1452","IMG5997","IMG9327","IMG4209","IMG9042","IMG4389","IMG4296","IMG5735","IMG7940","IMG8415"];
 
-function Index() {
+export function Index() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <SiteHeader />
@@ -227,13 +214,12 @@ function Products() {
                       {(() => {
                         const slug = p.title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9\-]/g, "");
                         return (
-                          <Link
-                            to="/product/$slug"
-                            params={{ slug }}
+                          <a
+                            href={`/product/${slug}`}
                             className="mt-5 inline-flex items-center gap-1.5 text-xs font-medium text-[var(--ink)] group-hover:text-[var(--cobalt)] transition-colors"
                           >
                             View Details <ArrowUpRight className="h-3 w-3" />
-                          </Link>
+                          </a>
                         );
                       })()}
               </div>

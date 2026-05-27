@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
@@ -22,22 +21,6 @@ import {
   Plus,
   ArrowRight,
 } from "lucide-react";
-
-export const Route = createFileRoute("/ProductDetails")({
-  head: () => ({
-    meta: [
-      { title: "HTS-521L10 Reflectorless Total Station — Sankon Technologies" },
-      {
-        name: "description",
-        content:
-          "Hi-Target HTS-521L10 (2\") reflectorless total station. 1000m range, HD color screen, dual-axis tilt sensor, 18h battery. Authorized India partner.",
-      },
-      { property: "og:title", content: "HTS-521L10 Reflectorless Total Station" },
-      { property: "og:description", content: "New optical structure. 1000m reflectorless range. Long-life Li-ION." },
-    ],
-  }),
-  component: ProductPage,
-});
 
 const IMAGES = [
   "/upload/normalImag/ProdImg500006.png",
@@ -66,7 +49,7 @@ const FEATURES = [
   { title: "Self-Calibration", body: "Built-in multi-function calibration software keeps the instrument accurate between services." },
 ];
 
-function ProductPage() {
+export default function ProductPage() {
   const [active, setActive] = useState(0);
   const [qty, setQty] = useState(1);
   const [tab, setTab] = useState<"overview" | "features" | "specs" | "brochure">("overview");
