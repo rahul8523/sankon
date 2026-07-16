@@ -1,15 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, ChevronDown, Search } from "lucide-react";
-
-const productCategories = [
-  "Slam2000", "Cable/Pipe locator", "Outdoor Laser Measure", "Digital Laser Tape Measure",
-  "Space Master Series", "Auto Levels", "Total Stations", "Digital Theodolites",
-  "Survey Accessories", "Auto Level", "Laser Distance Meters", "Laser Levels",
-  "Total Station", "GNSS RTK", "Marine & Hydrographic", "Soil Testing",
-  "Aggregate Testing", "Concrete Testing", "Cement Testing", "Asphalt & Bitumen Testing",
-  "Single Frequency", "HyDrone", "Dual Frequency", "Single Frequency Gpr",
-  "Triple Frequency", "SELF-LEVELING LEVEL", "Slam200", "Slam100",
-];
+import categories from "@/routes/categoryData";
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
@@ -106,13 +97,32 @@ function ProductsDropdown() {
         Products <ChevronDown className="h-3.5 w-3.5" />
       </button>
       <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-150 absolute left-1/2 -translate-x-1/2 top-full pt-3 w-[720px]">
-        <div className="rounded-md border border-[var(--hairline)] bg-[var(--paper)] shadow-[var(--shadow-card)] p-7 grid grid-cols-3 gap-x-8 gap-y-2 max-h-[440px] overflow-auto">
-          <div className="col-span-3 eyebrow pb-3 mb-2 border-b border-[var(--hairline)]">Browse · 28 Categories</div>
-          {productCategories.map((c, i) => (
-            <a key={c} href="#categories" className="flex items-baseline gap-3 text-sm text-[var(--ink-soft)] hover:text-[var(--cobalt)] py-1 transition-colors">
-              <span className="font-mono-tech text-[10px] text-[var(--muted-foreground)] w-6">{String(i + 1).padStart(2, "0")}</span>
-              <span className="truncate">{c}</span>
-            </a>
+        <div className="rounded-md border border-[var(--hairline)] bg-[var(--paper)] shadow-[var(--shadow-card)] p-7 grid grid-cols-3 gap-x-8 gap-y-4 max-h-[520px] overflow-auto">
+          <div className="col-span-3 eyebrow pb-3 mb-2 border-b border-[var(--hairline)]">Browse · {categories.length} Categories</div>
+          {categories.map((category, i) => (
+            <div key={category.slug} className="py-1 pr-2">
+              <a
+                href={category.href}
+                className="block text-sm text-[var(--ink)] hover:text-[var(--cobalt)] font-medium truncate"
+              >
+                <span className="font-mono-tech text-[10px] text-[var(--muted-foreground)] mr-2">{String(i + 1).padStart(2, "0")}</span>
+                {category.title}
+              </a>
+            
+              {category.brandLinks && category.brandLinks.length > 0 && (
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {category.brandLinks.map((b) => (
+                    <a
+                      key={b.slug}
+                      href={b.href}
+                      className="text-xs text-[var(--ink-soft)] hover:text-[var(--cobalt)] bg-[var(--ivory)] px-2 py-1 rounded-sm border border-transparent hover:border-[var(--hairline)]"
+                    >
+                      {b.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
           ))}
         </div>
       </div>
