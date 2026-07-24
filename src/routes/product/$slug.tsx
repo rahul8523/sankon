@@ -141,13 +141,13 @@ function ProductCategoryPage() {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <a href="#contact" className="inline-flex min-w-[220px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(15,23,42,0.12)] transition hover:bg-[#111]">
+              <a href="#contact" className="inline-flex min-w-[20px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(15,23,42,0.12)] transition hover:bg-[#111]">
                 <span>Request Quote</span>
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
                   <ArrowRight className="h-4 w-4" />
                 </span>
               </a>
-              <a href="#brochure" className="inline-flex min-w-[220px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white transition hover:bg-[#111]">
+              <a href="#brochure" className="inline-flex min-w-[230px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white transition hover:bg-[#111]">
                 <span>Download Brochure</span>
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
                   <Download className="h-4 w-4" />

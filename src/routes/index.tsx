@@ -385,8 +385,8 @@ function Products() {
                 </div>
                 <div className="p-6 border-t border-[var(--hairline)] flex flex-col items-center">
                   <h3
-                    className="font-serif text-base md:text-lg text-black leading-tight"
-                    style={{ fontFamily: "Fraunces, serif" }}
+                    className="font-serif text-base md:text-lg text-black hover:text-[var(--cobalt)] leading-tight"
+                    style={{ fontFamily: "JetBrains Mono" }}
                   >
                     {p.title}
                   </h3>
@@ -396,7 +396,7 @@ function Products() {
                         <a
                           key={brand.label}
                           href={brand.href}
-                          className="text-lg text-[#043c77]"
+                          className="text-xs text-[var(--ink-soft)] hover:text-[var(--cobalt)] bg-[var(--ivory)] px-2 py-1 rounded-sm border border-transparent hover:border-[var(--hairline)]"
                         >
                           {brand.label}
                         </a>

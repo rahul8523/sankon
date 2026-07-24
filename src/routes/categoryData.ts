@@ -98,7 +98,25 @@ export const categories: CategoryInfo[] = [
     heroSubheading: "High-accuracy survey instruments for every site",
     heroText:
       "Choose the right total station for your project, with category-wide solutions that balance precision, durability, and ease of use.",
-    products: makeProducts("Total Stations", "/upload/categoryImg/ProdImg500006.png"),
+    products: [
+      {
+        title: "Nikon N&K",
+        subtitle:
+          "The Nikon N and K total stations offer an advanced EDM in an innovative package, including flexible charging and connectivity options.",
+        image: "/upload/categoryImg/NikonNK.png",
+      },
+      {
+        title: "Nikon XF",
+        subtitle:
+          "Nikon XF mechanical total stations are packed with features that make survey work easier and faster.",
+        image: "/upload/categoryImg/NikonXF.png",
+      },
+      {
+        title: "NikonXS",
+        subtitle: "Nikon XS mechanical total station is built tough for all occasions.",
+        image: "/upload/categoryImg/NikonXS.png",
+      },
+    ],
   },
   {
     title: "GNSS / RTK Systems",
@@ -106,35 +124,162 @@ export const categories: CategoryInfo[] = [
     brands: "Hi-Target",
     img: "/upload/categoryImg/ProdImg922461.png",
     href: "/category/gnss-rtk-systems",
-    brandLinks: makeBrandLinks("Hi-Target", "gnss-rtk-systems"),
+    brandLinks: [
+      {
+        label: "Hi-Target",
+        slug: "hi-target",
+        href: "/category/gnss-rtk-systems/hi-target",
+        heroHeading: "GNSS / RTK SYSTEMS by Hi-Target",
+        heroSubheading: "GNSS / RTK SYSTEMS by Hi-Target",
+        heroText:
+          "Discover Hi-Target authorized GNSS / RTK SYSTEMS with precision optics, rugged field build, and trusted support for every survey project.",
+      }
+    ],
     description:
       "High-precision GNSS and RTK systems designed for survey, mapping, and construction control with reliable satellite tracking.",
     heroImage: "/upload/categoryImg/ProdImg922461.png",
-    products: makeProducts("GNSS / RTK Systems", "/upload/categoryImg/ProdImg922461.png"),
+    products: [
+      {
+        title: "V200 GNSS",
+        subtitle:
+          "V200 GNSS RTK Receiver brings superior performance and high efficiency to support your fieldwork with reliable solutions. Its deployment of the advanc",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg921380.png",
+      },
+
+      {
+        title: "iRTK4",
+        subtitle:
+          "iRTK4 GNSS RTK is a full-featured, intelligent receiver system equipped with an integrated new-generation full-frequency antenna and advanced multi-ch",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
+      },
+      {
+        title: "iRTK5",
+        subtitle:
+          "EaiRTK5, the high-quality scalable GNSS receiver, provides an industry-leading GNSS RTK surveying solution.",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg853747.png",
+      },
+      {
+        title: "vRTK",
+        subtitle:
+          "vRTK is Hi-Target’s first lightweight and innovative visual RTK receiver product, which not only enables non-contact image surveying, breaking through",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg553223.png",
+      },
+      {
+        title: "iHand55",
+        subtitle:
+          "he iHand55 Handheld Controller is a professional field controller with a big vision. Adopting a full-keyboard design, iHand55 supports the fast charge",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg904004.png",
+      },
+      {
+        title: "V30 Plus",
+        subtitle:
+          "Hi-Target GNSS RTK System Model V30Plus With its built-in multi-constellation GNSS RTK engine, smaller dimension, and industrial-grade compact design,",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg309780.png",
+      },
+      {
+        title: "Hi-Target V600L Laser RTK System",
+        subtitle:
+          "Hi-Target V600L Laser RTK is a GNSS-based laser survey system designed for accurate land surveying and construction projects where direct point access",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg922461.png",
+      },
+      {
+        title: "V700S SLAM RTK",
+        subtitle:
+          "Hi-Target V700S SLAM RTK System combines GNSS RTK and SLAM technology to deliver accurate survey results in complex and obstructed environments. Ideal",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg965883.png",
+      }
+    ],
   },
   {
     title: "Auto & Digital Levels",
     slug: "auto-digital-levels",
-    brands: "Nikon · Bosch · Sankon",
+    brands: "Bosch · Sankon",
     img: "/upload/categoryImg/ProdImg549254.webp",
     href: "/category/auto-digital-levels",
-    brandLinks: makeBrandLinks("Nikon · Bosch · Sankon", "auto-digital-levels"),
+
+    brandLinks: [
+      {
+        label: "Nikon",
+        slug: "nikon",
+        href: "/category/auto-digital-levels/nikon",
+        heroHeading: "Auto & Digital Levels by Nikon",
+        heroSubheading: "Auto & Digital Levels by Nikon",
+        heroText:
+          "Discover Nikon authorized Auto & Digital Levels with precision optics, rugged field build, and trusted support for every survey project.",
+      },
+      {
+        label: "Bosch",
+        slug: "bosch",
+        href: "/category/auto-digital-levels/bosch",
+        heroHeading: "Auto & Digital Levels by Bosch",
+        heroSubheading: "Auto & Digital Levels by Bosch",
+        heroText:
+          "Discover Bosch authorized Auto & Digital Levels with precision optics, rugged field build, and trusted support for every survey project.",
+      },
+      {
+        label: "Sankon",
+        slug: "sankon",
+        href: "/category/auto-digital-levels/sankon",
+        heroHeading: "Auto & Digital Levels by Sankon",
+        heroSubheading: "Auto & Digital Levels by Sankon",
+        heroText:
+          "Discover Sankon authorized Auto & Digital Levels with precision optics, rugged field build, and trusted support for every survey project.",
+      }
+    ],
     description:
       "Precision auto and digital levels for construction, civil works, and site layout with fast, accurate leveling results.",
     heroImage: "/upload/categoryImg/ProdImg549254.webp",
-    products: makeProducts("Auto & Digital Levels", "/upload/categoryImg/ProdImg549254.webp"),
+    products: [
+      {
+        title: "AC-2S/AP-8",
+        subtitle:
+          "Nikon AP-8 Auto Level is Compact and lightweight. This Nikon automatic level features a magnetic-dampened automatic compensator to level the line of s",
+        image: "/upload/categoryImg/auto-level/ProdImg85707.webp",
+      },
+      {
+        title: "AS-2C/AE-7C",
+        subtitle:
+          "Nikon automatic levels are designed for a variety of elevation control and alignment tasks including general building construction, cut and fill measurements",
+        image: "/upload/categoryImg/auto-level/ProdImg716222.png",
+      }
+    ],
   },
+
+
   {
     title: "Digital Theodolites",
     slug: "digital-theodolites",
     brands: "Nikon",
-    img: "/upload/categoryImg/ProdImg92400.png",
+    img: "/upload/categoryImg/digital-theodolites/ProdImg830612.png ",
     href: "/category/digital-theodolites",
-    brandLinks: makeBrandLinks("Nikon", "digital-theodolites"),
+     brandLinks: [
+      {
+        label: "Nikon",
+        slug: "nikon",
+        href: "/category/digital-theodolites/nikon",
+        heroHeading: "Digital Theodolites by Nikon",
+        heroSubheading: "Digital Theodolites by Nikon",
+        heroText:
+          "Discover Nikon authorized Digital Theodolites with precision optics, rugged field build, and trusted support for every survey project.",
+      },
+    ],
     description:
       "Reliable digital theodolites for angle measurement, alignment, and precise construction layout in demanding field conditions.",
-    heroImage: "/upload/categoryImg/IMG1269.jpg",
-    products: makeProducts("Digital Theodolites", "/upload/categoryImg/IMG1269.jpg"),
+    heroImage: "/upload/categoryImg/digital-theodolites/ProdImg830612.png",
+    products: [
+      {
+        title: "NE-100/NE-101",
+        subtitle:
+          "Ease of use, reliability, and durability make the Nikon NE-100 and NE-101 series theodolites a smart choice for your general construction, alignment,",
+        image: "/upload/categoryImg/digital-theodolites/ProdImg92400.png",
+      },
+      {
+        title: "NE-102/NE-103",
+        subtitle:
+          "Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform",
+        image: "/upload/categoryImg/digital-theodolites/ProdImg830612.png",
+      }
+    ],
   },
   {
     title: "Laser Levels",
@@ -142,11 +287,46 @@ export const categories: CategoryInfo[] = [
     brands: "Bosch",
     img: "/upload/categoryImg/ProdImg468889.png",
     href: "/category/laser-levels",
-    brandLinks: makeBrandLinks("Bosch", "laser-levels"),
+     brandLinks: [
+      {
+        label: "Bosch",
+        slug: "bosch",
+        href: "/category/laser-levels/bosch",
+        heroHeading: "Laser Levels by Bosch",
+        heroSubheading: "Laser Levels by Bosch",
+        heroText:
+          "Discover Bosch authorized Laser Levels with precision optics, rugged field build, and trusted support for every survey project.",
+      },
+    ],
     description:
       "Compact laser levels for fast, accurate leveling and alignment on construction, interiors, and infrastructure projects.",
-    heroImage: "/upload/categoryImg/IMG9616.png",
-    products: makeProducts("Laser Levels", "/upload/categoryImg/IMG9616.png"),
+    heroImage: "/upload/categoryImg/laser-levels/ProdImg468889.png",
+   products: [
+      {
+        title: "GRL 350 HV",
+        subtitle:
+          "GRL 350 HV PROFESSIONAL ROTATION LASER",
+        image: "/upload/categoryImg/laser-levels/ProdImg130298.png",
+      },
+      {
+        title: "GLL 3-15 X",
+        subtitle:
+          "GLL 3-15 X PROFESSIONAL LINE LASER",
+        image: "/upload/categoryImg/laser-levels/ProdImg468889.png",
+      },
+      {
+        title: "GLL 5-50 X",
+        subtitle:
+          "GLL 5-50 X PROFESSIONAL",
+        image: "/upload/categoryImg/laser-levels/ProdImg414373.png",  
+      },
+      {
+        title: "GLL 3-80 CG",
+        subtitle:
+          "GLL 3-80 CG PROFESSIONAL LINE LASER",
+        image: "/upload/categoryImg/laser-levels/ProdImg154472.png",
+      }
+    ],
   },
   {
     title: "Laser Distance Meters",
