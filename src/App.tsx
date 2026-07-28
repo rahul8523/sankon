@@ -9,7 +9,7 @@ export default function App() {
     return <CategoryPage />;
   }
 
-  if (path.startsWith("/product/")) {
+  if (path.startsWith("/product/") || path.startsWith("/product-detail/")) {
     return <ProductPage />;
   }
 

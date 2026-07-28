@@ -7,10 +7,12 @@ function CategoryCard({
   title,
   subtitle,
   image,
+  href,
 }: {
   title: string;
   subtitle: string;
   image: string;
+  href?: string;
 }) {
   return (
     <div className="group overflow-hidden rounded-[6px] border border-[var(--hairline)] bg-white shadow-sm transition-shadow hover:shadow-lg">
@@ -28,10 +30,10 @@ function CategoryCard({
         <h3 className="text-lg text-[var(--ink)] leading-tight">{subtitle}</h3>
         <div className="mt-6 flex items-center gap-4">
           <a
-            href="#specs"
+            href={href ?? "#specs"}
             className="inline-flex min-w-[190px] items-center justify-between rounded-full bg-black px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#111]"
           >
-            <span>View Specification</span>
+            <span>View Details</span>
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
               <ArrowRight className="h-4 w-4" />
             </span>
@@ -101,135 +103,26 @@ export default function CategoryPage() {
   const brandProducts =
     activeBrand?.slug === "nikon" && category.slug === "total-stations"
       ? [
-        {
+          {
             title: "Nikon N&K",
-            subtitle:"The Nikon N and K total stations offer an advanced EDM in an innovative package, including flexible charging and connectivity options, and are backed",
+            subtitle:
+              "The Nikon N and K total stations offer an advanced EDM in an innovative package, including flexible charging and connectivity options, and are backed by dependable dealer support.",
             image: "/upload/categoryImg/nikon/ProdImg792697.png",
+            href: "/product-detail/nikon-nk",
           },
-
           {
             title: "Nikon XF",
-            subtitle:"Nikon XF mechanical total stations are packed with features that make survey work easier and faster.",
-            image: "/upload/categoryImg/nikon/ProdImg487220.png",
-          },
-
-          {
-            title: "AC-2S/AP-8",
-            subtitle:"Nikon AP-8 Auto Level is Compact and lightweight. This Nikon automatic level features a magnetic-dampened automatic compensator to level the line of sight,",
-            image: "/upload/categoryImg/nikon/ProdImg85707.webp",
-          },
-          {
-            title: "NE-100/NE-101",
-            subtitle:"Ease of use, reliability, and durability make the Nikon NE-100 and NE-101 series theodolites a smart choice for your general construction, alignment,",
-            image: "/upload/categoryImg/nikon/ProdImg92400.png",
-          },
-
-          {
-            title: "NikonXS",
-            subtitle:"Nikon XS mechanical total station is built tough for all occasions.",
-            image: "/upload/categoryImg/nikon/ProdImg879101.png",
-          },
-
-          {
-            title: "AS-2C/AE-7C",
-            subtitle:"Nikon automatic levels are designed for a variety of elevation control and alignment tasks including general building construction, cut and fill measurements",
-            image: "/upload/categoryImg/nikon/ProdImg716222.png",
-          },
-          {
-            title: "NE-102/NE-103",
             subtitle:
-              "Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform",
-            image: "/upload/categoryImg/nikon/ProdImg830612.png",
+              "Nikon XF mechanical total stations are packed with features that make survey work easier and faster.",
+            image: "/upload/categoryImg/nikon/ProdImg487220.png",
+            href: "/product-detail/nikon-xf",
           },
           {
-            title: "Traversing Kit",
-            subtitle:"Traversing Kit for Total Station compatible to all brands like Nikon, Trimble, Topcon, Sokkia, Pentax etc",
-            image: "/upload/categoryImg/nikon/ProdImg498210.png",
-          },
-          {
-            title: "Nikon Battery BC-65, 7.2V",
-            subtitle:"Battery BC-65, 7.2V, 3800mAh, Ni-MH for Nikon DTM300/400, NPR300, NPL300/Focus4 / Trimble M3 DOS Total Station",
-            image: "/upload/categoryImg/nikon/ProdImg538848.png",
-          },
-          {
-            title: "Nikon Battery Charger Q-75E, 7.2V",
-            subtitle:"Battery Charger Q-75E, 7.2V for Nikon DTM300.400, NPR300, NPL300/Focus4, DTM500.600.800, NPL632/821/Trimble M3 DOS Total Station",
-            image: "/upload/categoryImg/nikon/ProdImg20189.webp",
-          },
-          {
-            title: "Nikon Battery BC-80",
-            subtitle:"Nikon Battery BC-80, 7.2V, Ni-MH, 3800mAh for Nikon DTM500.600.800, NPL632/821 Total Station",
-            image: "/upload/categoryImg/nikon/ProdImg119800.jpg",
-          },
-          {
-            title: "Nikon Nivo Charger",
-            subtitle:"Battery Charger Nivo for NikonXS/XF/NivoC/ NivoM/M+/NPL322+ / Trimble M3 / Spectra Focus 6/8 Total Station.",
-            image: "/upload/categoryImg/nikon/ProdImg194932.png",
-          },
-          {
-            title: "Nikon Nivo Battery",
-            subtitle:"Battery Nivo, Li-ION for NikonXS/XF/NivoC/NivoM/M+/NPL322+ Total Station",
-            image: "/upload/categoryImg/nikon/ProdImg646423.png",
-          },
-          {
-            title: "Nikon Data Cable",
-            subtitle:"Data Cable for for Nikon Nivo C, Nivo M/M+ and NPL-322 Total Station",
-            image: "/upload/categoryImg/nikon/ProdImg851881.png",
-          },
-          {
-            title: "Sliding Mini Prism",
-            subtitle:"Sliding Mini Prism",
-            image: "/upload/categoryImg/nikon/ProdImg619026.png",
-          },
-          {
-            title: "Mini Prism",
-            subtitle: "Mini Prism with four Mini Poles",
-            image: "/upload/categoryImg/nikon/ProdImg747566.png",
-          },
-          {
-            title: "Tripod Stand for Total Station",
-            subtitle:"Tripod Stand for Total Station",
-            image: "/upload/categoryImg/nikon/ProdImg981353.png",
-          },
-          {
-            title: "Tripod Stand for Auto Level",
-            subtitle:"Tripod Stand for Auto Level",
-            image: "/upload/categoryImg/nikon/ProdImg880979.png",
-          },
-          {
-            title: "Levelling Staff",
-            subtitle: "Aluminium Levelling Staff, 4M, 5M and 6M",
-            image: "/upload/categoryImg/nikon/ProdImg83588.png",
-          },
-          {
-            title: "Fibre Levellng Staff",
-            subtitle: "Fibre Levelling Staff, 5M long and 7.6M long",
-            image: "/upload/categoryImg/nikon/ProdImg928666.png",
-          },
-          {
-            title: "GPS Bipod",
-            subtitle: "Thumb-Release Bipod for GPS",
-            image: "/upload/categoryImg/nikon/ProdImg18416.png",
-          },
-          {
-            title: "Prism Pole Tripod",
-            subtitle: "Prism Pole Tripod",
-            image: "/upload/categoryImg/nikon/ProdImg220015.png",
-          },
-          {
-            title: "GPS Carbon Pole",
-            subtitle: "GPS Carbon Pole",
-            image: "/upload/categoryImg/nikon/ProdImg221013.png",
-          },
-          {
-            title: "Prism Pole",
-            subtitle: "Prism Pole, telescopic with bubble, 2.5m",
-            image: "/upload/categoryImg/nikon/ProdImg601548.png",
-          },
-          {
-            title: "Big Prism",
-            subtitle: "Circular Prism with Holder and Target Plate.",
-            image: "/upload/categoryImg/nikon/ProdImg711412.png",
+            title: "Nikon XS",
+            subtitle:
+              "Nikon XS mechanical total station is built tough for all occasions.",
+            image: "/upload/categoryImg/nikon/ProdImg879101.png",
+            href: "/product-detail/nikon-xs",
           },
         ]
       : activeBrand?.slug === "hi-target" && category.slug === "total-stations"
