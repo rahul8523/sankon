@@ -1,6 +1,7 @@
 import { ArrowRight, Download } from "lucide-react";
 import { SiteHeader } from "../../components/site-header";
 import { SiteFooter } from "../../components/site-footer";
+import { openRequestQuote } from "../../lib/requestQuote";
 
 const nikonProducts = [
   {
@@ -181,10 +182,10 @@ export default function TotalStationsCategoryPage() {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <a href="#contact" className="inline-flex items-center gap-3 rounded-full bg-black px-8 py-3 text-sm font-semibold text-white shadow-lg shadow-black/10 hover:bg-[#111] transition-colors">
+              <button onClick={() => openRequestQuote({})} className="inline-flex items-center gap-3 rounded-full bg-black px-8 py-3 text-sm font-semibold text-white shadow-lg shadow-black/10 hover:bg-[#111] transition-colors">
                 Request Quote
                 <span className="inline-flex h-5 w-5 rounded-full bg-white" />
-              </a>
+              </button>
               <a href="#brochure" className="inline-flex items-center gap-2 rounded-full border border-black bg-black px-8 py-3 text-sm font-semibold text-white hover:bg-[#111] transition-colors">
                 Download Brochure
                 <ArrowRight className="h-4 w-4" />

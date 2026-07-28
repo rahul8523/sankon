@@ -29,36 +29,7 @@ import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { MobileCtaBar } from "@/components/mobile-cta-bar";
 import categories from "./categoryData";
 
-// const categories = [
-//   ["Slam2000", "/upload/categoryImg/IMG9570.png"],
-//   ["Cable/Pipe locator", "/upload/categoryImg/IMG5776.png"],
-//   ["Outdoor Laser Measure", "/upload/categoryImg/IMG2031.png"],
-//   ["Digital Laser Tape Measure", "/upload/categoryImg/IMG4902.png"],
-//   ["Space Master Series", "/upload/categoryImg/IMG4245.png"],
-//   ["Auto Levels", "/upload/categoryImg/IMG8530.jpg"],
-//   ["Total Stations", "/upload/categoryImg/ProdImg500006.png"],
-//   ["Digital Theodolites", "/upload/categoryImg/IMG1269.jpg"],
-//   ["Survey Accessories", "/upload/categoryImg/IMG8319.jpg"],
-//   ["Auto Level", "/upload/categoryImg/IMG5260.png"],
-//   ["Laser Distance Meters", "/upload/categoryImg/IMG4242.png"],
-//   ["Laser Levels", "/upload/categoryImg/IMG9616.png"],
-//   ["Total Station", "/upload/categoryImg/IMG1651.png"],
-//   ["GNSS RTK", "/upload/categoryImg/ProdImg922461.png"],
-//   ["Marine & Hydrographic", "/upload/categoryImg/IMG6308.png"],
-//   ["Soil Testing", "/upload/categoryImg/IMG7897.png"],
-//   ["Aggregate Testing", "/upload/categoryImg/IMG3870.png"],
-//   ["Concrete Testing", "/upload/categoryImg/IMG7739.png"],
-//   ["Cement Testing", "/upload/categoryImg/IMG7139.png"],
-//   ["Asphalt & Bitumen Testing", "/upload/categoryImg/IMG1653.png"],
-//   ["Single Frequency", "/upload/categoryImg/IMG7467.png"],
-//   ["HyDrone", "/upload/categoryImg/IMG1760.png"],
-//   ["Dual Frequency", "/upload/categoryImg/IMG7894.png"],
-//   ["Single Frequency Gpr", "/upload/categoryImg/IMG7642.png"],
-//   ["Triple Frequency", "/upload/categoryImg/IMG3404.png"],
-//   ["SELF-LEVELING LEVEL", "/upload/categoryImg/IMG8799.png"],
-//   ["Slam200", "/upload/categoryImg/IMG7273.png"],
-//   ["Slam100", "/upload/categoryImg/IMG5319.png"],
-// ];
+
 
 const brandIds = [
   "IMG1235",

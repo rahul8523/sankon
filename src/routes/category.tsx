@@ -2,6 +2,7 @@ import { ArrowRight, Download } from "lucide-react";
 import { SiteHeader } from "../components/site-header";
 import { SiteFooter } from "../components/site-footer";
 import categories, { CategoryInfo } from "./categoryData";
+import { openRequestQuote } from "../lib/requestQuote";
 
 function CategoryCard({
   title,
@@ -131,21 +132,25 @@ export default function CategoryPage() {
             title: "HTS-521L10",
             subtitle: "HTS-521L10 has a new optical structure design.",
             image: "/upload/categoryImg/total-stations/HTS−521L10.png",
+            href: "/product-detail/hts-521l10",
           },
           {
             title: "HTS-420R",
             subtitle: "HTS-420R Dual-axis reflectorless total station provides an efficient measurement experience.",
             image: "/upload/categoryImg/total-stations/HTS-420R.png",
+            href: "/product-detail/hts-420r",
           },
           {
             title: "ZTS-320R",
             subtitle: "Total station with rugged design, easy to use and high-precision total station.",
             image: "/upload/categoryImg/total-stations/ZTS-320R.png",
+            href: "/product-detail/zts-320r",
           },
           {
             title: "HTS-720",
             subtitle: "Hi-Target HTS-720 Android Total Station for accurate surveying and construction measurements.",
             image: "/upload/categoryImg/total-stations/HTS-720.png",
+            href: "/product-detail/hi-target-hts-720-android-total-station",
           },
         ]
       : undefined;
@@ -162,6 +167,7 @@ export default function CategoryPage() {
     activeBrand?.heroSubheading ?? category.heroSubheading ?? category.title;
   const heroText =
     activeBrand?.heroText ?? category.heroText ?? category.description;
+  const heroImage = activeBrand?.heroImage ?? category.heroImage;
 
   return (
     <div className="min-h-screen bg-[#fbf5ec] text-[var(--ink)]">
@@ -211,15 +217,15 @@ export default function CategoryPage() {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <a
-                href="#contact"
+              <button
+                onClick={() => openRequestQuote({})}
                 className="inline-flex min-w-[220px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(15,23,42,0.12)] transition hover:bg-[#111]"
               >
                 <span>Request Quote</span>
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
                   <ArrowRight className="h-4 w-4" />
                 </span>
-              </a>
+              </button>
               <a
                 href="#brochure"
                 className="inline-flex min-w-[230px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white transition hover:bg-[#111]"
@@ -234,8 +240,8 @@ export default function CategoryPage() {
 
           <div className="relative overflow-hidden rounded-[2rem] border border-[rgba(15,23,42,0.08)] bg-white shadow-[0_20px_60px_rgba(15,23,42,0.08)]">
             <img
-              src={category.heroImage}
-              alt={category.title}
+              src={heroImage}
+              alt={activeBrand ? `${activeBrand.label} ${category.title}` : category.title}
               className="h-full w-full object-cover"
             />
             <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-white via-white/70 to-transparent" />

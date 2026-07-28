@@ -1,4 +1,5 @@
-﻿import { useState } from "react";
+﻿import { openRequestQuote } from "../../lib/requestQuote";
+import { useState } from "react";
 import { SiteHeader } from "../../components/site-header";
 import { SiteFooter } from "../../components/site-footer";
 import {
@@ -52,13 +53,13 @@ function toSlug(value: string) {
 const PRODUCT_DATA: Record<string, ProductInfo> = {
   "nikon-nk": {
     slug: "nikon-nk",
-    title: "Nikon N & K Total Stations",
+    title: "Nikon N & K",
     brand: "Nikon",
     category: "Total Stations",
     tagline:
-      "Prism and reflectorless total stations with USB charging, NFC pairing, and phone app connectivity.",
+      "The Nikon N and K total stations offer an advanced EDM in an innovative package, including flexible charging and connectivity options, and are backed by the great service and dealer support you expect from Nikon.",
     description:
-      "The Nikon N & K total stations offer an advanced EDM in an innovative package, including flexible charging and connectivity options, and are backed by the great service and dealer support you expect from Nikon.",
+      "Both the Nikon N and Nikon K have a new charger, featuring a USB-C on-the-go connection that lets you recharge via a power bank or car plug so you can recharge batteries even in remote areas..\n\nThe Total Station File Transfer app and Bluetooth connection let you easily transfer data between the field and office, so your data makes it to the office before you do. Economical and practical, both include bright Nikon optics and rugged reliability, making each of these powerful total stations the right choice for a full range of projects.",
     price: "₹3,96,000",
     mrp: "₹4,50,000",
     savings: "12% OFF",
@@ -67,9 +68,7 @@ const PRODUCT_DATA: Record<string, ProductInfo> = {
     sku: "NIKON-NK",
     images: [
       "/upload/categoryImg/nikon/ProdImg792697.png",
-      "/upload/normalImag/ProdImg500006.png",
-      "/upload/normalImag/ProdImg176340.png",
-      "/upload/normalImag/ProdImg285641.png",
+      "/upload/categoryImg/nikon/ProdImg792697.png",
     ],
     inTheBox: [
       "1× Nikon N & K Total Station",
@@ -95,11 +94,11 @@ const PRODUCT_DATA: Record<string, ProductInfo> = {
         body: "Easily transfer data between the field and office using Nikon-compatible mobile apps.",
       },
       {
-        title: "NFC pairing",
+        title: "NFC simplifies Bluetooth pairing",
         body: "Simplified Bluetooth setup with NFC makes connecting accessories and data devices faster.",
       },
       {
-        title: "USB battery charging",
+        title: "Power-up anywhere with the USB battery charger",
         body: "Power up on site using the convenient USB charger for portable field operation.",
       },
     ],
@@ -137,7 +136,7 @@ const PRODUCT_DATA: Record<string, ProductInfo> = {
       meta: "PDF · 2.4 MB · English",
     },
   },
-  // NIKON XF 
+  // NIKON XF
   "nikon-xf": {
     slug: "nikon-xf",
     title: "Nikon XF",
@@ -241,7 +240,7 @@ The Total Station File Transfer app and Bluetooth connection let you easily tran
   },
 
   // Nikon XS Total Station
-  
+
   "nikon-xs": {
     slug: "nikon-xs",
     title: "Nikon XS",
@@ -317,6 +316,363 @@ The NikonXS is User-friendly and durable. It’s light weight and portability re
       meta: "PDF · 1.9 MB · English",
     },
   },
+
+  // HTS−521L10 Station
+
+  "hts-521l10": {
+    slug: "hts-521l10",
+    title: "HTS−521L10",
+    brand: "Hi-Target",
+    category: "Total Stations",
+    tagline: "HTS-521L10 has a new optical structure design.",
+    description: `Hi-Target Reflectorless Total Station HTS521L10 (2"), consist of:
+- 1x Hi-Target HTS521L10 Main Unit (2") 
+- 2x BT211, 7.4V / 3000mAh, Li-ION Batteries
+- 1x BC211 Battery Charger
+- 1x Data Cable`,
+    price: "₹3,96,000",
+    mrp: "₹4,32,000",
+    savings: "8.33% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.6 · 85 verified reviews",
+    sku: "HTS-521L10",
+    images: [
+      "/upload/products/hts521l10/1.png",
+      "/upload/products/hts521l10/2.png",
+      "/upload/products/hts521l10/3.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target HTS521L10 Total Station",
+      "1× Battery Charger",
+      "1× Data Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "HD Color Screen Long Range Total Station",
+        body: "2.8-inch 240×320 HD color screen, sunlight-readable for clear on-site viewing and faster workflows.",
+      },
+      {
+        title: "Reflectorless range 1000m",
+        body: "Reliable reflectorless EDM reaches up to 1000 m for non-prism measurements in typical field conditions.",
+      },
+      {
+        title:
+          "2.8-inch 240*320 pixel, More efficient and accurate, clearly visible in sunlight",
+        body: "High-resolution 240×320 pixel display improves readout accuracy and remains legible in bright sunlight.",
+      },
+      {
+        title: "Trigger Key",
+        body: "Ergonomic trigger key enables fast, one-touch distance capture for repetitive surveying tasks.",
+      },
+      {
+        title:
+          "3000mA high-capacity Li-ion battery, LED display, Type-C charging. Battery life exceeds",
+        body: "3000mAh high-capacity Li‑ion battery with LED status and USB Type‑C charging; typical runtime exceeds 18 hours.",
+      },
+      {
+        title: "Dual-axis tilt sensor",
+        body: "Dual-axis tilt sensor compensates for inclination, improving measurement stability and accuracy.",
+      },
+      {
+        title:
+          "Built-in multi-function calibration software improves the convenience of maintenance great",
+        body: "Onboard multi-function calibration software provides easy maintenance, diagnostics, and calibration workflows.",
+      },
+    ],
+    specs: [
+      { label: "EDM Range", value: "800 m reflectorless" },
+      { label: "Angle Accuracy", value: '1", 2", 3", 5"' },
+      { label: "Display", value: "Dual-face LCD" },
+      { label: "Battery", value: "Rechargeable Li-ion" },
+      { label: "Runtime", value: "18+ hours" },
+      { label: "Autofocus", value: "Yes" },
+      { label: "Charging", value: "USB Type-C" },
+      { label: "Weight", value: "5.0 kg" },
+    ],
+    brochure: {
+      label: "HTS521L10 Brochure — (English)",
+      href: "/upload/products/hts52110/BROCH306532.pdf",
+      meta: "PDF · 1.9 MB · English",
+    },
+  },
+
+  // HTS−420R Station
+
+  "hts-420r": {
+    slug: "hts-420r",
+    title: "HTS−420R",
+    brand: "Hi-Target",
+    category: "Total Stations",
+    tagline:
+      "HTS-420R Dual-axis reflectorless total station provides an efficient measurement experience.",
+    description: `Hi-Target Reflectorless Total Station HTS420R (2"), consist of:
+- 1x Hi-Target HTS420R Main Unit (2") 
+- 2x BT10, 7.4V / 3000mAh, Li-ION Batteries
+- 1x BC10 Battery Charger
+- 1x Data Cable
+-Accuracy: 2"
+-Least  Count: 1"
+-Distance Measuring Range with Single Prism: 7500 M
+-Distance Accuracy : ±(2mm + 2ppm x D) m.s.e.
+
+Reflectorless Range: 600 M:
+
+- Display & Keyboard: Dual Sided LCD display and Full numeric keyboar 
+- Internal Memory: 20,000 Points
+- Plug-in memory device: SD Card, USB Pendrive
+- Communication Port: 1xSerial, Bluetooth
+-Battery Backup: Approx.10 Hours.
+
+
+`,
+    price: "₹2,88,000",
+    mrp: "₹3,15,000",
+    savings: "8.57% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.6 · 85 verified reviews",
+    sku: "HTS-420R",
+    images: [
+      "/upload/products/hts-420r/1.png",
+      "/upload/products/hts-420r/2.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target HTS420R Total Station",
+      "1× Battery Charger",
+      "1× Data Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "2‘’ accuracy with 600meter reflectorless range",
+        body: "Provides 2″ angular accuracy with a 600 m reflectorless range for reliable on-site measurements.",
+      },
+      {
+        title: "Distance Measuring Range with Single Prism 7500 M",
+        body: "Single-prism measuring range up to 7,500 m under good conditions for extended-distance surveying.",
+      },
+      {
+        title: "Dual-axis reflectorless total station",
+        body: "Dual-axis compensator and reflectorless EDM deliver stable, accurate measurements on uneven terrain.",
+      },
+      {
+        title:
+          "Gray and white display with adjustable contrast; 280 X 160 pixels; 6 lines X 25 characters",
+        body: "High-contrast gray/white display with adjustable contrast (280×160 px) and 6×25 character layout for clear field readouts.",
+      },
+    ],
+    specs: [
+      { label: "EDM Range", value: "800 m reflectorless" },
+      { label: "Angle Accuracy", value: '1", 2", 3", 5"' },
+      { label: "Display", value: "Dual-face LCD" },
+      { label: "Battery", value: "Rechargeable Li-ion" },
+      { label: "Runtime", value: "18+ hours" },
+      { label: "Autofocus", value: "Yes" },
+      { label: "Charging", value: "USB Type-C" },
+      { label: "Weight", value: "5.0 kg" },
+    ],
+    brochure: {
+      label: "HTS420R Brochure — (English)",
+      href: "/upload/products/hts-420r/BROCH739256.pdf",
+      meta: "PDF · 1.9 MB · English",
+    },
+  },
+
+  // ZTS-320R Station
+
+  "zts-320r": {
+    slug: "zts-320r",
+    title: "ZTS-320R",
+    brand: "Hi-Target",
+    category: "Total Stations",
+    tagline:
+      "Total station with rugged design, easy to use and high-precision total station",
+    description: `Dual-axis Compensation
+    The ZTS-320R is configured with advanced dual-axis compensator for auto error elimination and auto accuracy compensation.
+    
+    Absolute Encoding
+    The absolute encoding disk ensures high accuracy, efficiency and stable performance. Initialization is needless but to measure the angle immediately as the ZTS-320R is turned on. The azimuth information won’t be missed even the ZTS-320R is power-off unexpectedly.
+
+    High-performance MCU SMT32
+    The SMT32 MCU based on ARM Cortex™-M processor enables the ZTS-320R has extra high processing speed and low-power consumption.
+
+    Bluetooth
+    The Bluetooth wireless technology makes ZTS-320R accessible to any data collector for real-time communication. The third party field software such as Carlson SurvCE is fully compatible with the ZTS-320R.
+
+Data Storage
+Diversified data transfer options such as SD card, USB pen drive, mini-B interface.
+
+Backlight
+The display and keyboard with backlight for working in the dark.
+
+Diagonal Eyepiece
+Support diagonal eyepiece for observations at steep lines of sight.
+
+Calibration Software
+The proprietary HI-TARGET calibration software is accessible for real-time diagnosis to ensure trouble-free operation.
+
+Data Transfer Software
+The proprietary HI-TARGET data transfer software supports different types of output data formats, which can be used in AutoCAD or other brands’ post-processing software.
+
+
+`,
+    price: "₹2,70,000",
+    mrp: "₹3,06,000",
+    savings: "11.76% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.6 · 85 verified reviews",
+    sku: "ZTS-320R",
+    images: [
+      "/upload/products/zts-320r/1.png",
+      "/upload/products/zts-320r/2.png",
+      "/upload/products/zts-320r/3.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target ZTS320R Total Station",
+      "1× Battery Charger",
+      "1× Data Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "2‘’ accuracy with 600meter reflectorless range",
+        body: "2.8-inch 240×320 HD color display is clearly visible in sunlight and makes field work easier.",
+      },
+      {
+        title: "Distance Measuring Range with Single Prism 7500 M",
+        body: "Reliable reflectorless measurement up to 1000 meters for long-range surveying tasks.",
+      },
+      {
+        title: "Dual-axis reflectorless total station",
+        body: "Convenient trigger key allows quick one-touch distance capture during repetitive measurements.",
+      },
+      {
+        title:
+          "Gray and white display with adjustable contrast; 280 X 160 pixels; 6 lines X 25 characters",
+        body: "Convenient trigger key allows quick one-touch distance capture during repetitive measurements.",
+      },
+    ],
+    specs: [
+      { label: "Measurement Method", value: "Absolute Encoding" },
+      { label: "Minimum Readout", value: "1″/5″/10″ (0.3mgon/1.5mgon/3mgon) adjustable" },
+      { label: "Angle Accuracy", value: "2″" },
+      { label: "Single Prism", value: "3000 m (good condition)" },
+      { label: "Three Prisms", value: "6000 m (good condition)" },
+      { label: "Reflective Sheet", value: "800 m" },
+      { label: "Distance Accuracy", value: "2 mm + 2 ppm" },
+      { label: "Measuring Time (Fine/Quick/Tracking)", value: "1.5s / 1s / 0.5s" },
+      { label: "Reflectorless Range", value: "600 m" },
+      { label: "Prism Range", value: ">7500 m" },
+      { label: "Reflectorless Accuracy", value: "3 mm + 2 ppm" },
+      { label: "Reflectorless Time", value: "1.5s" },
+      { label: "Magnification", value: "30×" },
+      { label: "Field of View", value: "1°30′ (2.7 m at 100 m)" },
+      { label: "Minimum Focusing Distance", value: "1.2 m" },
+      { label: "Reticle", value: "Illuminated" },
+      { label: "Compensator System", value: "Dual-axis liquid tilt sensor" },
+      { label: "Compensator Working Range", value: "±3′" },
+      { label: "Setting Accuracy", value: "1″" },
+      { label: "Communication", value: "RS232, SD card, USB pen drive, mini-B, Bluetooth" },
+      { label: "Internal Memory", value: "Approx. 20,000 points" },
+      { label: "Data Format", value: "ASCII" },
+      { label: "Operation System", value: "Real-time Operating System" },
+      { label: "Display", value: "Backlight black and white, 192 × 96 pixels" },
+      { label: "Character", value: "6 lines x 25 characters" },
+      { label: "Keyboard", value: "2-sided alphanumeric backlit crystal keyboard" },
+      { label: "Laser Plummet", value: "Laser point, 4 brightness levels / optional optical plummet" },
+      { label: "Centering Accuracy", value: "1 mm at 1.5 m instrument height" },
+      { label: "Battery Type", value: "Rechargeable Li-ion ZBA-400 7.4V / 3000mAh" },
+      { label: "Operating Time", value: "16 hours / 10 hours typical" },
+      { label: "Measuring Times", value: "Approx. 12,000 times" },
+      { label: "Weight", value: "Approx. 5.5 kg (incl. battery & tribrach)" },
+      { label: "Operating Temperature", value: "-20℃ to +50℃" },
+      { label: "Storage Temperature", value: "-40℃ to +70℃" },
+      { label: "Ingress Protection", value: "IP65, 95% non-condensing" },
+    ],
+    brochure: {
+      label: "ZTS320R Brochure — (English)",
+      href: "/upload/products/zts-320r/BROCH643455.pdf",
+      meta: "PDF · 1.9 MB · English",
+    },
+  },
+
+
+  // HTS-720 Android Total Station Station
+
+  "hi-target-hts-720-android-total-station": {
+    slug: "hi-target-hts-720-android-total-station",
+    title: "HTS-720 Android Total Station",
+    brand: "Hi-Target",
+    category: "Total Stations",
+    tagline:
+      "Hi-Target HTS-720 Android Total Station for accurate surveying and construction measurements. Easy to use with advanced Android features. This total station is ideal for surveyors, engineers, and construction professionals looking for reliable surveying equipment in India.",
+    description: `HTS-720 features a 5.5-inch touch high-definition large screen, powered by the Android operating system and our brand-new Android measurement software. With the addition of a built-in camera, measuring and stakeout tasks have never been easier. Plus, the HTS-720 boasts a high-performance processor, enabling users to select stakeout points and lines with just one click in the CAD stakeout interface, making the entire stakeout process more intuitive and efficient.
+`,
+    price: "₹4,50,000",
+    mrp: "₹4,86,000",
+    savings: "7.41% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.6 · 85 verified reviews",
+    sku: "HTS-720",
+    images: [
+      "/upload/products/hts-720/1.png",
+      "/upload/products/hts-720/2.png",
+      "/upload/products/hts-720/3.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target HTS-720 Android Total Station",
+      "1× Battery Charger",
+      "1× Data Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "Android 9.0 operating system",
+        body: "Runs Android 9.0 providing a familiar interface and support for field apps and third-party survey tools.",
+      },
+      {
+        title: "5.5-inch touchscreen display",
+        body: "Large 5.5-inch HD touchscreen with responsive touch control for easier stakeout and data entry on site.",
+      },
+      {
+        title: "Bluetooth & WiFi connectivity",
+        body: "Integrated Bluetooth and Wi‑Fi enable wireless data transfer, remote control, and quick syncing with mobile devices.",
+      },
+      {
+        title: "2GB RAM + 16GB storage",
+        body: "2GB RAM and 16GB internal storage for smooth app performance and local storage of measurements and projects.",
+      },
+      {
+        title: "Qualcomm processor for fast performance",
+        body: "High-performance Qualcomm chipset delivers fast calculations and responsive operation for demanding workflows.",
+      },
+      {
+        title: "8MP camera for visual guidance",
+        body: "Built-in 8MP camera captures site images for stakeout verification and easy visual documentation.",
+      },
+      {
+        title: "Type-C charging support",
+        body: "USB Type-C charging offers faster recharge and universal compatibility with modern power banks and chargers.",
+      },
+    ],
+    specs: [
+      { label: "EDM Range", value: "800 m reflectorless" },
+      { label: "Angle Accuracy", value: '1", 2", 3", 5"' },
+      { label: "Display", value: "Dual-face LCD" },
+      { label: "Battery", value: "Rechargeable Li-ion" },
+      { label: "Runtime", value: "18+ hours" },
+      { label: "Autofocus", value: "Yes" },
+      { label: "Charging", value: "USB Type-C" },
+      { label: "Weight", value: "5.0 kg" },
+    ],
+    brochure: {
+      label: "HTS-720 Brochure — (English)",
+      href: "/upload/products/hts-720/BROCH201563.pdf",
+      meta: "PDF · 1.9 MB · English",
+    },
+  },
+
+
 };
 
 const nikonProducts = [
@@ -350,7 +706,7 @@ const hitargetProducts = [
     title: "Nikon XF Series",
     subtitle:
       "Fast, reliable performance for long-range reflectorless measurements.",
-    image: "/upload/normalImag/ProdImg500006.png",
+    image: "/upload/normalImag/ProdImg792697.png",
   },
   {
     title: "Nikon XS Series",
@@ -360,7 +716,7 @@ const hitargetProducts = [
 ];
 
 const galleryImages = [
-  "/upload/normalImag/ProdImg500006.png",
+  "/upload/normalImag/ProdImg792697.png",
   "/upload/normalImag/ProdImg176340.png",
   "/upload/normalImag/ProdImg285641.png",
   "/upload/normalImag/ProdImg458836.png",
@@ -500,15 +856,15 @@ function ProductCategoryPage() {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <a
-                href="#contact"
+              <button
+                onClick={() => openRequestQuote({})}
                 className="inline-flex min-w-[20px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(15,23,42,0.12)] transition hover:bg-[#111]"
               >
                 <span>Request Quote</span>
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
                   <ArrowRight className="h-4 w-4" />
                 </span>
-              </a>
+              </button>
               <a
                 href="#brochure"
                 className="inline-flex min-w-[230px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white transition hover:bg-[#111]"
@@ -904,7 +1260,7 @@ function ProductDetailPage() {
                   <Plus className="h-4 w-4" />
                 </button>
               </div>
-              <button className="flex-1 h-12 bg-primary text-primary-foreground rounded-md font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center gap-2">
+              <button onClick={() => openRequestQuote({ product: product?.title })} className="flex-1 h-12 bg-primary text-primary-foreground rounded-md font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center gap-2">
                 Request Quote <ArrowRight className="h-4 w-4" />
               </button>
               <button className="h-12 px-5 border border-border rounded-md font-semibold hover:bg-muted transition-colors">
@@ -972,7 +1328,20 @@ function ProductDetailPage() {
                         line.includes("Choose the EDM for the work you do") ||
                         line.includes("Nikon XF: Time of Flight EDM") ||
                         line.includes("Nikon XF-HP: Phase Shift EDM") ||
-                        line.includes("Nikon XF mechanical total station is built tough for all occasions");
+                        line.includes(
+                          "Nikon XF mechanical total station is built tough for all occasions",
+                        ) ||
+                        [
+                          "Dual-axis Compensation",
+                          "Absolute Encoding",
+                          "High-performance MCU SMT32",
+                          "Bluetooth",
+                          "Data Storage",
+                          "Backlight",
+                          "Diagonal Eyepiece",
+                          "Calibration Software",
+                          "Data Transfer Software",
+                        ].includes(line);
 
                       return (
                         <p
@@ -992,7 +1361,6 @@ function ProductDetailPage() {
                       );
                     })}
                   </div>
-                
                 </div>
                 <aside className="rounded-xl border border-border bg-surface p-6">
                   <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mb-4">

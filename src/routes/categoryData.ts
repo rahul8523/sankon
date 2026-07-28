@@ -2,6 +2,7 @@ export type BrandLink = {
   label: string;
   slug: string;
   href: string;
+  heroImage?: string;
   heroHeading?: string;
   heroSubheading?: string;
   heroText?: string;
@@ -76,6 +77,7 @@ export const categories: CategoryInfo[] = [
         label: "Nikon",
         slug: "nikon",
         href: "/category/total-stations/nikon",
+        heroImage: "/upload/categoryImg/nikon/ProdImg792697.png",
         heroHeading: "Nikon Authorized Total Stations",
         heroSubheading: "Total Stations by Nikon",
         heroText:
@@ -85,6 +87,7 @@ export const categories: CategoryInfo[] = [
         label: "Hi-Target",
         slug: "hi-target",
         href: "/category/total-stations/hi-target",
+        heroImage: "/upload/categoryImg/total-stations/HTS-420R.png",
         heroHeading: "Hi-Target Authorized Total Stations",
         heroSubheading: "Total Stations by Hi-Target",
         heroText:
@@ -93,7 +96,7 @@ export const categories: CategoryInfo[] = [
     ],
     description:
       "Advanced total stations for surveying, construction, and infrastructure applications with precision, speed, and rugged performance.",
-    heroImage: "/upload/categoryImg/ProdImg500006.png",
+    heroImage: "/upload/categoryImg/nikon/ProdImg792697.png",
     heroHeading: "Premium Total Stations",
     heroSubheading: "High-accuracy survey instruments for every site",
     heroText:
@@ -137,7 +140,7 @@ export const categories: CategoryInfo[] = [
     ],
     description:
       "High-precision GNSS and RTK systems designed for survey, mapping, and construction control with reliable satellite tracking.",
-    heroImage: "/upload/categoryImg/ProdImg922461.png",
+    heroImage: "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
     products: [
       {
         title: "V200 GNSS",
@@ -228,7 +231,7 @@ export const categories: CategoryInfo[] = [
     ],
     description:
       "Precision auto and digital levels for construction, civil works, and site layout with fast, accurate leveling results.",
-    heroImage: "/upload/categoryImg/ProdImg549254.webp",
+    heroImage: "/upload/categoryImg/auto-level/ProdImg716222.png",
     products: [
       {
         title: "AC-2S/AP-8",
@@ -265,7 +268,7 @@ export const categories: CategoryInfo[] = [
     ],
     description:
       "Reliable digital theodolites for angle measurement, alignment, and precise construction layout in demanding field conditions.",
-    heroImage: "/upload/categoryImg/digital-theodolites/ProdImg830612.png",
+    heroImage: "/upload/categoryImg/digital-theodolites/ProdImg92400.png",
     products: [
       {
         title: "NE-100/NE-101",
@@ -300,7 +303,7 @@ export const categories: CategoryInfo[] = [
     ],
     description:
       "Compact laser levels for fast, accurate leveling and alignment on construction, interiors, and infrastructure projects.",
-    heroImage: "/upload/categoryImg/laser-levels/ProdImg468889.png",
+    heroImage: "/upload/categoryImg/laser-levels/ProdImg130298.png",
    products: [
       {
         title: "GRL 350 HV",
@@ -337,7 +340,7 @@ export const categories: CategoryInfo[] = [
     brandLinks: makeBrandLinks("Bosch · Mileseey", "laser-distance-meters"),
     description:
       "Portable laser distance meters for quick measuring, estimating, and layout work with dependable range and accuracy.",
-    heroImage: "/upload/categoryImg/ProdImg440930.jpg",
+    heroImage: "/upload/categoryImg/ProdImg910895.png",
     products: makeProducts("Laser Distance Meters", "/upload/categoryImg/ProdImg440930.jpg"),
   },
   {
@@ -349,7 +352,7 @@ export const categories: CategoryInfo[] = [
     brandLinks: makeBrandLinks("By model", "ground-penetrating-radar-gpr"),
     description:
       "Ground penetrating radar solutions for underground mapping, utility detection, and site investigation with model-specific performance.",
-    heroImage: "/upload/categoryImg/ProdImg743085.webp",
+    heroImage: "/upload/categoryImg/ProdImg875035.png",
     products: makeProducts("Ground Penetrating Radar", "/upload/categoryImg/ProdImg743085.webp"),
   },
   {
@@ -361,7 +364,7 @@ export const categories: CategoryInfo[] = [
     brandLinks: makeBrandLinks("FUZRR", "cable-pipe-locators"),
     description:
       "Professional cable and pipe locators for safe excavation, utility detection, and trenching operations with easy field use.",
-    heroImage: "/upload/categoryImg/ProdImg191018.jpg",
+    heroImage: "/upload/categoryImg/ProdImg191018 (1).jpg",
     products: makeProducts("Cable & Pipe Locators", "/upload/categoryImg/ProdImg191018.jpg"),
   },
   {

@@ -21,6 +21,7 @@ import {
   Plus,
   ArrowRight,
 } from "lucide-react";
+import { openRequestQuote } from "../lib/requestQuote";
 
 const IMAGES = [
   "/upload/normalImag/ProdImg500006.png",
@@ -179,7 +180,7 @@ export default function ProductPage() {
                 <span className="w-12 text-center font-semibold">{qty}</span>
                 <button onClick={() => setQty(qty + 1)} className="h-12 w-12 grid place-items-center hover:bg-muted"><Plus className="h-4 w-4" /></button>
               </div>
-              <button className="flex-1 h-12 bg-primary text-primary-foreground rounded-md font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center gap-2">
+              <button onClick={() => openRequestQuote({ product: "HTS-521L10" })} className="flex-1 h-12 bg-primary text-primary-foreground rounded-md font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center gap-2">
                 Request Quote <ArrowRight className="h-4 w-4" />
               </button>
               <button className="h-12 px-5 border border-border rounded-md font-semibold hover:bg-muted transition-colors">

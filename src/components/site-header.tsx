@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, ChevronDown, Search } from "lucide-react";
 import categories from "@/routes/categoryData";
+import { RequestQuoteModal } from "./request-quote-modal";
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,6 +31,8 @@ export function SiteHeader() {
           </div>
         </div>
       </div>
+
+      <RequestQuoteModal />
 
       {/* Main bar */}
       <div className="container-page flex h-20 items-center justify-between gap-8">
