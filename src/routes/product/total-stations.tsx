@@ -61,11 +61,11 @@ function CategoryCard({ title, subtitle, image }: { title: string; subtitle: str
           <h3 className="font-serif text-base font-semibold text-[var(--ink)] leading-tight" style={{ fontFamily: "Fraunces, serif" }}>{title}</h3>
           <p className="mt-3 text-sm leading-6 text-[var(--ink-soft)]">{subtitle}</p>
         </div>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <a href="#specs" className="inline-flex items-center justify-center rounded-full bg-black px-5 py-2 text-sm font-semibold text-white hover:bg-[#111] transition-colors">
+        <div className="mt-6 flex flex-nowrap gap-3">
+          <a href="#specs" className="inline-flex min-w-[150px] h-10 items-center justify-center rounded-full border border-[rgba(15,23,42,0.12)] bg-black px-3 text-sm font-semibold text-white hover:bg-[#111] transition-colors">
             View Specification
           </a>
-          <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-white px-5 py-2 text-sm font-semibold text-black hover:bg-[#f3f4f6] transition-colors">
+          <a href="#contact" className="inline-flex min-w-[150px] h-10 items-center justify-center rounded-full bg-white px-3 text-sm font-semibold text-black hover:bg-[#f3f4f6] transition-colors">
             Quick Quote
           </a>
         </div>

@@ -12,6 +12,7 @@ export type CategoryProduct = {
   title: string;
   subtitle: string;
   image: string;
+  href?: string;
 };
 
 export type CategoryInfo = {
@@ -147,6 +148,7 @@ export const categories: CategoryInfo[] = [
         subtitle:
           "V200 GNSS RTK Receiver brings superior performance and high efficiency to support your fieldwork with reliable solutions. Its deployment of the advanc",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg921380.png",
+        href: "/product-detail/v200-gnss",
       },
 
       {
@@ -154,12 +156,14 @@ export const categories: CategoryInfo[] = [
         subtitle:
           "iRTK4 GNSS RTK is a full-featured, intelligent receiver system equipped with an integrated new-generation full-frequency antenna and advanced multi-ch",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
+        href: "/product-detail/irtk4",
       },
       {
         title: "iRTK5",
         subtitle:
           "EaiRTK5, the high-quality scalable GNSS receiver, provides an industry-leading GNSS RTK surveying solution.",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg853747.png",
+        href: "/product-detail/irtk5",
       },
       {
         title: "vRTK",

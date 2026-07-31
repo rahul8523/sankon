@@ -673,6 +673,261 @@ The proprietary HI-TARGET data transfer software supports different types of out
   },
 
 
+
+// V200 GNSS
+
+  "v200-gnss": {
+    slug: "v200-gnss",
+    title: "V200 GNSS",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "V200 GNSS RTK Receiver brings superior performance and high efficiency to support your fieldwork with reliable solutions. Its deployment of the advanced RTK",
+    description: `Higher Accuracy and Precision
+
+     Equipped with the High-Performance Patch Antenna, enhances the low-elevation angle tracking capabilities and keeps it maintains a high gain for higher-elevation satellites while tracking low-elevation satellites.
+
+More Stability
+
+Hi-Target Hi-Fix enables continuous connectivity and quality results even if you lose the signal while using the RTK base station or VRS network under extreme circumstances.
+
+More Portability
+
+Equipped with an ultra-light EPP material instrument case of high anti-strong impact, shock, and impact resistance and a centering rod that can be contracted to 1.25 m, making it durable and portable in fieldwork.
+
+Greater Flexibility
+
+It can bring accurate and reliable results and boost efficient fieldwork with self-developed built-in IMU and core algorithm.
+
+`,
+    price: "₹6,84,000",
+    mrp: "₹7,56,000",
+    savings: "9.52% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "V200-GNSS",
+    images: [
+      "/upload/products/v200-gnss/ProdImg921380.png",
+      // "/upload/categoryImg/gnss-rtk-systems/ProdImg921380.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target V200 GNSS Receiver",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "Real-time kinematic precision 8 mm H/ 15 mm V",
+        body: "Provides 8 mm horizontal and 15 mm vertical RTK precision in real time for accurate survey positioning.",
+      },
+      {
+        title: "Channels 1408/800+",
+        body: "Uses 1408/800+ channel tracking to lock more satellites quickly and maintain position stability.",
+      },
+      {
+        title: "Tilt Survey Performance 8 mm +0.7 mm / °tilt",
+        body: "Delivers 8 mm baseline accuracy plus 0.7 mm per degree of tilt compensation for tilted pole surveying.",
+      },
+      {
+        title: "Receive and transmit Support multi-protocol radio",
+        body: "Supports multi-protocol radio receive and transmit modes for flexible base-rover communication.",
+      },
+      {
+        title: "Signal tracking GPS, GLONASS, Galileo, BDS, QZSS, SBAS, IRNSS",
+        body: "Tracks GPS, GLONASS, Galileo, BDS, QZSS, SBAS, and IRNSS signals for better satellite availability.",
+      },
+    ],
+    specs: [
+      { label: "GNSS Channels", value: "184+" },
+      { label: "RTK Accuracy", value: "±10 mm + 1 ppm" },
+      { label: "Satellite Systems", value: "GPS, GLONASS, Galileo, BeiDou, SBAS" },
+      { label: "Battery Life", value: "10+ hours" },
+      { label: "Operating Temp", value: "-40℃ to +65℃" },
+      { label: "Weight", value: "1.35 kg" },
+      { label: "Communication", value: "Bluetooth, UHF radio, NTRIP" },
+      { label: "Storage", value: "MicroSD" },
+    ],
+    brochure: {
+      label: "V200 GNSS Brochure — (English)",
+      href: "/upload/products/v200-gnss/BROCH92370.pdf",
+      meta: "PDF · 2.0 MB · English",
+    },
+  },
+   
+// IRTK4
+
+  "irtk4": {
+    slug: "irtk4",
+    title: "IRTK4",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "IRTK4 GNSS RTK is a full-featured, intelligent receiver system equipped with an integrated new-generation full-frequency antenna and advanced multi-channel engine, allowing users to attain accurate, reliable solutions.",
+    description: `1. New generation advanced RTK engine
+
+     Flexible Satellite signal management helps you get a more accurate solution and provides 20 percent improved performance in challenging GNSS environments.
+
+2. IMU (Icon)
+
+Immediately start with calibration-free tilt compensation technology, which assists you in quickly and accurately surveying or staking out points without leveling the pole, Error less than 3cm within 45° inclination, and boosts working efficiency by 20%.
+
+3. Fast-Charge
+
+Charge your battery to up to 50 percent in just 50 minutes with a 45W adapter, thanks to fast‑charge capability, you can recharge in less time.
+
+4. Web UI
+
+Fast and efficient way to monitor and control hardware devices. In addition, offers access to the most commonly used features via the existing web browser on your device of choice—no need to download or install anything!
+
+Smart Base
+
+Greatly optimize working mode setting, Pairing your Base and Rover automatically by hi-target global service, extending your work range, and saving your time.
+
+`,
+    price: "₹6,93,000",
+    mrp: "₹7,65,000",
+    savings: "9.41% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "IRTK4",
+    images: [
+      "/upload/products/irtk4/1.png",
+      "/upload/products/irtk4/2.png",
+      "/upload/products/irtk4/3.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target IRTK4 GNSS Receiver",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "Channels 800+",
+        body: "Tracks hundreds of satellites at once to deliver fast, reliable GNSS positioning for survey jobs.",
+      },
+      {
+        title: "Real-time kinematic precision 8 mm H/ 15 mm V",
+        body: "Offers centimetre-level RTK accuracy in both horizontal and vertical readings for precise stakeout and mapping.",
+      },
+      {
+        title: "Signal tracking GPS, GLONASS, Galileo, BDS, QZSS, SBAS",
+        body: "Maintains strong satellite coverage by supporting multiple global navigation systems and augmentation services.",
+      },
+      {
+        title: "Receive and transmit Support multi-protocol radio",
+        body: "Allows flexible base-rover communication using multiple radio standards for robust field data transfer.",
+      },
+      {
+        title: "Hi-RTP (optional) Global Correction Service",
+        body: "Adds optional global correction support for faster initialization and improved positioning over wide areas.",
+      },
+    ],
+    specs: [
+      { label: "GNSS Channels", value: "184+" },
+      { label: "RTK Accuracy", value: "±10 mm + 1 ppm" },
+      { label: "Satellite Systems", value: "GPS, GLONASS, Galileo, BeiDou, SBAS" },
+      { label: "Battery Life", value: "10+ hours" },
+      { label: "Operating Temp", value: "-40℃ to +65℃" },
+      { label: "Weight", value: "1.35 kg" },
+      { label: "Communication", value: "Bluetooth, UHF radio, NTRIP" },
+      { label: "Storage", value: "MicroSD" },
+    ],
+    brochure: {
+      label: "IRTK4 GNSS Brochure — (English)",
+      href: "/upload/products/irtk4/BROCH851955.pdf",
+      meta: "PDF · 2.0 MB · English",
+    },
+  },
+
+
+   
+// IRTK5
+
+  "irtk5": {
+    slug: "irtk5",
+    title: "IRTK5",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "iRTK5, the high-quality scalable GNSS receiver, provides an industry-leading GNSS RTK surveying solution.",
+    description: `Hi-RTP Global PPP Service
+
+     The correction source has been extended by the Hi-RTP global correction service provided by Hi-Target. Enabling users to work without a base station in rural or remote areas anywhere in the world.
+
+HD Touchable OLED Screen
+
+The newly designed HD OLED screen, which has RGB color and is touchable, has 1.3″ and 240*240 resolutions. Users can quickly check and set the receiver status for easier fieldwork.
+
+Revolutionary Tilt Survey with Built-in IMU
+
+Customers benefit from calibration-free tilt surveys without centering. Once you reach the surveying points, immediately start the operation. Compared with bubble leveling, boosts working efficiency by 20%.
+
+
+`,
+    price: "₹8,64,000",
+    mrp: "₹9,45,000",
+    savings: "8.57% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "IRTK5",
+    images: [
+      "/upload/products/irtk5/1.png",
+      "/upload/products/irtk5/2.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target IRTK5 GNSS Receiver",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "1408/800+ Channels",
+        body: "Supports 1408/800+ satellite channels for faster acquisition and more stable GNSS tracking.",
+      },
+      {
+        title: "Real-time kinematic precision 8 mm H/ 15 mm V",
+        body: "Delivers 8 mm horizontal and 15 mm vertical RTK precision for accurate real-time field measurements.",
+      },
+      {
+        title: "Receive and transmit Support multi-protocol radio",
+        body: "Supports receive and transmit over multi-protocol radio for flexible base-rover communication.",
+      },
+      {
+        title: "Signal tracking GPS, GLONASS, Galileo, BDS, QZSS, SBAS",
+        body: "Tracks GPS, GLONASS, Galileo, BDS, QZSS, and SBAS signals for reliable satellite coverage.",
+      },
+      {
+        title: "PPP Service",
+        body: "Provides PPP correction service for accurate positioning without a local base station.",
+      },
+      {
+        title: "Revolutionary Tilt Survey with built-in IMU",
+        body: "Enables tilt survey with built-in IMU so you can survey without bubble leveling and start work faster.",
+      },
+    ],
+    specs: [
+      { label: "GNSS Channels", value: "184+" },
+      { label: "RTK Accuracy", value: "±10 mm + 1 ppm" },
+      { label: "Satellite Systems", value: "GPS, GLONASS, Galileo, BeiDou, SBAS" },
+      { label: "Battery Life", value: "10+ hours" },
+      { label: "Operating Temp", value: "-40℃ to +65℃" },
+      { label: "Weight", value: "1.35 kg" },
+      { label: "Communication", value: "Bluetooth, UHF radio, NTRIP" },
+      { label: "Storage", value: "MicroSD" },
+    ],
+    brochure: {
+      label: "IRTK5 GNSS Brochure — (English)",
+      href: "/upload/products/irtk5/BROCH804940.pdf",
+      meta: "PDF · 2.0 MB · English",
+    },
+  },
+
+
+
+
 };
 
 const nikonProducts = [
@@ -791,16 +1046,16 @@ function CategoryCard({
         <p className="mt-3 text-sm leading-relaxed text-[var(--ink-soft)]">
           {subtitle}
         </p>
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-6 flex flex-nowrap gap-3">
           <a
             href="#specs"
-            className="inline-flex items-center gap-2 rounded-full border border-[var(--ink)] px-4 py-2 text-sm font-medium hover:bg-[var(--ink)] hover:text-[var(--ivory)] transition-colors"
+            className="inline-flex min-w-[150px] h-10 items-center justify-center rounded-full border border-[var(--ink)] px-3 text-sm font-medium hover:bg-[var(--ink)] hover:text-[var(--ivory)] transition-colors"
           >
             View Specification
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 rounded-full bg-[var(--ink)] px-4 py-2 text-sm font-medium text-[var(--ivory)] hover:bg-[var(--cobalt)] transition-colors"
+            className="inline-flex min-w-[150px] h-10 items-center justify-center rounded-full bg-[var(--ink)] px-3 text-sm font-medium text-[var(--ivory)] hover:bg-[var(--cobalt)] transition-colors"
           >
             Quick Quote
           </a>

@@ -28,20 +28,29 @@ function CategoryCard({
         <div className="text-[11px] uppercase tracking-[0.35em] text-[var(--muted-foreground)] mb-3">
           {title}
         </div>
-        <h3 className="text-lg text-[var(--ink)] leading-tight">{subtitle}</h3>
-        <div className="mt-6 flex items-center gap-4">
+        <h3
+          className="text-lg text-[var(--ink)] leading-tight overflow-hidden"
+          style={{
+            display: "-webkit-box",
+            WebkitBoxOrient: "vertical",
+            WebkitLineClamp: 2,
+          }}
+        >
+          {subtitle}
+        </h3>
+        <div className="mt-6 flex flex-nowrap items-center gap-3">
           <a
             href={href ?? "#specs"}
-            className="inline-flex min-w-[190px] items-center justify-between rounded-full bg-black px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#111]"
+            className="inline-flex min-w-[150px] h-10 items-center justify-between rounded-full bg-black px-3 text-sm font-semibold text-white transition hover:bg-[#111]"
           >
             <span>View Details</span>
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
+            <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-white text-black">
               <ArrowRight className="h-4 w-4" />
             </span>
           </a>
           <a
             href="#contact"
-            className="text-sm font-semibold text-[var(--ink)] transition hover:text-black"
+            className="inline-flex min-w-[150px] h-10 items-center justify-center rounded-full border border-[var(--hairline)] bg-white px-3 text-sm font-semibold text-[var(--ink)] transition hover:bg-black hover:text-white"
           >
             Quick Quote
           </a>
