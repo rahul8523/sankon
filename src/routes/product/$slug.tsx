@@ -864,7 +864,6 @@ Revolutionary Tilt Survey with Built-in IMU
 
 Customers benefit from calibration-free tilt surveys without centering. Once you reach the surveying points, immediately start the operation. Compared with bubble leveling, boosts working efficiency by 20%.
 
-
 `,
     price: "₹8,64,000",
     mrp: "₹9,45,000",
@@ -924,6 +923,1114 @@ Customers benefit from calibration-free tilt surveys without centering. Once you
       meta: "PDF · 2.0 MB · English",
     },
   },
+
+// VRTK
+
+  "vrtk": {
+    slug: "vrtk",
+    title: "VRTK",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "vRTK is Hi-Target’s first lightweight and innovative visual RTK receiver product, which not only enables non-contact image surveying, breaking through the objective constraints of previous work, but also improves the speed of stakeout with the function of Live View Stakeout. It greatly improves the work efficiency of engineering users.",
+    description: `Dual Cameras for Image Survey and Live View Stakeout
+
+    Non-contact measurement greatly improves the usable range of GNSS and efficient safe operation.
+
+Strong Signal and High-quality Data
+
+-New generation GNSS SOC chip with 1408 channels, supports new frequency points B1C, B2a, and B2b RTK decoding for Beidou-3 Satellites.
+-Introduction of multi-frequency anti-jamming technology and multi-step adaptive filtering technology to ensure strong signals, high-quality data, fast fix, and high accuracy.
+
+Abundant Industry Data Results
+
+-Abundant types of data results meet the needs of different industry applications.
+-Compatible with the mainstream modelling software to attain point cloud and 3D modelling in one step.
+
+`,
+    price: "₹6,93,000",
+    mrp: "₹7,65,000",
+    savings: "9.41% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "VRTK",
+    images: [
+      "/upload/products/vrtk/1.png",
+      "/upload/products/vrtk/2.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target VRTK GNSS Receiver",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "Tilt Survey Accuracy 8mm+0.7mm/°tilts",
+        body: "Delivers precise tilt-compensated positioning for fast, reliable pole surveying even when the rod is not perfectly vertical.",
+      },
+      {
+        title: "Channels 1408",
+        body: "Uses a high-channel GNSS engine to lock satellites quickly and maintain stable positioning in challenging environments.",
+      },
+      {
+        title: "Satellite Tracking BDS/GPS/GLONASS/GALILEO/QZSS/IRNSS/SBAS",
+        body: "Tracks multiple global constellations and SBAS corrections to improve availability and solution reliability on every site.",
+      },
+      {
+        title: "Image Stakeout Accuracy 2cm",
+        body: "Supports accurate live-view stakeout with visual guidance and centimetre-level placement for field control tasks.",
+      },
+      {
+        title: "Image Survey Accuracy 2cm ~ 4cm",
+        body: "Captures image-based survey data with tight precision for mapping, documentation, and inspection workflows.",
+      },
+      {
+        title: "Data Storage Built-in 8GB ROM",
+        body: "Stores large datasets onsite and simplifies workflows with built-in memory for raw measurements and survey logs.",
+      },
+    ],
+    
+    specs: [
+      { label: "GNSS Channels", value: "1408" },
+      { label: "RTK Accuracy", value: "±10 mm + 1 ppm" },
+      { label: "Satellite Systems", value: "GPS, GLONASS, Galileo, BeiDou, SBAS" },
+      { label: "Battery Life", value: "10+ hours" },
+      { label: "Operating Temp", value: "-40℃ to +65℃" },
+      { label: "Weight", value: "1.35 kg" },
+      { label: "Communication", value: "Bluetooth, UHF radio, NTRIP" },
+      { label: "Storage", value: "MicroSD" },
+    ],
+
+    brochure: {
+      label: "VRTK GNSS Brochure — (English)",
+      href: "/upload/products/vrtk/BROCH842546.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+  },
+
+// IHand55
+
+  "ihand55": {
+    slug: "ihand55",
+    title: "IHand55",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "The iHand55 Handheld Controller is a professional field controller with a big vision. Adopting a full-keyboard design, iHand55 supports the fast charge.",
+    description: `5.5”sunlight-readable display capacitive touch screen for fingers or stylus
+
+    Quick charge with internal lithium battery to improve efficiency under long-time job.
+
+    Android 10.0 operating system equipped to maintain the productivity of numerous survey projects and data.
+
+    Alphanumeric full keyboard designed, convenient for different measurement application scenarios.
+
+`,
+    price: "₹70,200",
+    mrp: "₹78,500",
+    savings: "10.57% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "IHand55",
+    images: [
+      "/upload/products/ihand55/1.png",
+      "/upload/products/ihand55/2.jpg",
+    ],
+    inTheBox: [
+      "1× Hi-Target IHand55 GNSS Receiver",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+    features: [
+      {
+        title: "Android 10 Operating System",
+        body: "Equipped with Android 10 for native app compatibility and a familiar field controller interface.",
+      },
+      {
+        title: "High-capacity Memory",
+        body: "Provides 32GB built-in storage and supports T-Flash expansion up to 128GB for large project datasets.",
+      },
+      {
+        title: "Outdoor Touch Display",
+        body: "Includes a 5.5-inch high-brightness outdoor capacitive touchscreen that remains readable in sunlight.",
+      },
+      {
+        title: "Full Physical Keyboard",
+        body: "Features a full 50-key physical keyboard with separate numbers and letters for fast field input.",
+      },
+      {
+        title: "4G + eSIM Connectivity",
+        body: "Offers 4G full Netcom dual SIM dual standby plus built-in eSIM for reliable mobile connectivity.",
+      },
+      {
+        title: "Long Battery Life",
+        body: "Built with an 8500mAh battery that supports fast charging and up to 18 hours of continuous work.",
+      },
+    ],
+    
+    specs: [
+      { label: "Operating System", value: "Android 10" },
+      { label: "Processor", value: "2.0GHz 8-core" },
+      { label: "Storage", value: "32GB internal, expandable to 128GB via T-Flash" },
+      { label: "Display", value: "5.5-inch high-brightness outdoor color capacitive touch screen" },
+      { label: "Resolution", value: "720 × 1280, sunlight-visible, 600 nits typical" },
+      { label: "Input", value: "Physical 50-key full keyboard with separate numbers and letters" },
+      { label: "GNSS Positioning", value: "Built-in GNSS antenna; GPS + BeiDou + GLONASS; AGPS support" },
+      { label: "Cellular", value: "4G full Netcom, dual SIM dual standby, built-in eSIM with 3 years data" },
+      { label: "WiFi", value: "IEEE 802.11 b/g/n, WAPI, AP mode" },
+      { label: "Bluetooth", value: "Bluetooth 2.1 + 4.0 + 5.0" },
+      { label: "NFC", value: "Supports NFC IGRS" },
+      { label: "USB", value: "USB Type-C with OTG support" },
+      { label: "Battery", value: "8500mAh non-removable lithium battery with fast charge" },
+      { label: "Working Hours", value: "Up to 18 hours continuous use" },
+      { label: "Camera", value: "13MP camera with high-brightness LED flash and torch" },
+      { label: "Sensors", value: "Gravity, geomagnetic, light, gyroscope" },
+      { label: "Size", value: "236 × 85 × 24.5 mm" },
+      { label: "Weight", value: "465 g (including battery)" },
+      { label: "Operating Temperature", value: "-20℃ to +60℃" },
+      { label: "Storage Temperature", value: "-30℃ to +70℃" },
+      { label: "Dustproof", value: "IP68" },
+      { label: "Drop Resistance", value: "1.8 m free-fall" },
+    ],
+
+    brochure: {
+      label: "IHand55 GNSS Brochure — (English)",
+      href: "/upload/products/ihand55/BROCH617434.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+// V30 Plus
+
+  "v30-plus": {
+    slug: "v30-plus",
+    title: "V30 Plus",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "Hi-Target GNSS RTK System Model V30Plus With its built-in multi-constellation GNSS RTK engine, smaller dimension, and industrial-grade compact design, V30Plus provides a flexible GNSS work solution. It also integrates with the Web UI, WIFI, Bluetooth, and 4G module to make data management and transmission more convenient and faster.",
+    description: `Smart Application
+Road
+Railway
+Bridge
+Water conservancy
+Industry
+Regional geodesy
+
+`,
+    price: "₹6,48,000",
+    mrp: "₹7,20,000",
+    savings: "10.00% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "V30Plus",
+    images: [
+      "/upload/products/v30-plus/1.png",
+      "/upload/products/v30-plus/2.png",
+      "/upload/products/v30-plus/3.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target V30 Plus GNSS Receiver",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+
+    features: [
+      {
+        title: "800+ Universal Channels",
+        body: "Supports more than 800 satellite channels for faster GNSS acquisition and stable positioning.",
+      },
+      {
+        title: "NFC & WIFI Protocol",
+        body: "Includes NFC and WiFi protocols to enable flexible data transfer and smart network access.",
+      },
+      {
+        title: "4G Network Communication",
+        body: "Provides 4G connectivity for real-time data transmission and remote survey coordination.",
+      },
+      {
+        title: "Dual 5000mAh Batteries",
+        body: "Equipped with two 5000mAh batteries for extended field operation and uninterrupted usage.",
+      },
+      {
+        title: "Support Multi-Protocols Radio",
+        body: "Supports multi-protocol radio communication to connect with a wide range of GNSS base stations.",
+      },
+      {
+        title: "8GB Internal Storage",
+        body: "Offers 8GB of internal storage for project data and field records.",
+      },
+      {
+        title: "USB Port for I/O",
+        body: "Includes a USB port for easy I/O connection with peripherals and data devices.",
+      },
+      {
+        title: "UHF Radio",
+        body: "Built-in UHF radio provides reliable long-range data transmission in survey environments.",
+      },
+
+    ],
+    
+    specs: [
+      { label: "GNSS Channels", value: "800+ universal channels" },
+      { label: "RTK Engine", value: "Multi-constellation GNSS RTK" },
+      { label: "Storage", value: "8GB internal" },
+      { label: "Battery", value: "Dual 5000mAh batteries" },
+      { label: "Connectivity", value: "4G, WiFi, Bluetooth, NFC, UHF radio" },
+      { label: "Web UI", value: "Built-in web interface for device management" },
+      { label: "USB", value: "USB port for I/O" },
+      { label: "Radio", value: "Supports multi-protocol UHF radio" },
+      { label: "Design", value: "Industrial-grade compact GNSS receiver" },
+    ],
+
+    brochure: {
+      label: "V30 Plus GNSS Brochure — (English)",
+      href: "/upload/products/v30-plus/BROCH449257.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+// Hi-Target V600L Laser RTK System
+
+  "hi-target-v600l-laser-rtk-system": {
+    slug: "hi-target-v600l-laser-rtk-system",
+    title: "Hi-Target V600L Laser RTK System",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "Hi-Target V600L Laser RTK is a GNSS-based laser survey system designed for accurate land surveying and construction projects where direct point access is difficult. It supports precise measurements for road, highway, and infrastructure surveys.",
+    description: `Hi-Target V600L Laser RTK System
+The Hi-Target V600L Laser RTK System is a next-generation GNSS surveying solution designed to deliver accurate measurements in challenging field conditions where traditional GNSS systems face limitations.
+
+Equipped with integrated laser measurement and advanced tilt compensation, the V600L allows surveyors to capture precise points without physically accessing the target location. This significantly improves field safety, efficiency, and productivity, especially in obstructed or hard-to-reach areas.
+
+The V600L is widely used in road and highway projects, construction layout, infrastructure development, mining operations, and government survey works across India, making it a reliable solution for modern surveying requirements.
+
+
+`,
+    price: "₹6,48,000",
+    mrp: "₹7,20,000",
+    savings: "10.00% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "V600L",
+    images: [
+      "/upload/products/hi-target-v600l-laser-rtk-system/1.png",
+      "/upload/products/hi-target-v600l-laser-rtk-system/2.png",
+      "/upload/products/hi-target-v600l-laser-rtk-system/3.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target V600L Laser RTK System",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+
+    features: [
+      {
+        title: "800+ Universal Channels",
+        body: "Supports more than 800 satellite channels for faster GNSS acquisition and stable positioning.",
+      },
+      {
+        title: "NFC & WIFI Protocol",
+        body: "Includes NFC and WiFi protocols to enable flexible data transfer and smart network access.",
+      },
+      {
+        title: "4G Network Communication",
+        body: "Provides 4G connectivity for real-time data transmission and remote survey coordination.",
+      },
+      {
+        title: "Dual 5000mAh Batteries",
+        body: "Equipped with two 5000mAh batteries for extended field operation and uninterrupted usage.",
+      },
+      {
+        title: "Support Multi-Protocols Radio",
+        body: "Supports multi-protocol radio communication to connect with a wide range of GNSS base stations.",
+      },
+      {
+        title: "8GB Internal Storage",
+        body: "Offers 8GB of internal storage for project data and field records.",
+      },
+      {
+        title: "USB Port for I/O",
+        body: "Includes a USB port for easy I/O connection with peripherals and data devices.",
+      },
+      {
+        title: "UHF Radio",
+        body: "Built-in UHF radio provides reliable long-range data transmission in survey environments.",
+      },
+
+    ],
+    
+    specs: [
+      { label: "Tilt Survey Accuracy (Horizontal)", value: "8 mm + 0.7 mm/° (0°–60°)" },
+      { label: "Tilt Survey Accuracy (Vertical)", value: "15 mm + 0.7 mm/° (0°–60°)" },
+      { label: "GNSS Channels", value: "1408 channels" },
+      { label: "Supported Signals", value: "BDS, GPS, GLONASS, GALILEO, QZSS, NavIC, SBAS, PPP" },
+      { label: "Laser Measurement Accuracy", value: "2 cm within 10 m" },
+      { label: "Image Stakeout Accuracy", value: "2 cm" },
+      { label: "Data Storage", value: "64 GB internal memory" },
+    ],
+
+    brochure: {
+      label: "Hi-Target V600L Laser RTK System Brochure — (English)",
+      href: "/upload/products/hi-target-v600l-laser-rtk-system/BROCH449257.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+
+// V700S SLAM RTK
+
+  "v700s-slam-rtk": {
+    slug: "v700s-slam-rtk",
+    title: "V700S SLAM RTK",
+    brand: "Hi-Target",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "Hi-Target V700S SLAM RTK System combines GNSS RTK and SLAM technology to deliver accurate survey results in complex and obstructed environments. Ideal for land surveying, infrastructure mapping, and mobile mapping applications.",
+    description: `The Hi-Target V700S SLAM RTK System is a next-generation high-precision GNSS receiver designed for advanced land surveying, 3D mapping, and infrastructure measurement applications. Combining powerful RTK positioning technology with SLAM (Simultaneous Localization and Mapping) capabilities, the V700S enables surveyors to capture accurate spatial data in both open-sky and complex environments.
+
+`,
+    price: "₹8,40,000",
+    mrp: "₹9,33,333",
+    savings: "10.00% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "V700S",
+    images: [
+      "/upload/products/v700s-slam-rtk/1.png",
+      "/upload/products/v700s-slam-rtk/2.jpg",
+      "/upload/products/v700s-slam-rtk/3.png",
+    ],
+    inTheBox: [
+      "1× Hi-Target V700S SLAM RTK System",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+
+    features: [
+      {
+        title: "Advanced SLAM RTK Technology for 3D mapping and point cloud data capture",
+        body: "Delivers precise SLAM-enabled positioning and dense 3D point cloud capture across challenging terrain.",
+      },
+      {
+        title: "Multi-constellation GNSS support for stable and reliable positioning",
+        body: "Combines GPS, GLONASS, BDS, Galileo and NavIC for faster fixes and robust reception in obstructed environments.",
+      },
+      {
+        title: "High-performance IMU tilt compensation for flexible field measurements",
+        body: "Automatic tilt compensation improves survey accuracy when the instrument is used off-vertical.",
+      },
+      {
+        title: "Industrial-grade rugged design for construction and infrastructure projects",
+        body: "Built for harsh field use with rugged housing, IP protection, and long battery runtime.",
+      },
+      {
+        title: "Fast data processing and seamless workflow integration",
+        body: "Integrated workflow tools and rapid data sync keep field surveys efficient and connected.",
+      },
+    ],
+    
+    specs: [
+      { label: "RTK Positioning Accuracy", value: "±8 mm + 1 ppm" },
+      { label: "SLAM Point Cloud Accuracy", value: "Better than 2 cm in normal surveying conditions" },
+      { label: "GNSS Channels", value: "1408 channels" },
+      { label: "Supported GNSS Signals", value: "GPS, GLONASS, Galileo, BeiDou, QZSS, NavIC, SBAS" },
+      { label: "Tilt Compensation Range", value: "±60° automatic correction" },
+      { label: "Battery Runtime", value: "Up to 10 hours per battery pack" },
+      { label: "Data Storage", value: "64 GB internal memory + USB export support" },
+    ],
+
+    brochure: {
+      label: "Hi-Target V700S SLAM RTK System Brochure — (English)",
+      href: "/upload/products/hi-target-v700s-slam-rtk-system/BROCH449257.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+
+
+// AS-2C/AE-7C
+
+  "as-2cae-7c": {
+    slug: "as-2cae-7c",
+    title: "AS-2C/AE-7C",
+    brand: "Nikon",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "Nikon automatic levels are designed for a variety of elevation control and alignment tasks including general building construction, cut and fill measurements, area leveling, and landscaping.",
+    description: `
+    Auto Levels AS/AE Series
+
+-Four models to choose from: AS-2, AS-2C, AE-7 and AE-7C
+-Compact and lightweight
+-Waterproof construction
+-Automatic air-dampened compensator
+-Standard optical sight lens
+-Powerful telescopes with improved minimum focusing
+-Carrying case, adjusting pins, and lens cap included
+
+
+Nikon AS/AE Series auto levels feature waterproof, nitrogen-filled, high-power telescopes that help you make precise measurements even in the wettest conditions. They feature a unique automatic air-dampened compensator to prevent magnetic interference, and an endless horizontal fine drive to ensure smooth, precise pointing and angular measurement. AS/AE Series auto levels are easy to set up and easy to use. All four models can attach to both flat- and spherical-head tripods, and the standard optical sight lens helps you find your target quickly, easily and accurately. A mirror with a pentaprism lets you view the circular bubble as an erect image during setup and sighting.
+
+Auto Levels AP/AC/AX Series
+
+-Three models to choose from: AP-8, AC-2S and AX-2S
+-Compact and lightweight
+-Water-resistant construction
+-Magnetic-dampened automatic compensator
+-Horizontal tangent knobs with unlimited range
+-Smooth, precise pointing and angular measurement
+-Detachable eyepiece lens
+
+AP/AC/AX Series auto levels are easy to set up and use. All three models can attach to both flat-head and spherical-head tripods. Horizontal tangent knobs with an unlimited range ensure smooth, precise pointing and angular measurement, and you can operate them with either hand.
+The detachable eyepiece lens lets you use an optional diagonal eyepiece prism for working in extremely close or steep quarters.
+All three models offer minimum focusing down to 2.46 ft (0.75 m) for better performance in tight spots or on steep slopes.
+
+`,
+    price: "₹9,9000",
+    mrp: "₹10,8000",
+    savings: "8.33% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "AS-2C/AE-7C",
+    images: [
+      "/upload/products/as-2cae-7c/1.png",
+
+    ],
+    inTheBox: [
+      "1× Hi-Target AS-2C/AE-7C",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+
+    features: [
+      {
+        title: "Choice of magnification: 20x (AX-2S), 24x (AC-2S), 28x (AP-8), 30x (AS-2/2C), 32x (AE-7/7C)",
+        body: "High-power Nikon optics deliver crisp, clear sighting across all models for accurate leveling and layout work.",
+      },
+      {
+        title: "Choice of magnetic or air-dampened automatic compensators",
+        body: "Select the right compensator type to maintain stable, reliable readings on slopes and in changing temperature conditions.",
+      },
+      {
+        title: "Double-sided, continuous horizontal tangent drives",
+        body: "Smooth dual-sided tangent drives provide precise fine control for accurate horizontal alignment and angle setting.",
+      },
+      {
+        title: "Stadia lines for simple distance measurement",
+        body: "Built-in stadia lines enable quick distance estimation without additional measurement tools, speeding up field layout tasks.",
+      },
+      {
+        title: "Convenient horizontal angle measurement",
+        body: "Easy horizontal angle reading supports fast alignment and control point work on the job site.",
+      },
+      {
+        title: "Built-in bubble mirror and optical sighting alignment",
+        body: "Integrated sighting tools let you rapidly locate targets and confirm level setup with minimal effort.",
+      },
+      {
+        title: "Metal housing increases durability",
+        body: "Rugged metal construction protects the instrument from knocks, dust and rough field handling.",
+      },
+      {
+        title: "Choice of water-resistant or waterproof construction",
+        body: "Available in water-resistant and fully waterproof options for dependable performance in wet conditions.",
+      },
+      {
+        title: "Nikon optics effectively let in more light, so you see brighter, sharper images-especially in low-light conditions",
+        body: "Premium Nikon lenses maximize brightness and clarity, making targets easier to see even in dim light.",
+      },
+    ],
+    
+    specs: [
+      { label: "Model Variants", value: "AS-2, AS-2C, AE-7, AE-7C" },
+      { label: "Magnification", value: "30x (AS-2 / AS-2C), 32x (AE-7 / AE-7C)" },
+      { label: "Minimum Focusing Distance", value: "0.75 m" },
+      { label: "Compensator", value: "Automatic air-dampened compensator" },
+      { label: "Telescopes", value: "Waterproof, nitrogen-filled Nikon optics" },
+      { label: "Water Resistance", value: "Waterproof / water-resistant construction" },
+      { label: "Tripod Compatibility", value: "Flat-head and spherical-head tripods" },
+      { label: "Eyepiece", value: "Standard optical sight lens with optional diagonal eyepiece" },
+    ],
+
+    brochure: {
+      label: "Hi-Target AS-2C/AE-7C Brochure — (English)",
+      href: "/upload/products/as-2cae-7c/BROCH464595.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+// AC-2S/AP-8
+
+  "ac-2sap-8": {
+    slug: "ac-2sap-8",
+    title: "AC-2S/AP-8",
+    brand: "Nikon",
+    category: "GNSS / RTK Systems",
+    tagline:
+      "Nikon AP-8 Auto Level is Compact and lightweight. This Nikon automatic level features a magnetic-dampened automatic compensator to level the line of sight; quality Nikon optics for bright, sharp, detailed",
+    description: `
+    -Four models to choose from: AS-2, AS-2C, AE-7 and AE-7C
+-Compact and lightweight
+-Waterproof construction
+-Automatic air-dampened compensator
+-Standard optical sight lens
+-Powerful telescopes with improved minimum focusing
+-Carrying case, adjusting pins, and lens cap included
+
+Nikon AS/AE Series auto levels feature waterproof, nitrogen-filled, high-power telescopes that help you make precise measurements even in the wettest conditions. They feature a unique automatic air-dampened compensator to prevent magnetic interference, and an endless horizontal fine drive to ensure smooth, precise pointing and angular measurement. AS/AE Series auto levels are easy to set up and easy to use. All four models can attach to both flat- and spherical-head tripods, and the standard optical sight lens helps you find your target quickly, easily, and accurately. A mirror with a pentaprism lets you view the circular bubble as an erect image during setup and sighting.
+
+Auto Levels AP/AC/AX Series
+
+-Three models to choose from: AP-8, AC-2S and AX-2S
+-Compact and lightweight
+-Water-resistant construction
+-Magnetic-dampened automatic compensator
+-Horizontal tangent knobs with unlimited range
+-Smooth, precise pointing and angular measurement
+-Detachable eyepiece lens
+
+AP/AC/AX Series auto levels are easy to set up and use. All three models can attach to both flat-head and spherical-head tripods. Horizontal tangent knobs with an unlimited range ensure smooth, precise pointing and angular measurement, and you can operate them with either hand.
+
+The detachable eyepiece lens lets you use an optional diagonal eyepiece prism for working in extremely close or steep quarters.
+
+All three models offer minimum focusing down to 2.46 ft (0.75 m) for better performance in tight spots or on steep slopes.
+
+`,
+    price: "₹45,000",
+    mrp: "₹50,000",
+    savings: "10.00% OFF",
+    badges: ["In Stock", "Hi-Target"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "AC-2S/AP-8",
+    images: [
+      "/upload/products/ac-2sap-8/1.webp",
+
+    ],
+    inTheBox: [
+      "1× Hi-Target AC-2S/AP-8",
+      "1× Battery Pack",
+      "1× Antenna Cable",
+      "1× Carrying Case",
+    ],
+
+    features: [
+      {
+        title: "Choice of magnification: 20x (AX-2S), 24x (AC-2S), 28x (AP-8), 30x (AS-2/2C), 32x (AE-7/7C)",
+        body: "High-power Nikon optics deliver crisp, clear sighting across all models for accurate leveling and layout work.",
+      },
+      {
+        title: "Choice of magnetic or air-dampened automatic compensators",
+        body: "Select the right compensator type to maintain stable, reliable readings on slopes and in changing temperature conditions.",
+      },
+      {
+        title: "Double-sided, continuous horizontal tangent drives",
+        body: "Smooth dual-sided tangent drives provide precise fine control for accurate horizontal alignment and angle setting.",
+      },
+      {
+        title: "Stadia lines for simple distance measurement",
+        body: "Built-in stadia lines enable quick distance estimation without additional measurement tools, speeding up field layout tasks.",
+      },
+      {
+        title: "Convenient horizontal angle measurement",
+        body: "Easy horizontal angle reading supports fast alignment and control point work on the job site.",
+      },
+      {
+        title: "Built-in bubble mirror and optical sighting alignment",
+        body: "Integrated sighting tools let you rapidly locate targets and confirm level setup with minimal effort.",
+      },
+      {
+        title: "Metal housing increases durability",
+        body: "Rugged metal construction protects the instrument from knocks, dust and rough field handling.",
+      },
+      {
+        title: "Choice of water-resistant or waterproof construction",
+        body: "Available in water-resistant and fully waterproof options for dependable performance in wet conditions.",
+      },
+      {
+        title: "Nikon optics effectively let in more light, so you see brighter, sharper images-especially in low-light conditions",
+        body: "Premium Nikon lenses maximize brightness and clarity, making targets easier to see even in dim light.",
+      },
+
+
+    ],
+    
+    specs: [
+      { label: "Model Variants", value: "AC-2S, AP-8" },
+      { label: "Magnification", value: "24x (AC-2S), 28x (AP-8)" },
+      { label: "Minimum Focusing Distance", value: "0.75 m" },
+      { label: "Compensator Type", value: "Magnetic-dampened automatic compensator" },
+      { label: "Stadia Ratio", value: "1:100" },
+      { label: "Horizontal Circle", value: "360° graduated circle" },
+      { label: "Optical System", value: "Nikon high-power optics with bright, sharp sighting" },
+      { label: "Construction", value: "Water-resistant metal housing" },
+      { label: "Tripod Compatibility", value: "Flat-head and spherical-head tripods" },
+      { label: "Eyepiece", value: "Detachable eyepiece lens for close or steep observations" },
+    ],
+
+    brochure: {
+      label: "Hi-Target AC-2S/AP-8 Brochure — (English)",
+      href: "/upload/products/ac-2sap-8/BROCH692468.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+
+
+
+// GOL-26D
+
+  "gol-26d": {
+    slug: "gol-26d",
+    title: "GOL-26D",
+    brand: "Bosch",
+    category: "Auto Digital Levels",
+    tagline:
+      "GOL 26 D PROFESSIONAL OPTICAL LEVEL",
+    description: `
+    Extremely robust – ideal for outdoor use
+Designed for outdoor use due to sturdy metal housing with dust and splash protection (IP54)
+Robust design with built-in target collimator and integrated circular vial
+Compensator lock for safe transport
+
+`,
+    price: "₹18,000",
+    mrp: "₹18,100",
+    savings: "0.55% OFF",
+    badges: ["In Stock", "Bosch"],
+    rating: "4.7 · 64 verified reviews",
+    sku: "GOL-26D",
+    images: [
+      "/upload/products/gol-26d/1.jpg",
+      "/upload/products/gol-26d/2.jpg",
+    ],
+    inTheBox: [
+      "1× Bosch GOL-26D Optical Level",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "26× magnification for precise leveling",
+        body: "High-power optics deliver sharp, accurate sighting across the full field of view.",
+      },
+      {
+        title: "Dust and splash protection",
+        body: "IP54-rated housing keeps the instrument protected from dust and water splashes while working outdoors.",
+      },
+      {
+        title: "360° unit of measure",
+        body: "Full 360-degree measurement support makes horizontal angle setup and repeated leveling fast and reliable.",
+      },
+      {
+        title: "High accuracy at distance",
+        body: "Provides ±1.6 mm accuracy at 30 m for dependable control and layout work.",
+      },
+      {
+        title: "100 m working range",
+        body: "Long 100-meter range reduces the need to move the instrument for distant targets.",
+      },
+      {
+        title: "Secure tripod mounting",
+        body: "Standard 5/8\" tripod thread gives a stable connection with professional survey tripods.",
+      },
+    ],
+    
+    specs: [
+      { label: "Magnification", value: "26×" },
+      { label: "Dust and splash protection", value: "IP54" },
+      { label: "Unit of measure", value: "360 degrees" },
+      { label: "Accuracy", value: "± 1.6 mm at 30 m" },
+      { label: "Working range", value: "100 m" },
+      { label: "Tripod thread", value: "5/8\"" },
+      { label: "Operating temperature", value: "-10 – 50 °C" },
+      { label: "Storage temperature", value: "-20 – 70 °C" },
+      { label: "Weight, approx.", value: "1.5 kg" },
+    ],
+
+    brochure: {
+      label: "Bosch GOL-26D Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+  // GOL-32D
+
+  "gol-32d": {
+    slug: "gol-32d",
+    title: "GOL-32D",
+    brand: "Bosch",
+    category: "Auto Digital Levels",
+    tagline:
+      "GOL 32 D PROFESSIONAL OPTICAL LEVEL",
+    description: `
+Robust and reliable – ideal for outdoor use
+Ideal for outdoor use due to its robust housing with dust and splash protection (IP54)
+Fast aperture for a sharp image of the target
+Compensator lock for safe transport
+
+`,
+    price: "₹22,500",
+    mrp: "₹21,650",
+    savings: "3.93% OFF",
+    badges: ["In Stock", "Bosch"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GOL-32D",
+    images: [
+      "/upload/products/gol-32d/1.webp",
+    ],
+    inTheBox: [
+      "1× Bosch GOL-32D Optical Level",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "32× magnification for superior detail",
+        body: "Powerful optics make small targets easier to see and align precisely on distant staffs.",
+      },
+      {
+        title: "IP54 dust and splash protection",
+        body: "Durable weather protection lets you use the instrument confidently in outdoor conditions.",
+      },
+      {
+        title: "360° unit of measure",
+        body: "Full-circle readings support fast and repeatable horizontal angle work.",
+      },
+      {
+        title: "High accuracy at 30 m",
+        body: "Designed to deliver ±1 mm accuracy at 30 m for precise leveling and alignment tasks.",
+      },
+      {
+        title: "120 m working range",
+        body: "Long-range performance extends measurement capability to 120 m without frequent repositioning.",
+      },
+      {
+        title: "Professional tripod compatibility",
+        body: "Standard 5/8\" tripod thread ensures stable, professional mounting.",
+      },
+    ],
+    
+    specs: [
+      { label: "Magnification", value: "32×" },
+      { label: "Dust and splash protection", value: "IP54" },
+      { label: "Unit of measure", value: "360 degrees" },
+      { label: "Accuracy", value: "± 1 mm at 30 m" },
+      { label: "Working range", value: "120 m" },
+      { label: "Tripod thread", value: "5/8\"" },
+      { label: "Operating temperature", value: "-10 – 50 °C" },
+      { label: "Storage temperature", value: "-20 – 70 °C" },
+      { label: "Weight, approx.", value: "1.5 kg" },
+    ],
+
+    brochure: {
+      label: "Bosch GOL-32D Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+
+  // Self-levelling AUTO LEVEL
+
+  "self-levelling-auto-level": {
+    slug: "self-levelling-auto-level",
+    title: "Self-levelling AUTO LEVEL",
+    brand: "Sankon",
+    category: "Auto Digital Levels",
+    tagline:
+      "SK-338D is equipped with pioneer self-leveling technology which has Intellectual Property Rights. The Auto Level has a self-leveling feature with working Range of ±7°. It’s voice broadcast function can deal with any noisy environment.",
+    description: `
+
+-Self-leveling
+-World pioneer self-leveling,
+-Voice Broadcast Technology,
+-Convenient to measure.
+
+`,
+    price: "₹28,500",
+    mrp: "₹30,000",
+    savings: "5.00% OFF",
+    badges: ["In Stock", "Sankon"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "SK-338D",
+    images: [
+      "/upload/products/self-levelling-auto-level/1.png",
+      "/upload/products/self-levelling-auto-level/2.png",
+    ],
+    inTheBox: [
+      "1× Sankon SK-338D Self-levelling Auto Level",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Unique Imaging Technology",
+        body: "Advanced optics and target imaging deliver crisp, high-contrast views for fast, accurate leveling.",
+      },
+      {
+        title: "Water Proof Technology",
+        body: "IP54-rated protection shields the instrument from dust and splashes during outdoor field work.",
+      },
+      {
+        title: "Battery Capacity 800mAh",
+        body: "A built-in 800mAh battery provides dependable power for long measurement sessions on the job.",
+      },
+      {
+        title: "Automatic Tightening Foot Screw",
+        body: "The auto-tightening foot screw locks the level securely to the tripod for stable, vibration-free readings.",
+      },
+      {
+        title: "High-Volume Voice Broadcasting",
+        body: "Clear voice prompts and alerts make setup and operation easier, even in noisy outdoor environments.",
+      },
+    ],
+    
+    specs: [
+      { label: "Self-leveling", value: "Automatic" },
+      { label: "Self-leveling range", value: "±7°" },
+      { label: "Voice broadcast", value: "Yes" },
+      { label: "Battery Capacity", value: "800 mAh" },
+      { label: "Dust and splash protection", value: "IP54" },
+      { label: "Tripod thread", value: "5/8\"" },
+      { label: "Operating temperature", value: "-10 – 50 °C" },
+      { label: "Storage temperature", value: "-20 – 70 °C" },
+      { label: "Weight, approx.", value: "1.5 kg" },
+    ],
+
+    brochure: {
+      label: "Bosch GOL-32D Brochure — (English)",
+      href: "/upload/products/self-levelling-auto-level/BROCH533580.pdf",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+
+  // NE-100/NE-101
+
+  "ne-100ne-101": {
+    slug: "ne-100ne-101",
+    title: "NE-100/NE-101",
+    brand: "Nikon",
+    category: "Digital Theodolites",
+    tagline:
+      "Ease of use, reliability, and durability make the Nikon NE-100 and NE-101 series theodolites a smart choice for your general construction, alignment, and layout applications. These affordable instruments, featuring the familiar Nikon quality, are ideal for concrete form alignment, anchor bolt positioning, and steel column erection. The theodolites enable a number of positioning techniques: 90-degree layout, checking angles, alignment, and plumb, as well as short-range grade work and leveling",
+    description: `
+Designed for general construction and survey applications, Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform. Each of the four models has an ergonomic keypad with one-touch keys for all functions, and a large backlit LCD display helps you work productively in the field.
+
+You can instantly convert vertical angles to percent of grade, reset the horizontal angle to zero and lock the horizontal angle displayed on the LCD while you reposition or repeat a measurement. Angle accuracies differ between the models. The NE-100 offers 10" angle accuracy, while the NE-101 offers 7". Both the NE-102 and 103 models offer 5" angle accuracy with the NE-103 featuring vertical axis compensation NE-102 and NE-103 also have a rear display and keypad.
+
+NE-100 series theodolites feature five easy-to-use, one-touch keys: four to perform all common functions and a fifth to control the backlit LCD display and reticle illumination. NE-100 Series theodolites feature a built-in reticle illuminator and backlit LCD display that allow you to work inside buildings as well as in tunnels, mines and other environments with little or no light. These features also come in handy during low light conditions outdoors, such as near dawn or dusk.
+
+Unlike other instruments that require specialized batteries, NE-100 Series theodolites use six standard AA batteries. What's more, those batteries can power all models for about 48 hours. A three-level bar graph on the LCD screen displays remaining battery power.
+
+With the Nikon NE-100 Series theodolite models, you can count on reliable performance in tough conditions. The NE-100/101 models have an IP54 rating, meaning water can splash on them from any direction with no harmful effects. Nikon NE-102/103 models have a higher rating of IP56 which means they're waterproof and dustproof.
+
+For more information, please check: http://www.nikonpositioning.com/
+
+`,
+    price: "₹2,43,000",
+    mrp: "₹2,70,000",
+    savings: "10.00% OFF",
+    badges: ["In Stock", "Nikon"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "NE-100/NE-101",
+    images: [
+      "/upload/products/ne-100ne-101/1.png",
+    ],
+    inTheBox: [
+      "1× Nikon NE-100 Series Theodolite",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Four models to choose from: NE-100/101/102/103",
+        body: "NE-100, NE-101, NE-102, and NE-103 are available so you can match the right accuracy and feature set to your project.",
+      },
+      {
+        title: "Accurate, affordable, easy to use",
+        body: "Dependable Nikon measurement performance and straightforward controls make these models ideal for general construction and layout work.",
+      },
+      {
+        title: "Ergonomic keypad",
+        body: "A tactile, low-profile keypad helps you enter commands quickly and comfortably without distracting from the job.",
+      },
+      {
+        title: "One-touch function keys",
+        body: "Dedicated function keys provide fast access to common operations like angle reset, display control, and lock functions.",
+      },
+      {
+        title: "Large, backlit LCD display",
+        body: "The spacious, backlit screen keeps angle readings easy to see in tunnels, low light, or early-morning job conditions.",
+      },
+      {
+        title: "NE-100/101 models are water-resistant",
+        body: "NE-100 and NE-101 carry IP54 protection to resist dust and splashes on the job site.",
+      },
+      {
+        title: "NE-102/103 models are waterproof",
+        body: "NE-102 and NE-103 step up to IP56 water resistance for stronger protection in wetter field conditions.",
+      },
+      {
+        title: "5, 7 and 10 accuracies available",
+        body: "Choose 10\" accuracy with NE-100 or 7\" accuracy with NE-101, while the higher models offer 5\" precision.",
+      },
+    ],
+    
+    specs: [
+      { label: "Instrument Type", value: "Electronic digital theodolite" },
+      { label: "Angle Accuracy", value: "10\" (NE-100), 7\" (NE-101)" },
+      { label: "Display", value: "Large backlit LCD" },
+      { label: "Reticle Illumination", value: "Built-in illuminator" },
+      { label: "Battery", value: "6 × AA batteries" },
+      { label: "Battery Life", value: "Up to 48 hours" },
+      { label: "Water Resistance", value: "IP54 (NE-100/NE-101)" },
+      { label: "Models", value: "NE-100, NE-101" },
+    ],
+
+    brochure: {
+      label: "Bosch GOL-32D Brochure — (English)",
+      href: "/upload/products/ne-100ne-101/BROCH304080.pdf",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+    // NE-102/NE-103
+
+  "ne-102ne-103": {
+    slug: "ne-102ne-103",
+    title: "NE-102/NE-103",
+    brand: "Nikon",
+    category: "Auto Digital Levels",
+    tagline:
+      "Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform",
+    description: `
+
+Designed for general construction and survey applications, Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform. Each of the four models has an ergonomic keypad with one-touch keys for all functions, and a large backlit LCD display helps you work productively in the field.
+
+You can instantly convert vertical angles to percent of grade, reset the horizontal angle to zero and lock the horizontal angle displayed on the LCD while you reposition or repeat a measurement. Angle accuracies differ between the models. The NE-100 offers 10″ angle accuracy, while the NE-101 offers 7″. Both the NE-102 and 103 models offer 5″ angle accuracy with the NE-103 featuring vertical axis compensation NE-102 and NE-103 also have a rear display and keypad.
+
+NE-100 series theodolites feature five easy-to-use, one-touch keys: four to perform all common functions and a fifth to control the backlit LCD display and reticle illumination. NE-100 Series theodolites feature a built-in reticle illuminator and backlit LCD display that allow you to work inside buildings as well as in tunnels, mines and other environments with little or no light. These features also come in handy during low light conditions outdoors, such as near dawn or dusk.
+
+Unlike other instruments that require specialized batteries, NE-100 Series theodolites use six standard AA batteries. What’s more, those batteries can power all models for about 48 hours. A three-level bar graph on the LCD screen displays remaining battery power.
+
+With the Nikon NE-100 Series theodolite models, you can count on reliable performance in tough conditions. The NE-100/101 models have an IP54 rating, meaning water can splash on them from any direction with no harmful effects. Nikon NE-102/103 models have a higher rating of IP56 whi
+
+`,
+    price: "₹3,24,000",
+    mrp: "₹3,60,00",
+    savings: "10.00% OFF",
+    badges: ["In Stock", "Nikon"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "NE-102/NE-103",
+    images: [
+      "/upload/products/ne-102ne-103/1.png",
+    ],
+    inTheBox: [
+      "1× Nikon NE-102/NE-103 Self-levelling Auto Level",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Four models to choose from: NE-100/101/102/103",
+        body: "Select the model that fits your accuracy and application needs, from general construction to precision survey work.",
+      },
+      {
+        title: "Accurate, affordable, easy to use",
+        body: "Designed for reliable performance in the field, with intuitive controls and Leica-quality Nikon optics at a competitive price.",
+      },
+      {
+        title: "Ergonomic keypad",
+        body: "Comfortable one-touch keys let you operate the instrument quickly and reduce user fatigue during long shifts.",
+      },
+      {
+        title: "One-touch function keys",
+        body: "Dedicated function keys provide fast access to angle reset, display control, and measurement locking.",
+      },
+      {
+        title: "Large, backlit LCD displayg",
+        body: "A bright backlit display makes readings easy to see in low light, tunnels, and early morning or late evening work.",
+      },
+      {
+        title: "NE-100/101 models are water-resistant",
+        body: "NE-100 and NE-101 models carry IP54 protection to resist dust and splashes on the job site.",
+      },
+      {
+        title: "NE-102/103 models are waterproof",
+        body: "NE-102 and NE-103 models are rated IP56 for stronger protection against water ingress in harsher conditions.",
+      },
+      {
+        title: "5″, 7″ and 10″ accuracies available",
+        body: "Choose from 5″, 7″, or 10″ accuracy depending on your precision requirements and budget.",
+      },
+    ],
+    
+    specs: [
+      { label: "Instrument Type", value: "Electronic digital theodolite" },
+      { label: "Angle Accuracy", value: "5″, 7″, 10″ depending on model" },
+      { label: "Display", value: "Large backlit LCD" },
+      { label: "Reticle Illumination", value: "Built-in illuminator" },
+      { label: "Battery", value: "6 × AA batteries" },
+      { label: "Battery Life", value: "Up to 48 hours" },
+      { label: "Water Resistance", value: "IP56 (NE-102/103) / IP54 (NE-100/101)" },
+      { label: "Models", value: "NE-100, NE-101, NE-102, NE-103" },
+    ],
+
+    brochure: {
+      label: "Bosch GOL-32D Brochure — (English)",
+      href: "/upload/products/ne-102ne-103/BROCH56787.pdf",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+
+
+
+
+
 
 
 

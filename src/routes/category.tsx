@@ -162,6 +162,31 @@ export default function CategoryPage() {
             href: "/product-detail/hi-target-hts-720-android-total-station",
           },
         ]
+      : activeBrand?.slug === "bosch" && category.slug === "auto-digital-levels"
+      ? [
+          {
+            title: "GOL-26D",
+            subtitle: "Bosch GOL-26D professional optical level for fast, accurate leveling on site.",
+            image: "/upload/products/gol-26d/1.jpg",
+            href: "/product-detail/gol-26d",
+          },
+          {
+            title: "GOL-32D",
+            subtitle: "Bosch GOL-32D optical level with bright optics and rugged field durability.",
+            image: "/upload/products/gol-32d/1.webp",
+            href: "/product-detail/gol-32d",
+          },
+        ]
+      : activeBrand?.slug === "sankon" && category.slug === "auto-digital-levels"
+      ? [
+          {
+            title: "Self-levelling AUTO LEVEL",
+            subtitle: "SK-338D is equipped with pioneer self-leveling technology which has Intellectual Property Rights. The Auto Level has a self-leveling feature with work",
+            image: "/upload/products/self-levelling-auto-level/1.png",
+            href: "/product-detail/self-levelling-auto-level",
+          },
+          
+        ]
       : undefined;
   const pillLabel = activeBrand
     ? `${activeBrand.label} authorized partner`

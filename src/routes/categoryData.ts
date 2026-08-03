@@ -170,30 +170,35 @@ export const categories: CategoryInfo[] = [
         subtitle:
           "vRTK is Hi-Target’s first lightweight and innovative visual RTK receiver product, which not only enables non-contact image surveying, breaking through",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg553223.png",
+        href: "/product-detail/vrtk",
       },
       {
         title: "iHand55",
         subtitle:
           "he iHand55 Handheld Controller is a professional field controller with a big vision. Adopting a full-keyboard design, iHand55 supports the fast charge",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg904004.png",
+        href: "/product-detail/ihand55",
       },
       {
         title: "V30 Plus",
         subtitle:
           "Hi-Target GNSS RTK System Model V30Plus With its built-in multi-constellation GNSS RTK engine, smaller dimension, and industrial-grade compact design,",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg309780.png",
+        href: "/product-detail/v30-plus",
       },
       {
         title: "Hi-Target V600L Laser RTK System",
         subtitle:
           "Hi-Target V600L Laser RTK is a GNSS-based laser survey system designed for accurate land surveying and construction projects where direct point access",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg922461.png",
+        href: "/product-detail/hi-target-v600l-laser-rtk-system",
       },
       {
         title: "V700S SLAM RTK",
         subtitle:
           "Hi-Target V700S SLAM RTK System combines GNSS RTK and SLAM technology to deliver accurate survey results in complex and obstructed environments. Ideal",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg965883.png",
+        href: "/product-detail/v700s-slam-rtk",
       }
     ],
   },
@@ -242,12 +247,14 @@ export const categories: CategoryInfo[] = [
         subtitle:
           "Nikon AP-8 Auto Level is Compact and lightweight. This Nikon automatic level features a magnetic-dampened automatic compensator to level the line of s",
         image: "/upload/categoryImg/auto-level/ProdImg85707.webp",
+        href: "/product-detail/ac-2sap-8",
       },
       {
         title: "AS-2C/AE-7C",
         subtitle:
           "Nikon automatic levels are designed for a variety of elevation control and alignment tasks including general building construction, cut and fill measurements",
         image: "/upload/categoryImg/auto-level/ProdImg716222.png",
+        href: "/product-detail/as-2cae-7c",
       }
     ],
   },
@@ -279,12 +286,14 @@ export const categories: CategoryInfo[] = [
         subtitle:
           "Ease of use, reliability, and durability make the Nikon NE-100 and NE-101 series theodolites a smart choice for your general construction, alignment,",
         image: "/upload/categoryImg/digital-theodolites/ProdImg92400.png",
+        href: "/product-detail/ne-100ne-101",
       },
       {
         title: "NE-102/NE-103",
         subtitle:
           "Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform",
         image: "/upload/categoryImg/digital-theodolites/ProdImg830612.png",
+        href: "/product-detail/ne-102ne-103",
       }
     ],
   },
