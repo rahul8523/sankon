@@ -1938,7 +1938,7 @@ For more information, please check: http://www.nikonpositioning.com/
     slug: "ne-102ne-103",
     title: "NE-102/NE-103",
     brand: "Nikon",
-    category: "Auto Digital Levels",
+    category: "Digital Theodolites",
     tagline:
       "Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform",
     description: `
@@ -2024,7 +2024,1711 @@ With the Nikon NE-100 Series theodolite models, you can count on reliable perfor
 
   },
 
+ // GRL-350-HV 
 
+  "grl-350-hv": {
+    slug: "grl-350-hv",
+    title: "GRL-350-HV",
+    brand: "Bosch",
+    category: "Laser Levels",
+    tagline:
+      "GRL 350 HV PROFESSIONAL ROTATION LASER",
+    description: `
+
+Rotational laser for horizontal and vertical application with manual dual slope
+Versatile - Horizontal and vertical manual dual slope function enable change in grade in two-axis application
+Flexible - Variable-speed and Scan-angle selection allow optimum usability at different lighting conditions
+Robust - IP 56 rated to protect against dust and water for tough jobsite conditions, with shock-warning function to alert error due to vibration
+`,
+    price: "₹72000",
+    mrp: "₹91200",
+    savings: "21.05% OFF",
+    badges: ["In Stock", "Bosch"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GRL-350-HV",
+    images: [
+      "/upload/products/grl-350-hv/1.png",
+      "/upload/products/grl-350-hv/2.jpg",
+    ],
+    inTheBox: [
+      "1× Bosch GRL-350-HV Rotational Laser",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Long-range receiver support",
+        body: "Achieve dependable performance over up to 350 m with the receiver, making it ideal for large construction and surveying jobs.",
+      },
+      {
+        title: "Rugged IP 56 weather protection",
+        body: "Dust and splash resistance helps the laser stay dependable in harsh outdoor conditions and tough jobsite environments.",
+      },
+      {
+        title: "Precise horizontal and vertical accuracy",
+        body: "The GRL-350-HV delivers accurate results with ±1.5 mm at 30 m horizontal and ±3.0 mm at 30 m vertical.",
+      },
+      {
+        title: "Fast self-levelling performance",
+        body: "A self-levelling range of ±5° and a 30-second levelling time provide quick setup and stable operation.",
+      },
+      {
+        title: "Flexible rotation speeds",
+        body: "Choose between 0, 150, 300, and 600 min−1 to match the task, environment, and visibility needs.",
+      },
+      {
+        title: "Extended operating time",
+        body: "Powered by 2 × 1.5 V LR20 (D) batteries, the unit provides up to 30 hours of reliable operation.",
+      },
+    ],
+    
+    specs: [
+      { label: "Working range", value: "Up to 60 m" },
+      { label: "Working range with receiver", value: "Up to 350 m (Diameter)" },
+      { label: "Dust and splash protection", value: "IP 56" },
+      { label: "Laser diode", value: "630 – 650 nm, < 5 mW" },
+      { label: "Operating temperature", value: "-10 – 50 °C" },
+      { label: "Storage temperature", value: "-20 – 70 °C" },
+      { label: "Laser class", value: "3R" },
+      { label: "Accuracy", value: "± 1.5 mm at 30 m horizontal, ± 3.0 mm at 30 m vertical" },
+      { label: "Self-levelling range", value: "± 5° (8%)" },
+      { label: "Levelling time", value: "30 s" },
+      { label: "Rotation speed", value: "0 / 150 / 300 / 600 min−1" },
+      { label: "Power supply", value: "2 × 1.5 V LR20 (D)" },
+      { label: "Operating time (max.)", value: "30 h" },
+      { label: "Tripod thread", value: "5/8\"" },
+      { label: "Weight, approx.", value: "1.8 kg" },
+      { label: "Colour of laser line", value: "Red" },
+      { label: "Colour of plumb points", value: "Red" },
+    ],
+
+    brochure: {
+      label: "GRL-350-HV Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+
+    // gll-3-15-x
+
+  "gll-3-15-x": {
+    slug: "gll-3-15-x",
+    title: "GLL-3-15-X",
+    brand: "Bosch",
+    category: "Laser Levels",
+    tagline:
+      "GLL 3-15 X PROFESSIONAL LINE LASER",
+    description: `
+
+For easy decorative interior fitting applications
+Maximum precision thanks to the Bosch Pendulum Precision System
+Projection of a vertical and a horizontal line
+Detachable, 360° rotating platform with bubble vial and fine adjustment
+`,
+    price: "₹9000",
+    mrp: "₹13245",
+    savings: "32.05% OFF",
+    badges: ["In Stock", "Bosch"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GLL 3-15 X",
+    images: [
+      "/upload/products/gll-3-15-x/1.png",
+      "/upload/products/gll-3-15-x/2.jpg",
+      "/upload/products/gll-3-15-x/3.jpg",
+    ],
+    inTheBox: [
+      "1× Bosch GLL-3-15-X Line Laser",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Three-line projection with plumb point",
+        body: "Projects three precise laser lines plus one plumb point for fast alignment, squaring, and layout tasks.",
+      },
+      {
+        title: "Reliable accuracy over short to medium range",
+        body: "Offers horizontal line accuracy of ±0.2 mm/m and vertical line accuracy of ±0.3 mm/m for dependable indoor work.",
+      },
+      {
+        title: "Fast automatic levelling",
+        body: "Self-levelling within ±3° and a 4-second levelling time make setup quick and effortless on-site.",
+      },
+      {
+        title: "Lightweight and portable",
+        body: "Weighing only 0.5 kg, this laser is easy to carry and ideal for job sites where mobility matters.",
+      },
+      {
+        title: "Long-lasting battery performance",
+        body: "Powered by 4 × 1.5 V AA batteries, it delivers up to 24 hours of operation for full-day work.",
+      },
+      {
+        title: "Built for everyday jobsite use",
+        body: "Designed to perform reliably in temperatures from -10°C to 45°C, with durable red-line visibility and simple handling.",
+      },
+    ],
+    
+    specs: [
+      { label: "Working range", value: "15 m" },
+      { label: "Working range with receiver", value: "50 m" },
+      { label: "Accuracy", value: "Horizontal laser line: ± 0.2 mm/m; Vertical laser lines: ± 0.3 mm/m (plus use-dependent deviation)" },
+      { label: "Projection", value: "3 lines + 1 plumb point" },
+      { label: "Laser diode", value: "630 – 650 nm, < 1 mW" },
+      { label: "Operating temperature", value: "-10 – 45 °C" },
+      { label: "Storage temperature", value: "-20 – 70 °C" },
+      { label: "Laser class", value: "2" },
+      { label: "Working range of laser points, max.", value: "5 m (bottom)" },
+      { label: "Self-levelling range", value: "± 3°" },
+      { label: "Levelling time", value: "4 s" },
+      { label: "Power supply", value: "4 × 1.5 V LR6 (AA)" },
+      { label: "Operating time (max.)", value: "24 h" },
+      { label: "Tripod thread", value: "5/8\"" },
+      { label: "Weight, approx.", value: "0.5 kg" },
+      { label: "Colour of laser line", value: "Red" },
+      { label: "Colour of plumb points", value: "Red" },
+      { label: "Plumb point accuracy", value: "± 0.7 mm/m (plus use-dependent deviation)" },
+    ],
+
+    brochure: {
+      label: "GLL-3-15-X Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+// GLL 5-50 X
+
+  "gll-5-50-x": {
+    slug: "gll-5-50-x",
+    title: "GLL 5-50 X",
+    brand: "Bosch",
+    category: "Laser Levels",
+    tagline:
+      "GLL 5-50 X PROFESSIONAL",
+    description: `
+
+For easy decorative interior fitting applications
+Maximum precision thanks to the Bosch Pendulum Precision System
+Projection of a vertical and a horizontal line
+Detachable, 360° rotating platform with bubble vial and fine adjustment
+`,
+    price: "₹13500",
+    mrp: "₹19475",
+    savings: "30.68% OFF",
+    badges: ["In Stock", "Bosch"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GLL 5-50 X",
+    images: [
+      "/upload/products/GLL 5-50 X/1.png",
+      "/upload/products/GLL 5-50 X/2.jpg",
+    ],
+    inTheBox: [
+      "1× Bosch GLL 5-50 X Line Laser",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Three-line projection with plumb point",
+        body: "Projects three precise laser lines plus one plumb point for fast alignment, squaring, and layout tasks.",
+      },
+      {
+        title: "Reliable accuracy over short to medium range",
+        body: "Offers horizontal line accuracy of ±0.2 mm/m and vertical line accuracy of ±0.3 mm/m for dependable indoor work.",
+      },
+      {
+        title: "Fast automatic levelling",
+        body: "Self-levelling within ±3° and a 4-second levelling time make setup quick and effortless on-site.",
+      },
+      {
+        title: "Lightweight and portable",
+        body: "Weighing only 0.5 kg, this laser is easy to carry and ideal for job sites where mobility matters.",
+      },
+      {
+        title: "Long-lasting battery performance",
+        body: "Powered by 4 × 1.5 V AA batteries, it delivers up to 24 hours of operation for full-day work.",
+      },
+      {
+        title: "Built for everyday jobsite use",
+        body: "Designed to perform reliably in temperatures from -10°C to 45°C, with durable red-line visibility and simple handling.",
+      },
+    ],
+    
+    specs: [
+      { label: "Working range", value: "15 m" },
+      { label: "Working range with receiver", value: "50 m" },
+      { label: "Accuracy", value: "Horizontal laser line: ± 0.2 mm/m; Vertical laser lines: ± 0.3 mm/m (plus use-dependent deviation)" },
+      { label: "Projection", value: "3 lines + 1 plumb point" },
+      { label: "Laser diode", value: "630 – 650 nm, < 1 mW" },
+      { label: "Operating temperature", value: "-10 – 45 °C" },
+      { label: "Storage temperature", value: "-20 – 70 °C" },
+      { label: "Laser class", value: "2" },
+      { label: "Working range of laser points, max.", value: "5 m (bottom)" },
+      { label: "Self-levelling range", value: "± 3°" },
+      { label: "Levelling time", value: "4 s" },
+      { label: "Power supply", value: "4 × 1.5 V LR6 (AA)" },
+      { label: "Operating time (max.)", value: "24 h" },
+      { label: "Tripod thread", value: "5/8\"" },
+      { label: "Weight, approx.", value: "0.5 kg" },
+      { label: "Colour of laser line", value: "Red" },
+      { label: "Colour of plumb points", value: "Red" },
+      { label: "Plumb point accuracy", value: "± 0.7 mm/m (plus use-dependent deviation)" },
+    ],
+
+    brochure: {
+      label: "GLL-5-50-X Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+// GLL 3-80 CG
+
+  "gll-3-80-cg": {
+    slug: "gll-3-80-cg",
+    title: "GLL 3-80 CG",
+    brand: "Bosch",
+    category: "Laser Levels",
+    tagline:
+      "GLL 3-80 CG PROFESSIONAL LINE LASER",
+    description: `
+
+Green supreme visibility in 3 x 360°. Simply connected.
+Up to four times better visibility due to the green laser lines
+Bluetooth® connection to your smartphone for remote control use and contactless adjustment of the tool
+High work efficiency due to 3 x 360° lines: Simultaneous performance of horizontal and vertical levelling applications in the entire room with only one tool
+`,
+    price: "₹63000",
+    mrp: "₹75600",
+    savings: "16.67% OFF",
+    badges: ["In Stock", "Bosch"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GLL 3-80 CG",
+    images: [
+      "/upload/products/gll-3-80-cg/1.png",
+      "/upload/products/gll-3-80-cg/2.jpg",
+    ],
+    inTheBox: [
+      "1× Bosch GLL 3-80 CG Line Laser",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Bright green 360° visibility",
+        body: "Delivers up to four times better visibility with green laser lines, making indoor layout work easier to see and follow.",
+      },
+      {
+        title: "Three 360° lines for full-room layout",
+        body: "Projects three 360° lines to handle horizontal and vertical leveling tasks simultaneously with one tool.",
+      },
+      {
+        title: "Bluetooth control for convenient operation",
+        body: "Connects to your smartphone for remote control and contactless adjustment, improving speed and convenience on site.",
+      },
+      {
+        title: "Accurate and fast self-levelling",
+        body: "Self-levels within ±4° and reaches levelling readiness in just 4 seconds for efficient setup.",
+      },
+      {
+        title: "Flexible power options",
+        body: "Works with a 12 V Li-Ion battery or 4 × AA batteries, giving you dependable performance for different job conditions.",
+      },
+      {
+        title: "Compact and practical for daily use",
+        body: "Weighing about 0.9 kg and designed for indoor and light outdoor applications, it is easy to move between jobs.",
+      },
+    ],
+    
+    specs: [
+      { label: "Working range", value: "30 m" },
+      { label: "Working range with receiver", value: "120 m" },
+      { label: "Working range without receiver", value: "30 m" },
+      { label: "Dust and splash protection", value: "IP 54" },
+      { label: "Accuracy", value: "± 0.2 mm/m" },
+      { label: "Projection", value: "3 × 360° line" },
+      { label: "Laser diode", value: "500 – 540 nm, < 10 mW" },
+      { label: "Operating temperature", value: "-10 – 40 °C" },
+      { label: "Storage temperature", value: "-20 – 70 °C" },
+      { label: "Laser class", value: "2" },
+      { label: "Self-levelling range", value: "± 4°" },
+      { label: "Levelling time", value: "4 s" },
+      { label: "Power supply", value: "12 V Li-Ion battery, 4 × 1.5 V LR6 (AA)" },
+      { label: "Operating time (max.)", value: "6 h (Li-Ion) and 4 h (4 × AA) in 3-line mode" },
+      { label: "Tripod thread", value: "1/4\", 5/8\"" },
+      { label: "Weight, approx.", value: "0.9 kg" },
+      { label: "Colour of laser line", value: "Green" },
+      { label: "Compatible laser receivers", value: "LR 7" },
+    ],
+
+    brochure: {
+      label: "GLL-3-80-CG Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+
+
+
+
+// liquid-limit-device-hand-operated-with-counter
+
+  "liquid-limit-device-hand-operated-with-counter": {
+    slug: "liquid-limit-device-hand-operated-with-counter",
+    title: "Liquid Limit Device, Hand Operated with Counter",
+    brand: "Soil Testing",
+    category: "Lab & Material Testing",
+    tagline:
+      "The apparatus consists of a brass cup, a crank and cam mechanism, mounted on a rubber base of a specified hardness. A brass pin having a knurled end for easy removal holds the brass cup. The height of fall of the cup can be adjusted by a horizontal lead screw. The device is fitted with a drop counter to automatically record number of drops of the cup",
+    description: `
+
+The apparatus consists of a brass cup, a crank and cam mechanism, mounted on a rubber base of a specified hardness. A brass pin having a knurled end for easy removal holds the brass cup. The height of fall of the cup can be adjusted by a horizontal lead screw. The device is fitted with a drop counter to automatically record number of drops of the cup
+`,
+    price: "₹5100",
+    mrp: "₹5500",
+    savings: "7.27% OFF",
+    badges: ["In Stock", "Soil Testing"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Liquid Limit Device, Hand Operated with Counter",
+    images: [
+      "/upload/products/liquid-limit-device-hand-operated-with-counter/1.jpg",
+    ],
+    inTheBox: [
+      "1× Liquid Limit Device, Hand Operated with Counter",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Precision drop mechanism",
+        body: "The brass cup and crank-and-cam system provide controlled, repeatable drops for reliable liquid limit testing.",
+      },
+      {
+        title: "Adjustable fall height",
+        body: "The cup height can be adjusted with a horizontal lead screw to suit different testing requirements.",
+      },
+      {
+        title: "Easy cup removal",
+        body: "A brass pin with a knurled end allows the cup to be removed quickly and securely when needed.",
+      },
+      {
+        title: "Automatic counting",
+        body: "The built-in drop counter records the number of drops automatically, reducing manual effort and improving accuracy.",
+      },
+      {
+        title: "Stable base support",
+        body: "Mounted on a rubber base of specified hardness, the apparatus offers stable operation during repeated testing.",
+      },
+    ],
+    
+    specs: [
+      { label: "Apparatus type", value: "Liquid limit device, hand operated" },
+      { label: "Cup material", value: "Brass" },
+      { label: "Cup retention", value: "Brass pin with knurled end" },
+      { label: "Drive mechanism", value: "Crank and cam mechanism" },
+      { label: "Base", value: "Rubber base of specified hardness" },
+      { label: "Height adjustment", value: "Horizontal lead screw" },
+      { label: "Recording feature", value: "Automatic drop counter" },
+      { label: "Application", value: "Liquid limit testing of soils" },
+    ],
+
+    brochure: {
+      label: "GLL-3-80-CG Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+
+
+
+  // liquid-limit-cone-penetrometer
+
+  "liquid-limit-cone-penetrometer": {
+    slug: "liquid-limit-cone-penetrometer",
+    title: "Liquid Limit Cone Penetrometer",
+    brand: "Soil Testing",
+    category: "Lab & Material Testing",
+    tagline:
+      "A stainless steel cone with half angle of 15°30’ and 30.5 mm coned length, having smooth polished surface, fitted to a bearing rod moving against a graduated scale.   Penetration trough of 50 mm dia and 50 mm deep made of brass.",
+    description: `
+
+ A stainless steel cone with half angle of 15°30’ and 30.5 mm coned length, having smooth polished surface, fitted to a bearing rod moving against a graduated scale.
+  Penetration trough of 50 mm dia and 50 mm deep made of brass.
+`,
+    price: "₹1800",
+    mrp: "₹2000",
+    savings: "10.00% OFF",
+    badges: ["In Stock", "Soil Testing"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Liquid Limit Cone Penetrometer",
+    images: [
+      "/upload/products/liquid-limit-cone-penetrometer/1.png",
+    ],
+    inTheBox: [
+      "1× Liquid Limit Cone Penetrometer",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Precision stainless steel cone",
+        body: "The cone is made from stainless steel with a smooth polished surface, ensuring reliable penetration behavior during soil testing.",
+      },
+      {
+        title: "Standard cone geometry",
+        body: "The cone features a half angle of 15°30′ and a 30.5 mm coned length for consistent penetration measurements.",
+      },
+      {
+        title: "Graduated scale for direct reading",
+        body: "The bearing rod moves against a graduated scale, allowing clear and accurate observation of penetration depth.",
+      },
+      {
+        title: "Brass penetration trough",
+        body: "A brass trough of 50 mm diameter and 50 mm depth provides a sturdy and durable sample container for testing.",
+      },
+      {
+        title: "Reliable laboratory use",
+        body: "Designed specifically for liquid limit determination, the apparatus offers repeatable results for soil analysis work.",
+      },
+    ],
+    
+    specs: [
+      { label: "Apparatus type", value: "Liquid limit cone penetrometer" },
+      { label: "Cone material", value: "Stainless steel" },
+      { label: "Cone half angle", value: "15°30′" },
+      { label: "Cone length", value: "30.5 mm" },
+      { label: "Cone surface", value: "Smooth polished" },
+      { label: "Moving part", value: "Bearing rod with graduated scale" },
+      { label: "Penetration trough", value: "Brass, 50 mm dia × 50 mm deep" },
+      { label: "Application", value: "Liquid limit testing of soils" },
+    ],
+
+    brochure: {
+      label: "Liquid Limit Cone Penetrometer Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+
+
+
+// shrinkage-limit-apparatus
+
+  "shrinkage-limit-apparatus": {
+    slug: "shrinkage-limit-apparatus",
+    title: "Shrinkage Limit Apparatus",
+    brand: "Soil Testing",
+    category: "Lab & Material Testing",
+    tagline:
+      "The set consists of 75mm square Prong Plate made of 3mm thick acrylic sheet with three metal prongs.",
+    description: `
+
+ ⦁    75mm square Plain Plate made of 3mm thick acrylic sheet.
+⦁    Stainless Steel Shrinkage Dish 45mm in dia, 15mm deep.
+⦁    Glass cup with ground edge, 50mm to 55mm dia, 25mm deep.
+⦁    Flexible Spatula with 80mm long, 20mm wide blade.
+`,
+    price: "₹1250",
+    mrp: "₹1500",
+    savings: "16.67% OFF",
+    badges: ["In Stock", "Soil Testing"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Shrinkage Limit Apparatus",
+    images: [
+      "/upload/products/shrinkage-limit-apparatus/1.jpg",
+    ],
+    inTheBox: [
+      "1× Shrinkage Limit Apparatus",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Acrylic base plate for stable handling",
+        body: "The 75 mm square plain plate is made from 3 mm thick acrylic sheet, offering a durable and easy-to-clean working surface.",
+      },
+      {
+        title: "Stainless steel shrinkage dish",
+        body: "The 45 mm diameter, 15 mm deep shrinkage dish is ideal for holding soil samples during shrinkage tests.",
+      },
+      {
+        title: "Ground-edge glass cup",
+        body: "The glass cup with a ground edge and 50–55 mm diameter provides a reliable container for sample preparation and observation.",
+      },
+      {
+        title: "Flexible spatula for sample handling",
+        body: "The 80 mm long, 20 mm wide spatula makes it easy to transfer and smooth soil material precisely.",
+      },
+      {
+        title: "Designed for soil laboratory work",
+        body: "This apparatus set is well suited for shrinkage limit determination and related soil testing procedures.",
+      },
+    ],
+    
+    specs: [
+      { label: "Apparatus type", value: "Shrinkage limit apparatus set" },
+      { label: "Plain plate", value: "75 mm square, 3 mm thick acrylic sheet" },
+      { label: "Shrinkage dish", value: "Stainless steel, 45 mm dia × 15 mm deep" },
+      { label: "Glass cup", value: "Ground edge, 50–55 mm dia × 25 mm deep" },
+      { label: "Spatula", value: "Flexible, 80 mm long × 20 mm wide blade" },
+      { label: "Application", value: "Shrinkage limit testing of soils" },
+    ],
+
+    brochure: {
+      label: "Shrinkage Limit Apparatus Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+
+
+// compaction-test-for-water-content-and-dry-density-of-soils
+
+  "compaction-test-for-water-content-and-dry-density-of-soils": {
+    slug: "compaction-test-for-water-content-and-dry-density-of-soils",
+    title: "Compaction Test For Water Content and Dry Density of Soils",
+    brand: "Soil Testing",
+    category: "Lab & Material Testing",
+    tagline:
+      "Density and moisture content are, perhaps, the most important parameters a soil engineer has to keep a strict control on, during the construction of earthen dams and embankments. Using the laboratory test data, obtained under controlled conditions. The specifications to be adopted for the fill can be drawn in terms of maximum dry density and optimum moisture content",
+    description: `
+
+Density and moisture content are, perhaps, the most important parameters a soil engineer has to keep a strict control on, during the construction of earthen dams and embankments. Using the laboratory test data, obtained under controlled conditions. The specifications to be adopted for the fill can be drawn in terms of maximum dry density and optimum moisture content
+`,
+    price: "₹3500",
+    mrp: "₹4000",
+    savings: "12.50% OFF",
+    badges: ["In Stock", "Soil Testing"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Compaction Test For Water Content and Dry Density of Soils",
+    images: [
+      "/upload/products/compaction-test-for-water-content-and-dry-density-of-soils/1.jpg",
+    ],
+    inTheBox: [
+      "1× Compaction Test For Water Content and Dry Density of Soils",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Controls key compaction parameters",
+        body: "Helps determine the relationship between water content and dry density for reliable soil compaction analysis.",
+      },
+      {
+        title: "Supports embankment and dam design",
+        body: "The test data helps engineers define suitable fill specifications for earthen dams and embankments.",
+      },
+      {
+        title: "Defines maximum dry density",
+        body: "Provides the basis for identifying the maximum dry density achievable under controlled laboratory conditions.",
+      },
+      {
+        title: "Determines optimum moisture content",
+        body: "Enables the selection of the moisture level that produces the best compaction performance.",
+      },
+      {
+        title: "Useful for quality control",
+        body: "The results support practical field quality checks and consistent construction standards for soil work.",
+      },
+    ],
+    
+    specs: [
+      { label: "Test focus", value: "Water content and dry density of soils" },
+      { label: "Primary use", value: "Earthen dam and embankment construction" },
+      { label: "Key output", value: "Maximum dry density" },
+      { label: "Key output", value: "Optimum moisture content" },
+      { label: "Basis", value: "Laboratory test under controlled conditions" },
+      { label: "Application", value: "Soil compaction and fill specification design" },
+    ],
+
+    brochure: {
+      label: "Compaction Test For Water Content and Dry Density of Soils Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+
+  
+// automatic-soil-compaction-machine
+
+  "automatic-soil-compaction-machine": {
+    slug: "automatic-soil-compaction-machine",
+    title: "Automatic Soil Compaction Machine",
+    brand: "Soil Testing",
+    category: "Lab & Material Testing",
+    tagline:
+      "The Automatic Soil Compactor replaces the hand compaction procedure as specified for dry density/moisture content relationship of soil. Both light and heavy compaction tests can be performed by this machine using either 100 mm dia. or 150 mm dia. compaction moulds. The height of drop of the 50 mm dia. rammer can be set either at 310 mm or 450 mm as per requirement.",
+    description: `
+
+The Automatic Soil Compactor replaces the hand compaction procedure as specified for dry density/moisture content relationship of soil. Both light and heavy compaction tests can be performed by this machine using either 100 mm dia. or 150 mm dia. compaction moulds. The height of drop of the 50 mm dia. rammer can be set either at 310 mm or 450 mm as per requirement.
+`,
+    price: "₹64000",
+    mrp: "₹65000",
+    savings: "1.54% OFF",
+    badges: ["In Stock", "Soil Testing"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Automatic Soil Compaction Machine",
+    images: [
+      "/upload/products/automatic-soil-compaction-machine/1.jpg",
+    ],
+    inTheBox: [
+      "1× Automatic Soil Compaction Machine",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Automates the compaction procedure",
+        body: "Replaces the manual hand-compaction method for establishing the dry density and moisture content relationship of soil.",
+      },
+      {
+        title: "Supports light and heavy tests",
+        body: "The machine is suitable for both light and heavy compaction tests, making it versatile for different laboratory requirements.",
+      },
+      {
+        title: "Compatible with standard mould sizes",
+        body: "Works with either 100 mm diameter or 150 mm diameter compaction moulds for flexible testing setups.",
+      },
+      {
+        title: "Adjustable rammer drop height",
+        body: "The 50 mm diameter rammer drop can be set to either 310 mm or 450 mm depending on the test specification.",
+      },
+      {
+        title: "Reliable for soil lab quality control",
+        body: "Designed to provide repeatable compaction results for laboratory evaluation and fill specification development.",
+      },
+    ],
+    
+    specs: [
+      { label: "Machine type", value: "Automatic soil compactor" },
+      { label: "Function", value: "Replaces hand compaction procedure" },
+      { label: "Compaction tests", value: "Light and heavy compaction" },
+      { label: "Compatible moulds", value: "100 mm dia. or 150 mm dia." },
+      { label: "Rammer diameter", value: "50 mm" },
+      { label: "Adjustable drop height", value: "310 mm or 450 mm" },
+      { label: "Application", value: "Dry density/moisture content relationship of soil" },
+    ],
+
+    brochure: {
+      label: "Automatic Soil Compaction Machine Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+// pocket-penetrometer
+
+  "pocket-penetrometer": {
+    slug: "pocket-penetrometer",
+    title: "Pocket Penetrometer",
+    brand: "Soil Testing",
+    category: "Lab & Material Testing",
+    tagline:
+      "The pocket penetrometer is regarded as a simple tool to aid the engineers in field exploration and in checking and comparing similar types of soil, but it can never be used to obtain foundation design data. This lightweight penetrometer is used in the field for classifying cohesive soils in terms of consistency and estimation of approximate unconfined compressive strength and shear strength.",
+    description: `
+
+The pocket penetrometer is regarded as a simple tool to aid the engineers in field exploration and in checking and comparing similar types of soil, but it can never be used to obtain foundation design data.
+This lightweight penetrometer is used in the field for classifying cohesive soils in terms of consistency and estimation of approximate unconfined compressive strength and shear strength.
+`,
+    price: "₹2100",
+    mrp: "₹2500",
+    savings: "16.00% OFF",
+    badges: ["In Stock", "Soil Testing"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Pocket Penetrometer",
+    images: [
+      "/upload/products/pocket-penetrometer/1.gif",
+    ],
+    inTheBox: [
+      "1× Pocket Penetrometer",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Quick field assessment tool",
+        body: "Used by engineers during field exploration to compare similar cohesive soils and assess their consistency quickly.",
+      },
+      {
+        title: "Supports soil consistency checks",
+        body: "Helps classify cohesive soils by consistency, making it useful for rapid on-site evaluation.",
+      },
+      {
+        title: "Gives an approximate strength estimate",
+        body: "Provides a practical estimate of unconfined compressive strength and shear strength for preliminary assessment.",
+      },
+      {
+        title: "Lightweight and portable",
+        body: "Its compact size makes it easy to carry and operate directly in the field.",
+      },
+      {
+        title: "Useful for preliminary site work",
+        body: "Ideal for quick comparisons and field screening, though not intended for foundation design data.",
+      },
+    ],
+    
+    specs: [
+      { label: "Instrument type", value: "Pocket penetrometer" },
+      { label: "Primary use", value: "Field exploration and soil classification" },
+      { label: "Soil type", value: "Cohesive soils" },
+      { label: "Measured property", value: "Consistency, approximate unconfined compressive strength, shear strength" },
+      { label: "Portability", value: "Lightweight and field-friendly" },
+      { label: "Limitation", value: "Not suitable for foundation design data" },
+    ],
+
+    brochure: {
+      label: "Pocket Penetrometer Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+
+  },
+
+
+// Q5 Series GPR System 
+
+  "q5-series-gpr-system": {
+    slug: "q5-series-gpr-system",
+    title: "Q5 Series GPR System",
+    brand: "By Model",
+    category: "Ground Penetrating Radar (GPR)",
+    tagline:
+      "Simply put, the Q5 GPR system is a workhorse when it comes to locating buried utilities. Its easy-to-use interface can also be expanded and configured for other applications as needed. Not only is this system incredibly versatile, but it is the most powerful ground penetrating radar for locating underground utilities up to 15′ (5m) deep at high resolution.",
+    description: `
+
+Simply put, the Q5 GPR system is a workhorse when it comes to locating buried utilities. Its easy-to-use interface can also be expanded and configured for other applications as needed. Not only is this system incredibly versatile, but it is the most powerful ground penetrating radar for locating underground utilities up to 15′ (5m) deep at high resolution.
+
+`,
+    price: "₹1.00",
+    mrp: "₹2.00",
+    savings: "50.00% OFF",
+    badges: ["In Stock", "Ground Penetrating Radar (GPR)"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Q5 Series GPR System",
+    images: [
+      "/upload/products/q5-series-gpr-system/1.webp",
+      "/upload/products/q5-series-gpr-system/2.webp",
+    ],
+    inTheBox: [
+      "1× Q5 Series GPR System",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Daylight readable, weatherproof Getac tablet interface",
+        body: "Bright, rugged tablet display ensures clear viewing outdoors and in harsh field conditions.",
+      },
+      {
+        title: "High performance CPU enables real-time data processing",
+        body: "Fast onboard processing delivers instant radar imaging and analysis in the field.",
+      },
+      {
+        title: "Built-in 3D view capability",
+        body: "Generates 3D subsurface maps to identify buried utilities and structures with clarity.",
+      },
+      {
+        title: "WiFi supported",
+        body: "Wireless connectivity allows easy data transfer and remote operation when needed.",
+      },
+      {
+        title: "USB, Ethernet, HDMI and Audio ports",
+        body: "Multiple I/O ports support external devices, networking and display output for flexible workflows.",
+      },
+    ],
+    
+    specs: [
+      { label: "Instrument type", value: "Ground Penetrating Radar (GPR) system" },
+      { label: "Operating frequency", value: "250 MHz (standard)" },
+      { label: "Depth range", value: "Up to 5 meters depending on soil conditions" },
+      { label: "Display", value: "Daylight-readable, weatherproof Getac tablet" },
+      { label: "Connectivity", value: "WiFi, USB, Ethernet, HDMI, Audio" },
+      { label: "Applications", value: "Utility locating, subsurface mapping, archaeology, infrastructure inspection" },
+    ],
+
+    brochure: {
+      label: "Q5 Series GPR System Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },  
+
+
+// Q10 Utility and Geotechnical Locating System 
+
+  "q10-utility-and-geotechnical-locating-system": {
+    slug: "q10-utility-and-geotechnical-locating-system",
+    title: "Q10 Utility and Geotechnical Locating System",
+    brand: "By Model",
+    category: "Ground Penetrating Radar (GPR)",
+    tagline:
+      "The Q10 is a high-resolution 1000 MHz GPR system built for shallow-depth utility, concrete, and geotechnical surveys. Rugged, portable, and easy to operate, it delivers fast, accurate subsurface imaging for inspection and locating tasks.",
+
+    description: `
+The Q10 Utility and Geotechnical Locating System combines a 1000 MHz antenna with a rugged wheeled cart and weatherproof tablet interface for reliable field use.
+
+Designed for bridge decks, concrete slabs, pavement, and shallow utility detection, the Q10 provides clear, high-resolution radar profiles with minimal setup. Its intuitive controls and real-time display help teams capture actionable subsurface data quickly and confidently.
+`,
+    price: "₹1.00",
+    mrp: "₹2.00",
+    savings: "50.00% OFF",
+    badges: ["In Stock", "Ground Penetrating Radar (GPR)"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Q10 Utility",
+    images: [
+      "/upload/products/q10-utility-and-geotechnical-locating-system/1.webp",
+    ],
+    inTheBox: [
+      "1× Q10 Utility and Geotechnical Locating System",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "1000 MHz high-resolution antenna",
+        body: "Optimized for shallow penetration and detailed imaging of concrete, slabs, and utilities.",
+      },
+      {
+        title: "Rugged cart design",
+        body: "Stable, maneuverable cart platform supports field scans over pavement and uneven surfaces.",
+      },
+      {
+        title: "Weatherproof tablet interface",
+        body: "Integrated rugged tablet provides real-time data review and touchscreen control outdoors.",
+      },
+      {
+        title: "Instant data display",
+        body: "Live radargrams appear during scans, enabling quick interpretation on site.",
+      },
+      {
+        title: "Flexible data export",
+        body: "USB, Ethernet, and WiFi connectivity make it easy to transfer survey files to standard GPR software.",
+      },
+    ],
+    
+    specs: [
+      { label: "Instrument type", value: "1000 MHz Ground Penetrating Radar (GPR) system" },
+      { label: "Antenna frequency", value: "1000 MHz" },
+      { label: "Typical depth range", value: "0.1–2.0 meters depending on material and conditions" },
+      { label: "Cart configuration", value: "Portable wheeled platform with probe mount" },
+      { label: "Display", value: "Rugged daylight-readable tablet with touchscreen" },
+      { label: "Applications", value: "Bridge deck scanning, concrete inspection, shallow utility locating, geotechnical surveys" },
+    ],
+
+    brochure: {
+      label: "Q10 Utility and Geotechnical Locating System Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },  
+
+// Q25 Geophysical Radar System
+
+  "q25-geophysical-radar-system": {
+    slug: "q25-geophysical-radar-system",
+    title: "Q25 Geophysical Radar System",
+    brand: "By Model",
+    category: "Ground Penetrating Radar (GPR)",
+    tagline:
+      "The Q25 geophysical GPR system is a 250 MHz deep-penetration radar solution for utility locating, geological mapping, and subsurface structure detection. Its durable design and user-friendly interface make it ideal for fast, reliable field surveys.",
+
+    description: `
+The Q25 Geophysical Radar System is a 250 MHz ground penetrating radar engineered for deeper utility and geophysical surveys.
+
+It offers extended penetration through soil, rock, and pavement while maintaining stable, high-quality data capture. The rugged cart, weatherproof tablet, and intuitive controls let survey teams collect and review subsurface data efficiently in outdoor conditions.
+`,
+    price: "₹1.00",
+    mrp: "₹2.00",
+    savings: "50.00% OFF",
+    badges: ["In Stock", "Ground Penetrating Radar (GPR)"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Q25 Geophysical",
+    images: [
+      "/upload/products/q25-geophysical-radar-system/1.webp",
+    ],
+    
+    inTheBox: [
+      "1× q25-geophysical-radar-system",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "250 MHz deep-penetration antenna",
+        body: "Delivers strong subsurface signals for deep utility locating and geological surveys.",
+      },
+      {
+        title: "Heavy-duty survey cart",
+        body: "Provides a stable platform for long runs and rough terrain during field surveys.",
+      },
+      {
+        title: "Field-ready tablet interface",
+        body: "Weatherproof tablet displays live radargrams and makes data capture simple on site.",
+      },
+      {
+        title: "Continuous data recording",
+        body: "Records uninterrupted survey lines so you can cover larger areas quickly.",
+      },
+      {
+        title: "Easy data export",
+        body: "USB, Ethernet, and WiFi support fast transfer of raw data to processing software.",
+      },
+    ],
+    
+    specs: [
+      { label: "Instrument type", value: "250 MHz Ground Penetrating Radar (GPR) system" },
+      { label: "Antenna frequency", value: "250 MHz" },
+      { label: "Typical depth range", value: "0.5–8.0 meters depending on ground conditions" },
+      { label: "Survey configuration", value: "Cart-based continuous scanning platform" },
+      { label: "Display", value: "Weatherproof touchscreen tablet" },
+      { label: "Applications", value: "Deep utility locating, geophysical mapping, subsurface structure detection" },
+    ],
+
+    brochure: {
+      label: "Q25 Geophysical Radar System Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },  
+
+// 100 Series Geophysical Scanner Ground Penetrating Radar System
+
+  "100-series-geophysical-scanner-ground-penetrating-radar-system": {
+    slug: "100-series-geophysical-scanner-ground-penetrating-radar-system",
+    title: "100 Series Geophysical Scanner Ground Penetrating Radar System",
+    brand: "By Model",
+    category: "Ground Penetrating Radar (GPR)",
+    tagline:
+      "Our Most Powerful GPR System for Geophysical Scanner Survey 100 Series geophysical scanner systems offer the greatest realistic penetration that ground penetrating radar (GPR) can provide. It is used for locating deeper targets up to 100 ft. (30.48m). Typically, this system is most often used for locating tunnels and for geophysical analysis.",
+
+    description: `
+The 100 Series is one of our most versatile systems, as the tablet and software are interchangeable with our other systems. This means that you can easily convert a 100 Series into one of our many other configurations for more high-resolution scanning applications.
+
+Think of your 100 Series system as more than a high-powered GPR device. When conducting a survey, you are doing more than seeing beneath the surface. You are compiling essential data that can be used to create an instant deliverable in the field – right from your tablet controller. This ensures everyone is on the same page and operating from a shared point-of-reference with greater efficiency, safety, and confidence.
+`,
+    price: "₹0.00",
+    mrp: "₹2.00",
+    savings: "100.00% OFF",
+    badges: ["In Stock", "Ground Penetrating Radar (GPR)"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Radar System",
+    images: [
+      "/upload/products/100-series-geophysical-scanner-ground-penetrating-radar-system/1.webp",
+    ],
+    
+    inTheBox: [
+      "1× 100 Series Geophysical Scanner Ground Penetrating Radar System",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "High-power 250 MHz antenna",
+        body: "Designed for deep subsurface penetration, ideal for locating utilities, voids, and geological features.",
+      },
+      {
+        title: "Modular geophysical scanner design",
+        body: "Easily reconfigurable for different survey tasks and terrain types, from roadways to open ground.",
+      },
+      {
+        title: "Rugged tablet controller",
+        body: "Field-proof touchscreen tablet delivers live imaging and easy control even in harsh outdoor conditions.",
+      },
+      {
+        title: "Continuous data acquisition",
+        body: "Captures uninterrupted survey lines for efficient coverage of large areas and consistent results.",
+      },
+      {
+        title: "Flexible data output",
+        body: "Supports USB, Ethernet, and WiFi export for smooth transfer to processing and reporting software.",
+      },
+    ],
+    
+    specs: [
+      { label: "Instrument type", value: "250 MHz Ground Penetrating Radar (GPR) system" },
+      { label: "Antenna frequency", value: "250 MHz" },
+      { label: "Typical depth range", value: "Up to 30 meters depending on ground conditions" },
+      { label: "Survey mode", value: "Cart-based continuous scanning" },
+      { label: "Display", value: "Weatherproof touchscreen tablet" },
+      { label: "Applications", value: "Deep utility locating, tunnel detection, geological mapping, void identification" },
+    ],
+
+    brochure: {
+      label: "100 Series Geophysical Scanner Ground Penetrating Radar System Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },  
+
+// GPRover Utility Mapping System
+
+  "gprover-utility-mapping-system": {
+    slug: "gprover-utility-mapping-system",
+    title: "GPRover Utility Mapping System",
+    brand: "By Model",
+    category: "Ground Penetrating Radar (GPR)",
+    tagline:
+      "GPRover harnesses ground penetrating radar technology for superior locating and data collection capabilities; integrating advanced subsurface imaging technology with high accuracy GPS and mapping. The antenna’s award-winning triple bandwidth technology also provides a deeper, clearer read of what’s beneath the surface you’re scanning.",
+
+    description: `
+The GPRover Difference
+
+-Easy to learn and operate
+-Provides unrivaled accuracy within 5cm. (2in.)
+-Creates deliverable data that operate and field crew can use immediately
+
+Unique GPRover Features:
+
+-Annually renewable subscription provides accurate corrections no matter your location
+-Annually renewable subscription connects you to multiple reliable networks, no matter your location
+-No cellular modem or base station required – connect the battery, power on, calibrate your antenna, and start scanning.
+`,
+    price: "₹0.00",
+    mrp: "₹2.00",
+    savings: "100.00% OFF",
+    badges: ["In Stock", "Ground Penetrating Radar (GPR)"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Mapping Systemm",
+    images: [
+      "/upload/products/gprover-utility-mapping-system/1.png",
+      "/upload/products/gprover-utility-mapping-system/2.png",
+      "/upload/products/gprover-utility-mapping-system/3.png",
+      "/upload/products/gprover-utility-mapping-system/4.png",
+    ],
+    
+    inTheBox: [
+      "1× GPRover Utility Mapping System",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+    features: [
+      {
+        title: "Multi-frequency GPR antenna",
+        body: "Switchable antenna options for balanced depth penetration and resolution across different survey needs.",
+      },
+      {
+        title: "Integrated GNSS with RTK support",
+        body: "Built-in GNSS/RTK positioning provides centimeter-level georeferencing for accurate utility maps.",
+      },
+      {
+        title: "Real-time 2D & 3D visualization",
+        body: "Live radargram display with optional 3D volume rendering for immediate on-site interpretation.",
+      },
+      {
+        title: "Continuous survey recording",
+        body: "Seamless line capture with low-noise acquisition for consistent data over large areas.",
+      },
+      {
+        title: "Flexible data export and formats",
+        body: "Export to common GPR and GIS formats (CSV, SEG-Y, GPR-specific) via USB, Ethernet, or WiFi.",
+      },
+    ],
+
+    specs: [
+      { label: "Instrument type", value: "Modular GPR Utility Mapping System" },
+      { label: "Antenna frequencies", value: "Optional 250 MHz / 500 MHz / 1000 MHz" },
+      { label: "Depth range", value: "0.1–30 m depending on antenna and ground conditions" },
+      { label: "Positioning", value: "Integrated GNSS with RTK/PPK support (optional)" },
+      { label: "Data output", value: "2D radargrams and optional 3D volumes; exportable to CSV, SEG-Y, and common GPR software" },
+      { label: "Connectivity", value: "USB, Ethernet, WiFi; supports cloud or local data transfer" },
+    ],
+
+    brochure: {
+      label: "GPRover Utility Mapping System Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },  
+
+
+// Quantum Imager Triple Frequency GPR System
+
+  "quantum-imager-triple-frequency-gpr-system": {
+    slug: "quantum-imager-triple-frequency-gpr-system",
+    title: "Quantum Imager Triple Frequency GPR System",
+    brand: "By Model",
+    category: "Ground Penetrating Radar (GPR)",
+    tagline:
+      "Quantum Imaging Applications With greater depth and resolution than any other locating technology, the Quantum Imager can be used for anything from fiber optic analysis to utilities up to 30′(9m)+ deep and everything in between.",
+
+    description: `
+Quantum Imaging Applications
+
+With greater depth and resolution than any other locating technology, the Quantum Imager can be used for anything from fiber optic analysis to utilities up to 30′(9m)+ deep and everything in between.
+`,
+    price: "₹1.00",
+    mrp: "₹2.00",
+    savings: "50.00% OFF",
+    badges: ["In Stock", "Ground Penetrating Radar (GPR)"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GPR System",
+    images: [
+      "/upload/products/quantum-imager-triple-frequency-gpr-system/1.webp",
+      "/upload/products/quantum-imager-triple-frequency-gpr-system/2.webp",
+    ],
+    
+    inTheBox: [
+      "1× Quantum Imager Triple Frequency GPR System",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+    features: [
+      {
+        title: "Triple-frequency antenna configuration",
+        body: "Combines 250 MHz, 500 MHz, and 1000 MHz bands for both deep penetration and high-resolution imaging.",
+      },
+      {
+        title: "Ruggedized tablet interface",
+        body: "Displays live scans and survey results clearly in bright sunlight and outdoor environments.",
+      },
+      {
+        title: "Advanced 3D imaging support",
+        body: "Captures and renders subsurface volumes to help identify utilities, voids, and structural features.",
+      },
+      {
+        title: "Continuous survey capture",
+        body: "Records long survey lines smoothly with minimal interruption for faster field coverage.",
+      },
+      {
+        title: "Multiple export formats",
+        body: "Exports data in standard GPR and GIS formats via USB, Ethernet, or WiFi for post-processing.",
+      },
+    ],
+
+    specs: [
+      { label: "Instrument type", value: "Triple-frequency Ground Penetrating Radar (GPR) system" },
+      { label: "Antenna frequencies", value: "250 MHz, 500 MHz, 1000 MHz" },
+      { label: "Depth range", value: "Shallow to medium depth imaging up to 9 meters depending on ground conditions" },
+      { label: "Display", value: "Weatherproof touchscreen tablet with daylight-readable screen" },
+      { label: "Output formats", value: "2D radargrams and 3D volumes; exportable as CSV, SEG-Y, and GPR-compatible files" },
+      { label: "Connectivity", value: "USB, Ethernet, WiFi" },
+    ],
+
+    brochure: {
+      label: "Quantum Imager Triple Frequency GPR System Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },  
+
+// Cable/Pipe locator
+
+  "cablepipe-locator": {
+    slug: "cablepipe-locator",
+    title: "Cable/Pipe Locator",
+    brand: "FUZRR",
+    category: "Cable & Pipe Locators",
+    tagline:
+      "Pipeline detection (cable position tracking, direction display, depth measurement, current measurement), cable identification, A word frame fault search (optional function)",
+
+    description: `
+When using the coupling method and the induction method, the transmitter will produce interference in close distance. The distance of interference is related to the transmission power and frequency. The greater the power, the higher the frequency, the stronger the interference.
+
+The minimum distance of the receiver without disturbed by the transmitter often needs to be determined by test:
+
+Pipeline detection: 5m away, 20m away as no interference Cable identification: the coupling method beyond 2~5m can be confirmed as no interference
+`,
+    price: "₹1.00",
+    mrp: "₹2.00",
+    savings: "50.00% OFF",
+    badges: ["In Stock", "Cable & Pipe Locator"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Cable/Pipe Locator",
+    images: [
+      "/upload/products/cablepipe-locator/1.jpg",
+      "/upload/products/cablepipe-locator/2.jpg",
+    ],
+    
+    inTheBox: [
+      "1× Cable/Pipe Locator",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Transmitter clamp inner diameter:φ125mm",
+        body: "Wide clamp opening fits cables and pipes up to 125 mm in diameter for easy signal coupling.",
+      },
+      {
+        title: "Power:8.4V large capacity rechargeable lithium battery",
+        body: "Long-lasting battery supports extended locating sessions without frequent recharging.",
+      },
+      {
+        title: "cable length of transmitter clamp:3M",
+        body: "Includes a 3-meter clamp cable for flexible placement and reliable signal transmission.",
+      },
+      {
+        title: "Sound instructions:FM tone with signal intensity",
+        body: "FM tone guidance and signal strength feedback help the operator track conductors accurately.",
+      },
+      {
+        title: "Pipeline measurement depth:0-20m",
+        body: "Detects buried pipelines and utilities from the surface to depths of 20 meters in favorable conditions.",
+      },
+      {
+        title: "Touch screen:yes",
+        body: "Touchscreen control simplifies mode selection, depth readout, and real-time locating feedback.",
+      },
+    ],
+
+    specs: [
+      { label: "Instrument type", value: "Cable and pipe locator" },
+      { label: "Transmitter power", value: "8.4V rechargeable lithium battery" },
+      { label: "Clamp inner diameter", value: "125 mm" },
+      { label: "Transmitter cable length", value: "3 meters" },
+      { label: "Measurement depth", value: "0–20 meters depending on soil and pipe conditions" },
+      { label: "Interface", value: "Color touchscreen with signal strength indicator" },
+    ],
+
+    brochure: {
+      label: "Cable/Pipe Locator Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },  
+
+
+
+// GLM400
+
+  "glm400": {
+    slug: "glm400",
+    title: "GLM400",
+    brand: "BOSCH",
+    category: "Laser Distance Meters",
+    tagline:
+      "GLM 400 PROFESSIONAL LASER MEASURE",
+
+    description: `
+Conversion at one press
+
+Dedicated conversion button for immediate unit change at one press
+User-friendly human machine interface (HMI) for quick selection of measuring functions
+Colour display technology for easy interpretation of essential information and measurements
+`,
+    price: "₹5,400.00",
+    mrp: "₹9,200.00",
+    savings: "41.30% OFF",
+    badges: ["In Stock", "Laser Distance Meter"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GLM400",
+    images: [
+
+      "/upload/products/glm400/1.png",
+      "/upload/products/glm400/2.jpg",
+      "/upload/products/glm400/3.jpg",
+    ],
+    
+    inTheBox: [
+      "1× Laser Distance Meter",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Dust and splash protection: IP54",
+        body: "Built to withstand dusty environments and light water exposure for reliable outdoor use.",
+      },
+      {
+        title: "Red laser diode: 635 nm, < 1 mW",
+        body: "Visible red laser pointer ensures precise targeting with a safe Class 2 laser output.",
+      },
+      {
+        title: "Wide measurement range",
+        body: "Measures distances from 0.05 m up to 40.00 m for flexible indoor and outdoor applications.",
+      },
+      {
+        title: "Lightweight and portable",
+        body: "Compact design and 0.1 kg weight make it easy to carry and use for extended periods.",
+      },
+      {
+        title: "Dual measurement units",
+        body: "Switch quickly between meters/centimeters and feet/inches for global usability.",
+      },
+      {
+        title: "Auto power-off",
+        body: "Conserves battery life by switching off automatically after 5 minutes of inactivity.",
+      },
+    ],
+
+    specs: [
+      { label: "Dust and splash protection", value: "IP54" },
+      { label: "Laser diode", value: "635 nm, < 1 mW" },
+      { label: "Measurement range", value: "0.05 – 40.00 m" },
+      { label: "Weight, approx.", value: "0.1 kg" },
+      { label: "Units of measurement", value: "m/cm, ft/inch" },
+      { label: "Laser class", value: "Class 2" },
+      { label: "Measurement accuracy, typical", value: "± 1.5 mm* (*plus use-dependent deviation)" },
+      { label: "Power supply", value: "2 x 1.5 V LR03 (AAA)" },
+      { label: "Automatic deactivation", value: "5 min" },
+      { label: "Tripod thread", value: "1/4\"" },
+      { label: "Laser colour", value: "Red" },
+      { label: "Measuring range, up to", value: "40 m" },
+    ],
+
+    brochure: {
+      label: "Laser Distance Meter Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+// GLM 50-27 CG
+
+  "glm-50-27-cg": {
+    slug: "glm-50-27-cg",
+    title: "GLM 50-27 CG",
+    brand: "BOSCH",
+    category: "Laser Distance Meters",
+    tagline:
+      "GLM 50-27 CG PROFESSIONAL LASER MEASURE",
+
+    description: `
+Robust & reliable laser measure with green laser for excellent visibility
+
+Green laser technology ensures excellent visibility for long-distance measurements in bright indoor conditions
+Ideal for rough construction work due to 1.5-metre drop resistance, IP65 protection, and shock-absorbing rubber casing
+Quick documentation and fast data transfer thanks to Bluetooth® connectivity and Bosch MeasureOn App
+`,
+    price: "₹12,060.00",
+    mrp: "₹15,825.00",
+    savings: "23.79% OFF",
+    badges: ["In Stock", "Laser Distance Meter"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GL-50-27-CG",
+    images: [
+
+      "/upload/products/glm-50-27-cg/1.jpg",
+      "/upload/products/glm-50-27-cg/2.jpg",
+      "/upload/products/glm-50-27-cg/3.jpg",
+    ],
+    
+    inTheBox: [
+      "1× GLM 50-27 CG",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Dust and splash protection: IP65",
+        body: "Designed for construction sites, this meter resists dust and low-pressure water jets.",
+      },
+      {
+        title: "Fast measurement time",
+        body: "Captures distance readings in under 0.5 seconds for efficient layout and takeoff work.",
+      },
+      {
+        title: "Green laser diode: 515 nm, < 1 mW",
+        body: "High-contrast green laser improves visibility in bright lighting conditions.",
+      },
+      {
+        title: "Extended measurement range",
+        body: "Measures distances from 0.05 m up to 50.00 m with consistent accuracy.",
+      },
+      {
+        title: "Accurate incline measurement",
+        body: "Supports 0–360° tilt detection with ±0.2° typical accuracy for slope and angle checks.",
+      },
+      {
+        title: "Bluetooth® 4.2 Low Energy",
+        body: "Wireless data transfer enables fast syncing with apps and mobile devices.",
+      },
+    ],
+
+    specs: [
+      { label: "Dust and splash protection", value: "IP65" },
+      { label: "Measurement time, typical", value: "< 0.5 s" },
+      { label: "Units of measurement", value: "m/cm, ft/inch" },
+      { label: "Laser diode", value: "515 nm, < 1 mW" },
+      { label: "Measurement range", value: "0.05 – 50.00 m" },
+      { label: "Laser class", value: "Class 2" },
+      { label: "Measurement accuracy, typical", value: "± 1.5 mm* (*plus use-dependent deviation)" },
+      { label: "Measurement range of incline measurement", value: "0 – 360° (4 x 90°)" },
+      { label: "Measuring accuracy (typical)", value: "± 0.2°* (*plus use-dependent deviation)" },
+      { label: "Measurement time, max.", value: "4 s" },
+      { label: "Power supply", value: "2 x 1.5 V LR6 (AA)" },
+      { label: "Automatic deactivation", value: "5 min" },
+      { label: "Weight, approx.", value: "0.2 kg" },
+      { label: "Memory capacity (values)", value: "30" },
+      { label: "Tripod thread", value: "1/4\"" },
+      { label: "Data transfer", value: "Bluetooth™ 4.2 Low Energy" },
+      { label: "Laser colour", value: "Green" },
+      { label: "Measuring range, up to", value: "50 m" },
+    ],
+
+    brochure: {
+      label: "Laser Distance Meter Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+// GLM 150 C
+
+  "glm-150-c": {
+    slug: "glm-150-c",
+    title: "GLM 150 C",
+    brand: "BOSCH",
+    category: "Laser Distance Meters",
+    tagline:
+      "GLM 150 C PROFESSIONAL LASER MEASURE",
+
+    description: `
+The Bosch laser tool for measuring and documenting easily and professionally – a smart solution for all 
+surroundings.
+
+Precise targeting thanks to the digital viewfinder with zoom function – also for outdoor applications and long distance
+Optimal readability due to large 2.8” IPS colour display with extra robust cover glass
+Fast collection and documentation of measured values thanks to Measuring Master App
+
+`,
+    price: "₹21,060.00",
+    mrp: "₹29,300.00",
+    savings: "28.12% OFF",
+    badges: ["In Stock", "Laser Distance Meter"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GL-150-C",
+    images: [
+
+      "/upload/products/glm-150-c/1.png",
+      "/upload/products/glm-150-c/2.jpg",
+      "/upload/products/glm-150-c/3.jpg",
+    ],
+    
+    inTheBox: [
+      "1× GLM 150 C",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Dust and splash protection: IP54",
+        body: "Protected against dust and splashing water for reliable everyday use.",
+      },
+      {
+        title: "Red laser diode: 650 nm, < 1 mW",
+        body: "Precise red laser aiming for accurate long-distance measurements.",
+      },
+      {
+        title: "Long measurement range",
+        body: "Measures from 0.08 m up to 150.00 m for versatile indoor and outdoor tasks.",
+      },
+      {
+        title: "Integrated digital viewfinder",
+        body: "Zoom-enabled digital viewfinder helps target distant points accurately.",
+      },
+      {
+        title: "Bluetooth® Smart connectivity",
+        body: "Transfers measurement data wirelessly to compatible modern devices.",
+      },
+      {
+        title: "Large memory capacity",
+        body: "Stores up to 50 values so you can keep more measurements without manual notes.",
+      },
+    ],
+
+    specs: [
+      { label: "Dust and splash protection", value: "IP54" },
+      { label: "Laser diode", value: "650 nm, < 1 mW" },
+      { label: "Measurement range", value: "0.08 – 150.00 m" },
+      { label: "Weight, approx.", value: "0.23 kg" },
+      { label: "Units of measurement", value: "m/cm, ft/inch" },
+      { label: "Laser class", value: "Class 2" },
+      { label: "Measurement accuracy, typical", value: "± 1.5 mm* (*plus use-dependent deviation)" },
+      { label: "Power supply", value: "3 x 1.5 V LR6 batteries (AA)" },
+      { label: "Automatic deactivation", value: "0 min" },
+      { label: "Memory capacity (values)", value: "50" },
+      { label: "Tripod thread", value: "1/4\"" },
+      { label: "Digital viewfinder", value: "Integrated" },
+      { label: "Data transfer", value: "Bluetooth™ Smart" },
+      { label: "Supported Android devices", value: "Smartphone with Android 4.3 or higher" },
+      { label: "Supported iOS devices", value: "iPhone 4S or higher, iPad (3rd Gen. or higher), iPad Air (1st Gen. or higher), iPad mini (1st Gen. or higher)" },
+      { label: "Laser colour", value: "Red" },
+      { label: "Measuring range, up to", value: "150 m" },
+    ],
+
+    brochure: {
+      label: "GLM 150 C Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
+
+
+// GLM 100-25 C
+
+  "glm-100-25-c": {
+    slug: "glm-100-25-c",
+    title: "GLM 100-25 C",
+    brand: "BOSCH",
+    category: "Laser Distance Meters",
+    tagline:
+      "GLM 100-25 C PROFESSIONAL LASER MEASURE",
+
+    description: `
+Precise laser measure for easy indoor and outdoor measuring and documenting
+
+Accurate, 100-m laser measuring thanks to a digital camera viewfinder with a zoom function
+Large, high-contrast IPS color display with a flip screen ensures optimal reading
+Laser measure connects via Bluetooth for efficient data documentation
+
+`,
+    price: "₹21,060.00",
+    mrp: "₹29,300.00",
+    savings: "28.12% OFF",
+    badges: ["In Stock", "Laser Distance Meter"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "GL-100-25-C",
+    images: [
+
+      "/upload/products/glm-100-25-c/1.png",
+      "/upload/products/glm-100-25-c/2.jpg",
+      "/upload/products/glm-100-25-c/3.jpg",
+    ],
+    
+    inTheBox: [
+      "1× GLM 100-25 C",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Dust and splash protection: IP54",
+        body: "Protected against dust ingress and splashing water for reliable everyday use.",
+      },
+      {
+        title: "Red laser diode: 650 nm, < 1 mW",
+        body: "Bright red laser helps you target points precisely for medium-range measurements.",
+      },
+      {
+        title: "100-meter measurement range",
+        body: "Measures from 0.08 m up to 100.00 m for flexible indoor and outdoor work.",
+      },
+      {
+        title: "Integrated digital viewfinder",
+        body: "Zoom-enabled digital viewfinder provides precise aiming on distant targets.",
+      },
+      {
+        title: "Bluetooth® 4.2 Low Energy",
+        body: "Transmits measurement data wirelessly to compatible mobile devices.",
+      },
+      {
+        title: "Large memory capacity",
+        body: "Stores up to 50 values so you can keep more measurements without manual notes.",
+      },
+    ],
+
+    specs: [
+      { label: "Dust and splash protection", value: "IP54" },
+      { label: "Measurement time, typical", value: "< 0.5 s" },
+      { label: "Units of measurement", value: "m/cm, ft/inch" },
+      { label: "Laser diode", value: "650 nm, < 1 mW" },
+      { label: "Measurement range", value: "0.08 – 100.00 m" },
+      { label: "Laser class", value: "Class 2" },
+      { label: "Measurement accuracy, typical", value: "± 1.5 mm* (*plus use-dependent deviation)" },
+      { label: "Measurement range of incline measurement", value: "0 – 360° (4 x 90°)" },
+      { label: "Measuring accuracy (typical)", value: "± 0.2°* (*plus use-dependent deviation)" },
+      { label: "Measurement time, max.", value: "4 s" },
+      { label: "Power supply", value: "3 x 1.5 V LR6 (AA)" },
+      { label: "Automatic deactivation", value: "5 min" },
+      { label: "Weight, approx.", value: "0.23 kg" },
+      { label: "Memory capacity (values)", value: "50" },
+      { label: "Tripod thread", value: "1/4\"" },
+      { label: "Digital viewfinder", value: "Integrated" },
+      { label: "Data transfer", value: "Bluetooth™ 4.2 Low Energy" },
+      { label: "Laser colour", value: "Red" },
+      { label: "Measuring range, up to", value: "100 m" },
+    ],
+
+    brochure: {
+      label: "GLM 100-25 C Brochure — (English)",
+      href: "",
+      meta: "PDF · 1.0 MB · English",
+    },
+
+  },
 
 
 

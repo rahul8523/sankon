@@ -337,7 +337,7 @@ export const categories: CategoryInfo[] = [
         image: "/upload/categoryImg/laser-levels/ProdImg414373.png",  
       },
       {
-        title: "GLL 3-80 CG",
+        title: "GLL 3-80 CG ",
         subtitle:
           "GLL 3-80 CG PROFESSIONAL LINE LASER",
         image: "/upload/categoryImg/laser-levels/ProdImg154472.png",
@@ -395,10 +395,10 @@ export const categories: CategoryInfo[] = [
   {
     title: "SLAM / LiDAR Scanners",
     slug: "slam-lidar-scanners",
-    brands: "FEIMA · Hi-Target",
+    brands: "Hi-Target",
     img: "/upload/categoryImg/ProdImg90323.png",
     href: "/category/slam-lidar-scanners",
-    brandLinks: makeBrandLinks("FEIMA · Hi-Target", "slam-lidar-scanners"),
+    brandLinks: makeBrandLinks("Hi-Target", "slam-lidar-scanners"),
     description:
       "SLAM and LiDAR scanners for rapid 3D mapping, site digitization, and spatial modeling across infrastructure and survey projects.",
     heroImage: "/upload/categoryImg/ProdImg90323.png",
