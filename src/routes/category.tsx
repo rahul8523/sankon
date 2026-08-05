@@ -318,12 +318,12 @@ export default function CategoryPage() {
 
                     {
                       title:
-                        "GRAIN SIZE ANALYSIS APPARATUS PIPETTE METHOD - AS PE",
+                        "GRAIN SIZE ANALYSIS APPARATUS PIPETTE METHOD - AS PER IS2720 PART-IV",
                       subtitle:
                         "The Apparatus consists of a sliding panel which moves up and down by means of a screw allowing Anderson Pipette fixed to it to be raised or lowered ve",
                       image:
                         "/upload/categoryImg/lab-and-material-testing/11.png",
-                      href: "/product-detail/grain-size-analysis-apparatus-pipette-method-as-pe",
+                      href: "/product-detail/grain-size-analysis-apparatus-pipette-method-as-per-is2720-part-iv",
                     },
 
                     {
@@ -332,7 +332,7 @@ export default function CategoryPage() {
                         "MANOMETER: Glass U-tube manometer for measuring low positive pore pressures negative pore pressures and checking zero error of pressure gauge. It is p ",
                       image:
                         "/upload/categoryImg/lab-and-material-testing/12.jpg",
-                      href: "/product-detail/bishop-pore-pressure-apparatus-10kg-cm2",
+                      href: "/product-detail/bishop-pore-pressure-apapratus-10kgcm2",
                     },
 
                     {
@@ -366,12 +366,12 @@ export default function CategoryPage() {
 
                     {
                       title:
-                        "SWELL PRESSURE TEST APPARATUS W/O PROVING RING AND",
+                        "SWELL PRESSURE TEST APPARATUS W/O PROVING RING AND DIAL GAUGE-",
                       subtitle:
                         "One loading unit hand operated 5000 kg capacity with two rates of travel One Gun metal mould, 100mm dia x 127.3 cm height X 1000 cc volume with base ",
                       image:
                         "/upload/categoryImg/lab-and-material-testing/16.jpg",
-                      href: "/product-detail/swell-pressure-test-apparatus-w-o-proving-ring-and",
+                      href: "/product-detail/swell-pressure-test-apparatus-wo-proving-ring-and-dial-gauge",
                     },
 
                     {
@@ -395,12 +395,12 @@ export default function CategoryPage() {
 
                     {
                       title:
-                        "RELATIVE DENSITY APPARATUS RELATIVE DENSITY APPARA",
+                        "RELATIVE DENSITY APPARATUS RELATIVE DENSITY APPARATUS",
                       subtitle:
                         "The equipment comprises a motorized vibratory table of size 75 mm x 75 mm, which operates on 440 Volts, Three phase, A.C. Supply. Also, consists of a ",
                       image:
                         "/upload/categoryImg/lab-and-material-testing/19.jpg",
-                      href: "/product-detail/relative-density-apparatus",
+                      href: "/product-detail/relative-density-apparatus-relative-density-apparatus",
                     },
 
                     {
@@ -544,7 +544,7 @@ export default function CategoryPage() {
                             subtitle:
                               "HD-MAX Ⅱ dual-frequency echo sounder redefines underwater surveying. Its enhanced host unit is water-resistant, portable, and offers versatile inter",
                             image: "/upload/categoryImg/marine/4.png",
-                            href: "/product-detail/hd-max-ii",
+                            href: "/product-detail/hd-max",
                           },
                         ]
                       : activeBrand?.slug === "bosch" &&
@@ -577,7 +577,7 @@ export default function CategoryPage() {
                               subtitle:
                                 "GLM 100-25 C PROFESSIONAL LASER MEASURE",
                               image: "/upload/categoryImg/laser/4.jpg",
-                              href: "/product-detail/glm100-25-c",
+                              href: "/product-detail/glm-100-25-c",
                             },
 
                             {
@@ -585,7 +585,49 @@ export default function CategoryPage() {
                               subtitle:
                                 "GLM 50-23 G PROFESSIONAL LASER MEASURE",
                               image: "/upload/categoryImg/laser/5.png",
-                              href: "/product-detail/glm50-23-g",
+                              href: "/product-detail/glm-50-23-g",
+                            },
+                          ]
+
+                          : activeBrand?.slug === "mileseey" &&
+                          category.slug === "laser-distance-meters"
+                        ? [
+                            {
+                              title: "P9 Outdoor Laser Measure with Camera",
+                              subtitle: "Outdoor Laser Distance Meter The P9 LDM is the epitome of top-of-the-line measuring devices, built to meet the demands of professionals working on l",
+                              image: "/upload/categoryImg/mileseey/1.png",
+                              href: "/product-detail/p9-outdoor-laser-measure-with-camera",
+                            },
+
+                            {
+                              title: "S7 330ft Outdoor Laser Measure with Camera",
+                              subtitle:
+                                "Point Viewfinder with Camera The built-in viewfinder camera (2x zoom digital camera) with on-screen aiming reticle ensures you to find the laser spot",
+                              image: "/upload/categoryImg/mileseey/2.png",
+                              href: "/product-detail/s7-330ft-outdoor-laser-measure-with-camera",
+                            },
+
+                            {
+                              title: "Mileseey S50 Laser Distance Meter (Green Beam)",
+                              subtitle: "Mileseey S50 Laser Distance Meter is a compact and highly accurate digital measuring tool designed for construction, engineering, and site work. It de",
+                              image: "/upload/categoryImg/mileseey/3.png",
+                              href: "/product-detail/mileseey-s50-laser-distance-meter-green-beam",
+                            },
+
+                            {
+                              title: "XTAPE1 Digital Tape Measure with Laser",
+                              subtitle:
+                                "XTAPE1 smartly combines a digital tape with a laser measuring part in one sleek modular design, offering users effortless measuring solutions to any d",
+                              image: "/upload/categoryImg/mileseey/4.png",  
+                              href: "/product-detail/xtape1-digital-tape-measure-with-laser",
+                            },
+
+                            {
+                              title: "DT20 Digital Laser Tape Measure with Bluetooth",
+                              subtitle:
+                                "High Accuracy | Fast Speed HD LCD Backlit Screen, clear reading. Nylon Coating so that it can be wear-resistant, non-slip, and drop-resistant. TAPE M",
+                              image: "/upload/categoryImg/mileseey/5.png",
+                              href: "/product-detail/dt20-digital-laser-tape-measure-with-bluetooth",
                             },
                           ]
                         : activeBrand?.slug === "nikon" &&
@@ -604,7 +646,7 @@ export default function CategoryPage() {
                                 subtitle:
                                   "Battery BC-65, 7.2V, 3800mAh, Ni-MH for Nikon DTM300/400, NPR300, NPL300/Focus4 / Trimble M3 DOS Total Station",
                                 image: "/upload/categoryImg/survey/2.png",
-                                href: "/product-detail/nikon-battery-bc-65-7-2v",
+                                href: "/product-detail/nikon-battery-bc-65-72v",
                               },
 
                               {
@@ -612,7 +654,7 @@ export default function CategoryPage() {
                                 subtitle:
                                   "Battery Charger Q-75E, 7.2V for Nikon DTM300.400, NPR300, NPL300/Focus4, DTM500.600.800, NPL632/821/Trimble M3 DOS Total Station",
                                 image: "/upload/categoryImg/survey/3.webp",
-                                href: "/product-detail/nikon-battery-charger-q-75e-7-2v",
+                                href: "/product-detail/nikon-battery-charger-q-75e-72v",
                               },
 
                               {
@@ -688,7 +730,7 @@ export default function CategoryPage() {
                                 subtitle:
                                   "Fibre Levelling Staff, 5M long and 7.6M long",
                                 image: "/upload/categoryImg/survey/13.png",
-                                href: "/product-detail/fibre-levelling-staff",
+                                href: "/product-detail/fibre-levellng-staff",
                               },
 
                               {
