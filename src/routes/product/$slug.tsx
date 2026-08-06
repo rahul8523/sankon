@@ -4330,7 +4330,7 @@ HD-MAX Ⅱ dual-frequency echo sounder redefines underwater surveying. Its enhan
 
   // P9 Outdoor Laser Measure with Camera
 
-  "p9-outdoor-laser-measure-with-camera": {
+"p9-outdoor-laser-measure-with-camera": {
     slug: "p9-outdoor-laser-measure-with-camera",
     title: "P9 Outdoor Laser Measure with Camera",
     brand: "Mileseey",
@@ -4418,6 +4418,186 @@ The advanced indirect measuring features of P9, like point-to-point, trapezium, 
       meta: "PDF · 1.0 MB · English",
     },
   },
+
+
+
+// Mileseey S50C Green Laser Measure with Camera
+  
+"mileseey-s50c-green-laser-measure-with-camera": {
+    slug: "mileseey-s50c-green-laser-measure-with-camera",
+    title: "Mileseey S50C Green Laser Measure with Camera",
+    brand: "Mileseey",
+    category: "Laser Distance Meters",
+    tagline:
+      "Mileseey S50C combines green-beam distance measurement with a 4x zoom camera for precise outdoor targeting and fast data capture.",
+
+    description: `
+The Mileseey S50C Green Laser Measure with Camera is built for professionals who need accurate long-range measurements, clear target visualization, and seamless data transfer. Featuring bright green-beam laser visibility, a 4x optical zoom camera, and a responsive 2.4-inch AMOLED touchscreen, the S50C delivers reliable measurement performance up to 300 m (1,000 ft) in demanding outdoor conditions.
+
+Advanced P2P and indirect measurement modes make it easy to capture distance, area, volume, height, and stakeout measurements without direct line of sight. Built-in Bluetooth connectivity allows users to sync results instantly with the Mileseey Tools mobile app or compatible field apps.
+`,
+    price: "₹37,900",
+    mrp: "₹42,300",
+    savings: "10.40% OFF",
+    badges: ["In Stock", "Laser Distance Meters"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "S50C",
+    images: [
+      "/upload/products/mileseey-s50c-green-laser-measure-with-camera/1.png",
+      "/upload/products/mileseey-s50c-green-laser-measure-with-camera/2.png",
+      "/upload/products/mileseey-s50c-green-laser-measure-with-camera/3.png",
+      "/upload/products/mileseey-s50c-green-laser-measure-with-camera/4.png",
+      "/upload/products/mileseey-s50c-green-laser-measure-with-camera/5.png",
+      "/upload/products/mileseey-s50c-green-laser-measure-with-camera/6.png",
+    ],
+
+    inTheBox: [
+      "1× Mileseey S50C Green Laser Measure with Camera",
+      "1× Remote controller",
+      "1× Rechargeable battery pack",
+      "1× USB-C charger",
+      "1× User manual",
+    ],
+
+    features: [
+      {
+        title: "Bright green-beam targeting",
+        body: "Visible laser technology improves target acquisition in bright outdoor environments and over long distances.",
+      },
+      {
+        title: "4× optical zoom camera",
+        body: "High-resolution camera and zoom allow precise sighting of distant or hard-to-reach targets.",
+      },
+      {
+        title: "Professional P2P and indirect measurements",
+        body: "Supports point-to-point, height, area, volume, and multi-step indirect measurement modes for flexible field work.",
+      },
+      {
+        title: "Bluetooth mobile app sync",
+        body: "Send measurements directly to the Mileseey Tools app or compatible field apps for faster reporting and fewer manual entries.",
+      },
+      {
+        title: "Large AMOLED touchscreen",
+        body: "The 2.4-inch sunlight-readable display makes menu navigation and measurement review easy in all lighting conditions.",
+      },
+      {
+        title: "Long-lasting battery and wireless charging",
+        body: "Recharge quickly and stay in the field longer with fast wireless charging and efficient power management.",
+      },
+    ],
+
+    specs: [
+      { label: "Measurement range", value: "0.05 – 300 m (1,000 ft)" },
+      { label: "Accuracy", value: "± 1.5 mm" },
+      { label: "Laser wavelength", value: "635 nm green beam" },
+      { label: "Laser class", value: "Class 2" },
+      { label: "Camera zoom", value: "4× optical" },
+      { label: "Display", value: "2.4-inch AMOLED touchscreen" },
+      { label: "Connectivity", value: "Bluetooth" },
+      { label: "Memory", value: "Up to 1,000 groups" },
+      { label: "Charging", value: "Wireless and USB-C" },
+      { label: "Protection", value: "IP54" },
+      { label: "Battery", value: "Rechargeable lithium battery" },
+      { label: "Weight", value: "Approx. 200 g" },
+      { label: "App support", value: "Mileseey Tools, magicplan" },
+    ],
+
+    brochure: {
+      label: "Mileseey S50C Brochure — (English)",
+      href: "/upload/products/mileseey-s50c-green-laser-measure-with-camera/S50C-Quick-Guide.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+    
+  },
+
+// Mileseey DTX-10 Laser Tape Measure
+  
+"mileseey-dtx-10-laser-tape-measure": {
+    slug: "mileseey-dtx-10-laser-tape-measure",
+    title: "Mileseey DTX-10 Laser Tape Measure",
+    brand: "Mileseey",
+    category: "Laser Distance Meters",
+    tagline:
+      "DTX-10 delivers fast, accurate distance and area measurements with green-beam visibility and a compact, field-ready design.",
+
+    description: `
+The Mileseey DTX-10 Laser Tape Measure is a professional measuring tool built for fast, precise layout work. It combines a high-visibility green beam laser with a rugged digital tape measure design, making it ideal for construction, interior fit-out, and site inspection tasks.
+
+With easy-to-use distance, area, volume, height, and Pythagorean measurement modes, the DTX-10 helps users capture clear results quickly. Its convenient Bluetooth connectivity also enables seamless transfer of measurements to the Mileseey Tools app for faster reporting and documentation.
+`,
+    price: "₹37,900",
+    mrp: "₹42,300",
+    savings: "10.40% OFF",
+    badges: ["In Stock", "Laser Distance Meters"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "DTX-10",
+    images: [
+      "/upload/products/mileseey-dtx-10-laser-tape-measure/1.png",
+      "/upload/products/mileseey-dtx-10-laser-tape-measure/2.png",
+      "/upload/products/mileseey-dtx-10-laser-tape-measure/3.png",
+      "/upload/products/mileseey-dtx-10-laser-tape-measure/4.png",
+      "/upload/products/mileseey-dtx-10-laser-tape-measure/5.png",
+      "/upload/products/mileseey-dtx-10-laser-tape-measure/6.png",
+    ],
+
+    inTheBox: [
+      "1× Mileseey DTX-10 Laser Tape Measure",
+      "1× Protective case",
+      "1× Rechargeable battery pack",
+      "1× USB-C charger",
+      "1× User manual",
+    ],
+
+    features: [
+      {
+        title: "Green beam laser visibility",
+        body: "High-visibility laser targeting helps users sight measurements clearly, even in daylight and on distant surfaces.",
+      },
+      {
+        title: "Smart Pythagorean measurements",
+        body: "Calculate height and indirect distances without needing direct line of sight to the target.",
+      },
+      {
+        title: "Bluetooth app connectivity",
+        body: "Export measurement data wirelessly to the Mileseey Tools mobile app for faster documentation and reporting.",
+      },
+      {
+        title: "Multi-function measurement modes",
+        body: "Supports distance, area, volume, continuous measurement, min/max, and stakeout modes for versatile field use.",
+      },
+      {
+        title: "Compact field-ready design",
+        body: "Lightweight and durable with a comfortable grip, the DTX-10 is easy to carry and operate on site.",
+      },
+      {
+        title: "Fast and stable performance",
+        body: "Reliable laser measurement and data recall reduce rework and keep projects moving on schedule.",
+      },
+    ],
+
+    specs: [
+      { label: "Measurement range", value: "0.05 – 150 m" },
+      { label: "Accuracy", value: "± 1.5 mm" },
+      { label: "Laser wavelength", value: "635 nm green beam" },
+      { label: "Laser class", value: "Class 2" },
+      { label: "Measurement modes", value: "Distance, area, volume, Pythagoras, continuous" },
+      { label: "Display", value: "Large color LCD" },
+      { label: "Connectivity", value: "Bluetooth" },
+      { label: "Battery", value: "Rechargeable lithium-ion" },
+      { label: "Protection", value: "IP54" },
+      { label: "Memory", value: "Multiple measurement records" },
+      { label: "Weight", value: "Approx. 0.2 kg" },
+      { label: "App support", value: "Mileseey Tools" },
+    ],
+
+    brochure: {
+      label: "Mileseey DTX-10 Brochure — (English)",
+      href: "/upload/products/mileseey-dtx-10-laser-tape-measure/DTX-10-Quick-Guide.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+    
+  },
+
 
   // S7 330ft Outdoor Laser Measure with Camera
 
@@ -7322,8 +7502,7 @@ Circular Prism with Holder and Target Plate
     title: "Fibre Levellng Staff",
     brand: "Nikon",
     category: "Survey Accessories",
-    tagline:
-      "Fibre Levelling Staff, 5M long and 7.6M long",
+    tagline: "Fibre Levelling Staff, 5M long and 7.6M long",
     description: `
 Fibre Levelling Staff, 5M long and 7.6M long
 `,
@@ -7335,7 +7514,7 @@ Fibre Levelling Staff, 5M long and 7.6M long
     sku: "Fibre Levellng Staff",
     images: [
       "/upload/products/fibre-levellng-staff/1.png",
-            "/upload/products/fibre-levellng-staff/2.png",
+      "/upload/products/fibre-levellng-staff/2.png",
     ],
     inTheBox: [
       "1× Fibre Levellng Staff",
@@ -7343,48 +7522,198 @@ Fibre Levelling Staff, 5M long and 7.6M long
       "1× Plumb bob",
       "1× Manual",
     ],
-features: [
-  {
-    title: "Waterproof and corrosion-resistant",
-    body: "Built with waterproof, corrosion-resistant materials to deliver reliable performance in challenging outdoor and wet environments.",
-  },
-  {
-    title: "Safe non-conductive construction",
-    body: "Manufactured using non-conductive materials, making it suitable for surveying applications where electrical safety is important.",
-  },
-  {
-    title: "Ergonomic profile design",
-    body: "Features a rectangular-oval shape with flat front and back surfaces and rounded corners for a comfortable grip and easy handling.",
-  },
-  {
-    title: "Universal spring-loaded button",
-    body: "Equipped with a universal spring-loaded button for quick, secure attachment and smooth field operation.",
-  },
-  {
-    title: "Protective carrying case",
-    body: "Supplied with a sturdy nylon carrying case that protects the equipment during transportation and storage.",
-  },
-],
+    features: [
+      {
+        title: "Waterproof and corrosion-resistant",
+        body: "Built with waterproof, corrosion-resistant materials to deliver reliable performance in challenging outdoor and wet environments.",
+      },
+      {
+        title: "Safe non-conductive construction",
+        body: "Manufactured using non-conductive materials, making it suitable for surveying applications where electrical safety is important.",
+      },
+      {
+        title: "Ergonomic profile design",
+        body: "Features a rectangular-oval shape with flat front and back surfaces and rounded corners for a comfortable grip and easy handling.",
+      },
+      {
+        title: "Universal spring-loaded button",
+        body: "Equipped with a universal spring-loaded button for quick, secure attachment and smooth field operation.",
+      },
+      {
+        title: "Protective carrying case",
+        body: "Supplied with a sturdy nylon carrying case that protects the equipment during transportation and storage.",
+      },
+    ],
 
-specs: [
-  { label: "Product type", value: "Surveying Accessory" },
-  { label: "Material", value: "Non-conductive, corrosion-resistant construction" },
-  { label: "Water resistance", value: "Waterproof design" },
-  { label: "Profile", value: "Rectangular-oval with flat faces and rounded corners" },
-  { label: "Locking mechanism", value: "Universal spring-loaded button" },
-  { label: "Carrying case", value: "Heavy-duty nylon carrying case included" },
-  { label: "Application", value: "Surveying and field measurement" },
-  { label: "Weather resistance", value: "Suitable for outdoor and harsh environments" },
-  { label: "Design", value: "Lightweight, durable, and field-ready" },
-],
+    specs: [
+      { label: "Product type", value: "Surveying Accessory" },
+      {
+        label: "Material",
+        value: "Non-conductive, corrosion-resistant construction",
+      },
+      { label: "Water resistance", value: "Waterproof design" },
+      {
+        label: "Profile",
+        value: "Rectangular-oval with flat faces and rounded corners",
+      },
+      { label: "Locking mechanism", value: "Universal spring-loaded button" },
+      {
+        label: "Carrying case",
+        value: "Heavy-duty nylon carrying case included",
+      },
+      { label: "Application", value: "Surveying and field measurement" },
+      {
+        label: "Weather resistance",
+        value: "Suitable for outdoor and harsh environments",
+      },
+      { label: "Design", value: "Lightweight, durable, and field-ready" },
+    ],
     brochure: {
       label: "Fibre Levellng Staff Brochure — (English)",
       href: "",
       meta: "PDF · 2.0 MB · English",
     },
-
   },
-  
+
+  // LS1 SLAM Scanner
+
+  "ls1-slam-scanner": {
+    slug: "ls1-slam-scanner",
+    title: "LS1 SLAM Scanner",
+    brand: "Hi-Target",
+    category: "SLAM / LiDAR Scanners",
+    tagline:
+      "LS1 SLAM Scanner for precise real-time 3D scanning and mapping in indoor and outdoor environments.",
+    description: `
+The LS1 SLAM Scanner delivers fast, centimeter-level 3D scanning with integrated LiDAR and vision sensors. It produces real-time color point clouds, supports instant accuracy feedback, and adapts automatically to both indoor and outdoor conditions for efficient survey workflows.
+`,
+    price: "₹6,30,000",
+    mrp: "₹7,20,000",
+    savings: "12.50% OFF",
+    badges: ["In Stock", "SLAM Scanner"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "LS1 SLAM Scanner",
+    images: ["/upload/products/ls1-slam-scanner/1.png"],
+    inTheBox: [
+      "1× LS1 SLAM Scanner",
+      "1× Carrying case",
+      "1× Power adapter",
+      "1× User manual",
+    ],
+    features: [
+      {
+        title: "High-precision SLAM scanning",
+        body: "Captures dense 3D point clouds with centimeter-level accuracy using integrated LiDAR and camera sensors.",
+      },
+      {
+        title: "Indoor and outdoor mapping",
+        body: "Automatically adjusts to varying environments without manual calibration or GPS dependence.",
+      },
+      {
+        title: "Real-time color point cloud output",
+        body: "Provides live colorized scan data for instant on-site validation and decision-making.",
+      },
+      {
+        title: "Fast data export",
+        body: "Supports onboard storage and USB transfer for quick handoff to post-processing software.",
+      },
+      {
+        title: "Rugged field-ready design",
+        body: "Built for reliable on-site use with durable construction and protective carrying case.",
+      },
+    ],
+
+    specs: [
+      { label: "Product type", value: "SLAM 3D Scanner" },
+      { label: "Scan range", value: "Up to 100 m" },
+      { label: "Accuracy", value: "Centimeter-level precision" },
+      { label: "Sensor type", value: "LiDAR + vision sensors" },
+      {
+        label: "Point cloud output",
+        value: "Real-time colorized point clouds",
+      },
+      { label: "Battery runtime", value: "Up to 8 hours" },
+      { label: "Storage", value: "Internal memory + USB export" },
+      { label: "Connectivity", value: "Wi-Fi and USB-C" },
+      { label: "Application", value: "Indoor/outdoor survey and mapping" },
+    ],
+    brochure: {
+      label: "LS1 SLAM Scanner Brochure — (English)",
+      href: "/upload/products/ls1-slam-scanner/ls1-slam-scanner-EN-20250320s.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+  },
+
+  // Hi-LiDAR
+
+  "hi-lidar": {
+    slug: "hi-lidar",
+    title: "Hi-LiDAR",
+    brand: "Hi-Target",
+    category: "SLAM / LiDAR Scanners",
+    tagline:
+      "Hi-LiDAR software for fast, accurate LiDAR point cloud processing and analysis.",
+    description: `
+Hi-LiDAR is a complete 3D LiDAR point cloud processing software developed by Hi-Target. It integrates pre-processing, registration, cleaning, analysis, and export tools into one platform to improve survey productivity and data quality.
+`,
+    price: "₹63,000",
+    mrp: "₹72,000",
+    savings: "12.50% OFF",
+    badges: ["In Stock", "Software"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Hi-LiDAR",
+    images: ["/upload/products/hi-lidar/1.png"],
+    inTheBox: [
+      "1× Hi-LiDAR license key",
+      "1× Installation guide",
+      "1× User manual",
+    ],
+    features: [
+      {
+        title: "All-in-one point cloud workflow",
+        body: "Process LiDAR data from import through registration, cleaning, editing, and export in a single software environment.",
+      },
+      {
+        title: "Automatic registration and alignment",
+        body: "Align multiple scans automatically with high accuracy for fast and consistent project delivery.",
+      },
+      {
+        title: "Advanced noise filtering",
+        body: "Remove stray points and outliers using intelligent filtering tools for cleaner, more reliable models.",
+      },
+      {
+        title: "Multi-format export",
+        body: "Export processed point clouds to LAS, LAZ, E57, XYZ and other common surveying formats.",
+      },
+      {
+        title: "Interactive 3D visualization",
+        body: "View and inspect point cloud data in 3D with measurement, annotation, and slicing tools.",
+      },
+    ],
+
+    specs: [
+      { label: "Software type", value: "LiDAR point cloud processing" },
+      { label: "Supported formats", value: "LAS, LAZ, E57, XYZ, PLY" },
+      { label: "Platform", value: "Windows 10 / 11" },
+      {
+        label: "Key functions",
+        value: "Registration, denoising, segmentation, export",
+      },
+      { label: "Output", value: "Geo-referenced point clouds and mesh models" },
+      { label: "License", value: "Single-user perpetual license" },
+      { label: "GPU acceleration", value: "Supported for faster processing" },
+      { label: "Language", value: "English UI" },
+      {
+        label: "Application",
+        value: "LiDAR survey, mapping, BIM coordination",
+      },
+    ],
+    brochure: {
+      label: "Hi-LiDAR Brochure — (English)",
+      href: "/upload/products/hi-lidar/hi-lidar-brochure-en.pdf",
+      meta: "PDF · 1.0 MB · English",
+    },
+  },
 };
 
 const nikonProducts = [

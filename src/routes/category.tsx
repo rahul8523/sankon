@@ -221,7 +221,6 @@ export default function CategoryPage() {
                     href: "/product-detail/gll-3-80-cg",
                   },
                 ]
-
               : activeBrand?.slug === "soil-testing" &&
                   category.slug === "lab-material-testing"
                 ? [
@@ -588,191 +587,323 @@ export default function CategoryPage() {
                               href: "/product-detail/glm-50-23-g",
                             },
                           ]
-
-                          : activeBrand?.slug === "mileseey" &&
-                          category.slug === "laser-distance-meters"
-                        ? [
-                            {
-                              title: "P9 Outdoor Laser Measure with Camera",
-                              subtitle: "Outdoor Laser Distance Meter The P9 LDM is the epitome of top-of-the-line measuring devices, built to meet the demands of professionals working on l",
-                              image: "/upload/categoryImg/mileseey/1.png",
-                              href: "/product-detail/p9-outdoor-laser-measure-with-camera",
-                            },
-
-                            {
-                              title: "S7 330ft Outdoor Laser Measure with Camera",
-                              subtitle:
-                                "Point Viewfinder with Camera The built-in viewfinder camera (2x zoom digital camera) with on-screen aiming reticle ensures you to find the laser spot",
-                              image: "/upload/categoryImg/mileseey/2.png",
-                              href: "/product-detail/s7-330ft-outdoor-laser-measure-with-camera",
-                            },
-
-                            {
-                              title: "Mileseey S50 Laser Distance Meter (Green Beam)",
-                              subtitle: "Mileseey S50 Laser Distance Meter is a compact and highly accurate digital measuring tool designed for construction, engineering, and site work. It de",
-                              image: "/upload/categoryImg/mileseey/3.png",
-                              href: "/product-detail/mileseey-s50-laser-distance-meter-green-beam",
-                            },
-
-                            {
-                              title: "XTAPE1 Digital Tape Measure with Laser",
-                              subtitle:
-                                "XTAPE1 smartly combines a digital tape with a laser measuring part in one sleek modular design, offering users effortless measuring solutions to any d",
-                              image: "/upload/categoryImg/mileseey/4.png",  
-                              href: "/product-detail/xtape1-digital-tape-measure-with-laser",
-                            },
-
-                            {
-                              title: "DT20 Digital Laser Tape Measure with Bluetooth",
-                              subtitle:
-                                "High Accuracy | Fast Speed HD LCD Backlit Screen, clear reading. Nylon Coating so that it can be wear-resistant, non-slip, and drop-resistant. TAPE M",
-                              image: "/upload/categoryImg/mileseey/5.png",
-                              href: "/product-detail/dt20-digital-laser-tape-measure-with-bluetooth",
-                            },
-                          ]
-                        : activeBrand?.slug === "nikon" &&
-                            category.slug === "survey-accessories"
+                        : activeBrand?.slug === "mileseey" &&
+                            category.slug === "laser-distance-meters"
                           ? [
                               {
-                                title: "Traversing Kit",
+                                title: "P9 Outdoor Laser Measure with Camera",
                                 subtitle:
-                                  "Traversing Kit for Total Station compatible to all brands like Nikon, Trimble, Topcon, Sokkia, Pentax etc",
-                                image: "/upload/categoryImg/survey/1.png",
-                                href: "/product-detail/traversing-kit",
+                                  "Outdoor Laser Distance Meter The P9 LDM is the epitome of top-of-the-line measuring devices, built to meet the demands of professionals working on l",
+                                image: "/upload/categoryImg/mileseey/1.png",
+                                href: "/product-detail/p9-outdoor-laser-measure-with-camera",
                               },
 
                               {
-                                title: "Nikon Battery BC-65, 7.2V",
+                                title:
+                                  "S7 330ft Outdoor Laser Measure with Camera",
                                 subtitle:
-                                  "Battery BC-65, 7.2V, 3800mAh, Ni-MH for Nikon DTM300/400, NPR300, NPL300/Focus4 / Trimble M3 DOS Total Station",
-                                image: "/upload/categoryImg/survey/2.png",
-                                href: "/product-detail/nikon-battery-bc-65-72v",
+                                  "Point Viewfinder with Camera The built-in viewfinder camera (2x zoom digital camera) with on-screen aiming reticle ensures you to find the laser spot",
+                                image: "/upload/categoryImg/mileseey/2.png",
+                                href: "/product-detail/s7-330ft-outdoor-laser-measure-with-camera",
                               },
 
                               {
-                                title: "Nikon Battery Charger Q-75E, 7.2V",
+                                title:
+                                  "Mileseey S50 Laser Distance Meter (Green Beam)",
                                 subtitle:
-                                  "Battery Charger Q-75E, 7.2V for Nikon DTM300.400, NPR300, NPL300/Focus4, DTM500.600.800, NPL632/821/Trimble M3 DOS Total Station",
-                                image: "/upload/categoryImg/survey/3.webp",
-                                href: "/product-detail/nikon-battery-charger-q-75e-72v",
+                                  "Mileseey S50 Laser Distance Meter is a compact and highly accurate digital measuring tool designed for construction, engineering, and site work. It de",
+                                image: "/upload/categoryImg/mileseey/3.png",
+                                href: "/product-detail/mileseey-s50-laser-distance-meter-green-beam",
                               },
 
                               {
-                                title: "Nikon Battery BC-80",
+                                title: "XTAPE1 Digital Tape Measure with Laser",
                                 subtitle:
-                                  "Nikon Battery BC-80, 7.2V, Ni-MH, 3800mAh for Nikon DTM500.600.800, NPL632/821 Total Station",
-                                image: "/upload/categoryImg/survey/4.jpg",
-                                href: "/product-detail/nikon-battery-bc-80",
+                                  "XTAPE1 smartly combines a digital tape with a laser measuring part in one sleek modular design, offering users effortless measuring solutions to any d",
+                                image: "/upload/categoryImg/mileseey/4.png",
+                                href: "/product-detail/xtape1-digital-tape-measure-with-laser",
                               },
 
                               {
-                                title: "Nikon Nivo Charger",
+                                title:
+                                  "DT20 Digital Laser Tape Measure with Bluetooth",
                                 subtitle:
-                                  "Battery Charger Nivo for NikonXS/XF/NivoC/ NivoM/M+/NPL322+ / Trimble M3 / Spectra Focus 6/8 Total Station",
-                                image: "/upload/categoryImg/survey/5.png",
-                                href: "/product-detail/nikon-nivo-charger",
+                                  "High Accuracy | Fast Speed HD LCD Backlit Screen, clear reading. Nylon Coating so that it can be wear-resistant, non-slip, and drop-resistant. TAPE M",
+                                image: "/upload/categoryImg/mileseey/5.png",
+                                href: "/product-detail/dt20-digital-laser-tape-measure-with-bluetooth",
                               },
 
-                              {
-                                title: "Nikon Nivo Battery",
+                               {
+                                title:
+                                  "Mileseey S50C Green Laser Measure with Camera",
                                 subtitle:
-                                  "Battery Nivo, Li-ION for NikonXS/XF/NivoC/NivoM/M+/NPL322+ Total Station",
-                                image: "/upload/categoryImg/survey/6.png",
-                                href: "/product-detail/nikon-nivo-battery",
+                                  "High Accuracy | Fast Speed HD LCD Backlit Screen, clear reading. Nylon Coating so that it can be wear-resistant, non-slip, and drop-resistant. TAPE M",
+                                image: "/upload/products/mileseey-s50c-green-laser-measure-with-camera/0.png",
+                                href: "/product-detail/mileseey-s50c-green-laser-measure-with-camera",
                               },
 
-                              {
-                                title: "Nikon Data Cable",
+                               {
+                                title:
+                                  "Mileseey DTX-10 Laser Tape Measure",
                                 subtitle:
-                                  "Data Cable for for Nikon Nivo C, Nivo M/M+ and NPL-322 Total Station",
-                                image: "/upload/categoryImg/survey/7.png",
-                                href: "/product-detail/nikon-data-cable",
-                              },
-
-                              {
-                                title: "Sliding Mini Prism",
-                                subtitle: "Sliding Mini Prism",
-                                image: "/upload/categoryImg/survey/8.png",
-                                href: "/product-detail/sliding-mini-prism",
-                              },
-
-                              {
-                                title: "Mini Prism",
-                                subtitle: "Mini Prism with four Mini Poles",
-                                image: "/upload/categoryImg/survey/9.png",
-                                href: "/product-detail/mini-prism",
-                              },
-
-                              {
-                                title: "Tripod Stand for Total Station",
-                                subtitle: "Tripod Stand for Total Station",
-                                image: "/upload/categoryImg/survey/10.png",
-                                href: "/product-detail/tripod-stand-for-total-station",
-                              },
-
-                              {
-                                title: "Tripod Stand for Auto Level",
-                                subtitle: "Tripod Stand for Auto Level",
-                                image: "/upload/categoryImg/survey/11.png",
-                                href: "/product-detail/tripod-stand-for-auto-level",
-                              },
-
-                              {
-                                title: "Levelling Staff",
-                                subtitle:
-                                  "Aluminium Levelling Staff, 4M, 5M and 6M",
-                                image: "/upload/categoryImg/survey/12.png",
-                                href: "/product-detail/levelling-staff",
-                              },
-
-                              {
-                                title: "Fibre Levellng Staff",
-                                subtitle:
-                                  "Fibre Levelling Staff, 5M long and 7.6M long",
-                                image: "/upload/categoryImg/survey/13.png",
-                                href: "/product-detail/fibre-levellng-staff",
-                              },
-
-                              {
-                                title: "GPS Bipod",
-                                subtitle: "Thumb-Release Bipod for GPS",
-                                image: "/upload/categoryImg/survey/14.png",
-                                href: "/product-detail/gps-bipod",
-                              },
-
-                              {
-                                title: "Prism Pole Tripod",
-                                subtitle: "Prism Pole Tripod",
-                                image: "/upload/categoryImg/survey/15.png",
-                                href: "/product-detail/prism-pole-tripod",
-                              },
-
-                              {
-                                title: "GPS Carbon Pole",
-                                subtitle: "GPS Carbon Pole",
-                                image: "/upload/categoryImg/survey/16.png",
-                                href: "/product-detail/gps-carbon-pole",
-                              },
-
-                              {
-                                title: "Prism Pole",
-                                subtitle:
-                                  "Prism Pole, telescopic with bubble, 2.5m",
-                                image: "/upload/categoryImg/survey/17.png",
-                                href: "/product-detail/prism-pole",
-                              },
-
-                              {
-                                title: "Big Prism",
-                                subtitle:
-                                  "Circular Prism with Holder and Target Plate",
-                                image: "/upload/categoryImg/survey/18.png",
-                                href: "/product-detail/big-prism",
+                                  "High Accuracy | Fast Speed HD LCD Backlit Screen, clear reading. Nylon Coating so that it can be wear-resistant, non-slip, and drop-resistant. TAPE M",
+                                image: "/upload/products/mileseey-dtx-10-laser-tape-measure/0.png",
+                                href: "/product-detail/mileseey-dtx-10-laser-tape-measure",
                               },
                             ]
-                          : // Added
+                          : activeBrand?.slug === "nikon" &&
+                              category.slug === "survey-accessories"
+                            ? [
+                                {
+                                  title: "Traversing Kit",
+                                  subtitle:
+                                    "Traversing Kit for Total Station compatible to all brands like Nikon, Trimble, Topcon, Sokkia, Pentax etc",
+                                  image: "/upload/categoryImg/survey/1.png",
+                                  href: "/product-detail/traversing-kit",
+                                },
 
-                            undefined;
+                                {
+                                  title: "Nikon Battery BC-65, 7.2V",
+                                  subtitle:
+                                    "Battery BC-65, 7.2V, 3800mAh, Ni-MH for Nikon DTM300/400, NPR300, NPL300/Focus4 / Trimble M3 DOS Total Station",
+                                  image: "/upload/categoryImg/survey/2.png",
+                                  href: "/product-detail/nikon-battery-bc-65-72v",
+                                },
+
+                                {
+                                  title: "Nikon Battery Charger Q-75E, 7.2V",
+                                  subtitle:
+                                    "Battery Charger Q-75E, 7.2V for Nikon DTM300.400, NPR300, NPL300/Focus4, DTM500.600.800, NPL632/821/Trimble M3 DOS Total Station",
+                                  image: "/upload/categoryImg/survey/3.webp",
+                                  href: "/product-detail/nikon-battery-charger-q-75e-72v",
+                                },
+
+                                {
+                                  title: "Nikon Battery BC-80",
+                                  subtitle:
+                                    "Nikon Battery BC-80, 7.2V, Ni-MH, 3800mAh for Nikon DTM500.600.800, NPL632/821 Total Station",
+                                  image: "/upload/categoryImg/survey/4.jpg",
+                                  href: "/product-detail/nikon-battery-bc-80",
+                                },
+
+                                {
+                                  title: "Nikon Nivo Charger",
+                                  subtitle:
+                                    "Battery Charger Nivo for NikonXS/XF/NivoC/ NivoM/M+/NPL322+ / Trimble M3 / Spectra Focus 6/8 Total Station",
+                                  image: "/upload/categoryImg/survey/5.png",
+                                  href: "/product-detail/nikon-nivo-charger",
+                                },
+
+                                {
+                                  title: "Nikon Nivo Battery",
+                                  subtitle:
+                                    "Battery Nivo, Li-ION for NikonXS/XF/NivoC/NivoM/M+/NPL322+ Total Station",
+                                  image: "/upload/categoryImg/survey/6.png",
+                                  href: "/product-detail/nikon-nivo-battery",
+                                },
+
+                                {
+                                  title: "Nikon Data Cable",
+                                  subtitle:
+                                    "Data Cable for for Nikon Nivo C, Nivo M/M+ and NPL-322 Total Station",
+                                  image: "/upload/categoryImg/survey/7.png",
+                                  href: "/product-detail/nikon-data-cable",
+                                },
+
+                                {
+                                  title: "Sliding Mini Prism",
+                                  subtitle: "Sliding Mini Prism",
+                                  image: "/upload/categoryImg/survey/8.png",
+                                  href: "/product-detail/sliding-mini-prism",
+                                },
+
+                                {
+                                  title: "Mini Prism",
+                                  subtitle: "Mini Prism with four Mini Poles",
+                                  image: "/upload/categoryImg/survey/9.png",
+                                  href: "/product-detail/mini-prism",
+                                },
+
+                                {
+                                  title: "Tripod Stand for Total Station",
+                                  subtitle: "Tripod Stand for Total Station",
+                                  image: "/upload/categoryImg/survey/10.png",
+                                  href: "/product-detail/tripod-stand-for-total-station",
+                                },
+
+                                {
+                                  title: "Tripod Stand for Auto Level",
+                                  subtitle: "Tripod Stand for Auto Level",
+                                  image: "/upload/categoryImg/survey/11.png",
+                                  href: "/product-detail/tripod-stand-for-auto-level",
+                                },
+
+                                {
+                                  title: "Levelling Staff",
+                                  subtitle:
+                                    "Aluminium Levelling Staff, 4M, 5M and 6M",
+                                  image: "/upload/categoryImg/survey/12.png",
+                                  href: "/product-detail/levelling-staff",
+                                },
+
+                                {
+                                  title: "Fibre Levellng Staff",
+                                  subtitle:
+                                    "Fibre Levelling Staff, 5M long and 7.6M long",
+                                  image: "/upload/categoryImg/survey/13.png",
+                                  href: "/product-detail/fibre-levellng-staff",
+                                },
+
+                                {
+                                  title: "GPS Bipod",
+                                  subtitle: "Thumb-Release Bipod for GPS",
+                                  image: "/upload/categoryImg/survey/14.png",
+                                  href: "/product-detail/gps-bipod",
+                                },
+
+                                {
+                                  title: "Prism Pole Tripod",
+                                  subtitle: "Prism Pole Tripod",
+                                  image: "/upload/categoryImg/survey/15.png",
+                                  href: "/product-detail/prism-pole-tripod",
+                                },
+
+                                {
+                                  title: "GPS Carbon Pole",
+                                  subtitle: "GPS Carbon Pole",
+                                  image: "/upload/categoryImg/survey/16.png",
+                                  href: "/product-detail/gps-carbon-pole",
+                                },
+
+                                {
+                                  title: "Prism Pole",
+                                  subtitle:
+                                    "Prism Pole, telescopic with bubble, 2.5m",
+                                  image: "/upload/categoryImg/survey/17.png",
+                                  href: "/product-detail/prism-pole",
+                                },
+
+                                {
+                                  title: "Big Prism",
+                                  subtitle:
+                                    "Circular Prism with Holder and Target Plate",
+                                  image: "/upload/categoryImg/survey/18.png",
+                                  href: "/product-detail/big-prism",
+                                },
+                              ]
+                            : activeBrand?.slug === "hi-target" &&
+                                category.slug === "gnss-rtk-systems"
+                              ? [
+                                  {
+                                    title: "V200 GNSS",
+                                    subtitle:
+                                      "V200 GNSS RTK Receiver brings superior performance and high efficiency to support your fieldwork with reliable solutions. Its deployment of the advanc",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg921380.png",
+                                    href: "/product-detail/v200-gnss",
+                                  },
+
+                                  {
+                                    title: "iRTK4",
+                                    subtitle:
+                                      "iRTK4 GNSS RTK is a full-featured, intelligent receiver system equipped with an integrated new-generation full-frequency antenna and advanced multi-ch",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
+                                    href: "/product-detail/irtk4",
+                                  },
+                                  {
+                                    title: "iRTK5",
+                                    subtitle:
+                                      "EaiRTK5, the high-quality scalable GNSS receiver, provides an industry-leading GNSS RTK surveying solution.",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg853747.png",
+                                    href: "/product-detail/irtk5",
+                                  },
+                                  {
+                                    title: "vRTK",
+                                    subtitle:
+                                      "vRTK is Hi-Target’s first lightweight and innovative visual RTK receiver product, which not only enables non-contact image surveying, breaking through",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg553223.png",
+                                    href: "/product-detail/vrtk",
+                                  },
+                                  {
+                                    title: "iHand55",
+                                    subtitle:
+                                      "he iHand55 Handheld Controller is a professional field controller with a big vision. Adopting a full-keyboard design, iHand55 supports the fast charge",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg904004.png",
+                                    href: "/product-detail/ihand55",
+                                  },
+                                  {
+                                    title: "V30 Plus",
+                                    subtitle:
+                                      "Hi-Target GNSS RTK System Model V30Plus With its built-in multi-constellation GNSS RTK engine, smaller dimension, and industrial-grade compact design,",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg309780.png",
+                                    href: "/product-detail/v30-plus",
+                                  },
+                                  {
+                                    title: "Hi-Target V600L Laser RTK System",
+                                    subtitle:
+                                      "Hi-Target V600L Laser RTK is a GNSS-based laser survey system designed for accurate land surveying and construction projects where direct point access",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg922461.png",
+                                    href: "/product-detail/hi-target-v600l-laser-rtk-system",
+                                  },
+                                  {
+                                    title: "V700S SLAM RTK",
+                                    subtitle:
+                                      "Hi-Target V700S SLAM RTK System combines GNSS RTK and SLAM technology to deliver accurate survey results in complex and obstructed environments. Ideal",
+                                    image:
+                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg965883.png",
+                                    href: "/product-detail/v700s-slam-rtk",
+                                  },
+                                ]
+                              : activeBrand?.slug === "nikon" &&
+                                  category.slug === "digital-theodolites"
+                                ? [
+                                    {
+                                      title: "NE-100/NE-101",
+                                      subtitle:
+                                        "Ease of use, reliability, and durability make the Nikon NE-100 and NE-101 series theodolites a smart choice for your general construction, alignment,",
+                                      image:
+                                        "/upload/categoryImg/digital-theodolites/ProdImg92400.png",
+                                      href: "/product-detail/ne-100ne-101",
+                                    },
+                                    {
+                                      title: "NE-102/NE-103",
+                                      subtitle:
+                                        "Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform",
+                                      image:
+                                        "/upload/categoryImg/digital-theodolites/ProdImg830612.png",
+                                      href: "/product-detail/ne-102ne-103",
+                                    },
+                                  ]
+
+                                  : activeBrand?.slug === "hi-target" &&
+                                  category.slug === "slam-lidar-scanners"
+                                ? [
+                                    {
+                                      title: "LS1 SLAM Scanner",
+                                      subtitle:
+                                        "Fast, accurate SLAM 3D scanning for indoor and outdoor surveying applications.",
+                                      image:
+                                        "/upload/products/ls1-slam-scanner/1.png",
+                                      href: "/product-detail/ls1-slam-scanner",
+                                    },
+                                    {
+                                      title: "Hi-LiDAR",
+                                      subtitle:
+                                        "3D LiDAR point cloud software for fast processing, registration, and export.",
+                                      image:
+                                        "/upload/products/hi-lidar/1.png",
+                                      href: "/product-detail/hi-lidar",
+                                    },
+                                  ]
+                                : // Added
+
+                                  undefined;
   const pillLabel = activeBrand
     ? `${activeBrand.label} authorized partner`
     : `${category.brands} authorized partner`;

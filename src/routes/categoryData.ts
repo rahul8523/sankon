@@ -104,21 +104,18 @@ export const categories: CategoryInfo[] = [
       "Choose the right total station for your project, with category-wide solutions that balance precision, durability, and ease of use.",
     products: [
       {
-        title: "Nikon N&K",
+        title: "Nikon",
         subtitle:
           "The Nikon N and K total stations offer an advanced EDM in an innovative package, including flexible charging and connectivity options.",
         image: "/upload/categoryImg/NikonNK.png",
+        href: "/category/total-stations/nikon",
       },
       {
-        title: "Nikon XF",
+        title: "Hi-Target",
         subtitle:
-          "Nikon XF mechanical total stations are packed with features that make survey work easier and faster.",
-        image: "/upload/categoryImg/NikonXF.png",
-      },
-      {
-        title: "NikonXS",
-        subtitle: "Nikon XS mechanical total station is built tough for all occasions.",
-        image: "/upload/categoryImg/NikonXS.png",
+          "Hi-Target mechanical total stations are packed with features that make survey work easier and faster.",
+        image: "/upload/categoryImg/NikonNK.png",
+        href: "/category/total-stations/hi-target",
       },
     ],
   },
@@ -137,69 +134,18 @@ export const categories: CategoryInfo[] = [
         heroSubheading: "GNSS / RTK SYSTEMS by Hi-Target",
         heroText:
           "Discover Hi-Target authorized GNSS / RTK SYSTEMS with precision optics, rugged field build, and trusted support for every survey project.",
-      }
+      },
     ],
     description:
       "High-precision GNSS and RTK systems designed for survey, mapping, and construction control with reliable satellite tracking.",
     heroImage: "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
     products: [
       {
-        title: "V200 GNSS",
-        subtitle:
-          "V200 GNSS RTK Receiver brings superior performance and high efficiency to support your fieldwork with reliable solutions. Its deployment of the advanc",
+        title: "GNSS / RTK Systems",
+        subtitle: "Hi-Target",
         image: "/upload/categoryImg/gnss-rtk-systems/ProdImg921380.png",
-        href: "/product-detail/v200-gnss",
+        href: "/category/gnss-rtk-systems/hi-target",
       },
-
-      {
-        title: "iRTK4",
-        subtitle:
-          "iRTK4 GNSS RTK is a full-featured, intelligent receiver system equipped with an integrated new-generation full-frequency antenna and advanced multi-ch",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
-        href: "/product-detail/irtk4",
-      },
-      {
-        title: "iRTK5",
-        subtitle:
-          "EaiRTK5, the high-quality scalable GNSS receiver, provides an industry-leading GNSS RTK surveying solution.",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg853747.png",
-        href: "/product-detail/irtk5",
-      },
-      {
-        title: "vRTK",
-        subtitle:
-          "vRTK is Hi-Target’s first lightweight and innovative visual RTK receiver product, which not only enables non-contact image surveying, breaking through",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg553223.png",
-        href: "/product-detail/vrtk",
-      },
-      {
-        title: "iHand55",
-        subtitle:
-          "he iHand55 Handheld Controller is a professional field controller with a big vision. Adopting a full-keyboard design, iHand55 supports the fast charge",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg904004.png",
-        href: "/product-detail/ihand55",
-      },
-      {
-        title: "V30 Plus",
-        subtitle:
-          "Hi-Target GNSS RTK System Model V30Plus With its built-in multi-constellation GNSS RTK engine, smaller dimension, and industrial-grade compact design,",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg309780.png",
-        href: "/product-detail/v30-plus",
-      },
-      {
-        title: "Hi-Target V600L Laser RTK System",
-        subtitle:
-          "Hi-Target V600L Laser RTK is a GNSS-based laser survey system designed for accurate land surveying and construction projects where direct point access",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg922461.png",
-        href: "/product-detail/hi-target-v600l-laser-rtk-system",
-      },
-      {
-        title: "V700S SLAM RTK",
-        subtitle:
-          "Hi-Target V700S SLAM RTK System combines GNSS RTK and SLAM technology to deliver accurate survey results in complex and obstructed environments. Ideal",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg965883.png",
-        href: "/product-detail/v700s-slam-rtk",
-      }
     ],
   },
   {
@@ -236,29 +182,32 @@ export const categories: CategoryInfo[] = [
         heroSubheading: "Auto & Digital Levels by Sankon",
         heroText:
           "Discover Sankon authorized Auto & Digital Levels with precision optics, rugged field build, and trusted support for every survey project.",
-      }
+      },
     ],
     description:
       "Precision auto and digital levels for construction, civil works, and site layout with fast, accurate leveling results.",
     heroImage: "/upload/categoryImg/auto-level/ProdImg716222.png",
     products: [
       {
-        title: "AC-2S/AP-8",
-        subtitle:
-          "Nikon AP-8 Auto Level is Compact and lightweight. This Nikon automatic level features a magnetic-dampened automatic compensator to level the line of s",
+        title: "Auto & Digital Levels",
+        subtitle: "Nikon",
         image: "/upload/categoryImg/auto-level/ProdImg85707.webp",
-        href: "/product-detail/ac-2sap-8",
+        href: "/category/auto-digital-levels/nikon",
       },
       {
-        title: "AS-2C/AE-7C",
-        subtitle:
-          "Nikon automatic levels are designed for a variety of elevation control and alignment tasks including general building construction, cut and fill measurements",
+        title: "Auto & Digital Levels",
+        subtitle: "Bosch",
         image: "/upload/categoryImg/auto-level/ProdImg716222.png",
-        href: "/product-detail/as-2cae-7c",
-      }
+        href: "/category/auto-digital-levels/bosch",
+      },
+      {
+        title: "Auto & Digital Levels",
+        subtitle: "Sankon",
+        image: "/upload/categoryImg/auto-level/ProdImg716222.png",
+        href: "/category/auto-digital-levels/sankon",
+      },
     ],
   },
-
 
   {
     title: "Digital Theodolites",
@@ -266,7 +215,7 @@ export const categories: CategoryInfo[] = [
     brands: "Nikon",
     img: "/upload/categoryImg/digital-theodolites/ProdImg830612.png ",
     href: "/category/digital-theodolites",
-     brandLinks: [
+    brandLinks: [
       {
         label: "Nikon",
         slug: "nikon",
@@ -282,19 +231,11 @@ export const categories: CategoryInfo[] = [
     heroImage: "/upload/categoryImg/digital-theodolites/ProdImg92400.png",
     products: [
       {
-        title: "NE-100/NE-101",
-        subtitle:
-          "Ease of use, reliability, and durability make the Nikon NE-100 and NE-101 series theodolites a smart choice for your general construction, alignment,",
+        title: "Digital Theodolites",
+        subtitle: "Nikon",
         image: "/upload/categoryImg/digital-theodolites/ProdImg92400.png",
-        href: "/product-detail/ne-100ne-101",
+        href: "/category/digital-theodolites/nikon",
       },
-      {
-        title: "NE-102/NE-103",
-        subtitle:
-          "Nikon NE-100 Series electronic digital theodolites give you accurate measurements in an affordable, easy-to-use platform",
-        image: "/upload/categoryImg/digital-theodolites/ProdImg830612.png",
-        href: "/product-detail/ne-102ne-103",
-      }
     ],
   },
   {
@@ -303,7 +244,7 @@ export const categories: CategoryInfo[] = [
     brands: "Bosch",
     img: "/upload/categoryImg/ProdImg468889.png",
     href: "/category/laser-levels",
-     brandLinks: [
+    brandLinks: [
       {
         label: "Bosch",
         slug: "bosch",
@@ -317,31 +258,13 @@ export const categories: CategoryInfo[] = [
     description:
       "Compact laser levels for fast, accurate leveling and alignment on construction, interiors, and infrastructure projects.",
     heroImage: "/upload/categoryImg/laser-levels/ProdImg130298.png",
-   products: [
+    products: [
       {
-        title: "GRL 350 HV",
-        subtitle:
-          "GRL 350 HV PROFESSIONAL ROTATION LASER",
+        title: "Laser Levels",
+        subtitle: "Bosch",
         image: "/upload/categoryImg/laser-levels/ProdImg130298.png",
+        href: "/category/laser-levels/bosch",
       },
-      {
-        title: "GLL 3-15 X",
-        subtitle:
-          "GLL 3-15 X PROFESSIONAL LINE LASER",
-        image: "/upload/categoryImg/laser-levels/ProdImg468889.png",
-      },
-      {
-        title: "GLL 5-50 X",
-        subtitle:
-          "GLL 5-50 X PROFESSIONAL",
-        image: "/upload/categoryImg/laser-levels/ProdImg414373.png",  
-      },
-      {
-        title: "GLL 3-80 CG ",
-        subtitle:
-          "GLL 3-80 CG PROFESSIONAL LINE LASER",
-        image: "/upload/categoryImg/laser-levels/ProdImg154472.png",
-      }
     ],
   },
   {
@@ -351,13 +274,27 @@ export const categories: CategoryInfo[] = [
     img: "/upload/categoryImg/ProdImg440930.jpg",
     href: "/category/laser-distance-meters",
     brandLinks: makeBrandLinks("Bosch · Mileseey", "laser-distance-meters"),
+
     description:
       "Portable laser distance meters for quick measuring, estimating, and layout work with dependable range and accuracy.",
     heroImage: "/upload/categoryImg/ProdImg910895.png",
-    products: makeProducts("Laser Distance Meters", "/upload/categoryImg/ProdImg440930.jpg"),
+    products: [
+      {
+        title: "Laser Distance Meters",
+        subtitle: "Bosch",
+        image: "/upload/categoryImg/ProdImg910895.png",
+        href: "/category/laser-distance-meters/bosch",
+      },
+      {
+        title: "Laser Distance Meters",
+        subtitle: "Mileseey",
+        image: "/upload/categoryImg/ProdImg910895.png",
+        href: "/category/laser-distance-meters/mileseey",
+      },
+    ],
   },
   {
-    title: "Ground Penetrating Radar (GPR)",
+    title: "Ground Penetrating Radar",
     slug: "ground-penetrating-radar-gpr",
     brands: "By model",
     img: "/upload/categoryImg/ProdImg743085.webp",
@@ -366,7 +303,14 @@ export const categories: CategoryInfo[] = [
     description:
       "Ground penetrating radar solutions for underground mapping, utility detection, and site investigation with model-specific performance.",
     heroImage: "/upload/categoryImg/ProdImg875035.png",
-    products: makeProducts("Ground Penetrating Radar", "/upload/categoryImg/ProdImg743085.webp"),
+    products: [
+      {
+        title: "Ground Penetrating Radar (GPR)",
+        subtitle: "By model",
+        image: "/upload/categoryImg/ProdImg910895.png",
+        href: "/category/ground-penetrating-radar-gpr/by-model",
+      },
+    ],
   },
   {
     title: "Cable & Pipe Locators",
@@ -378,7 +322,14 @@ export const categories: CategoryInfo[] = [
     description:
       "Professional cable and pipe locators for safe excavation, utility detection, and trenching operations with easy field use.",
     heroImage: "/upload/categoryImg/ProdImg191018 (1).jpg",
-    products: makeProducts("Cable & Pipe Locators", "/upload/categoryImg/ProdImg191018.jpg"),
+    products: [
+      {
+        title: "Cable & Pipe Locators",
+        subtitle: "FUZRR",
+        image: "/upload/categoryImg/ProdImg191018 (1).jpg",
+        href: "/category/cable-pipe-locators/fuzrr",
+      },
+    ],
   },
   {
     title: "Hydrographic & Marine Survey",
@@ -390,7 +341,14 @@ export const categories: CategoryInfo[] = [
     description:
       "Hydrographic and marine survey systems for accurate water-based mapping, navigation, and offshore survey applications.",
     heroImage: "/upload/categoryImg/ProdImg950025.png",
-    products: makeProducts("Hydrographic & Marine Survey", "/upload/categoryImg/ProdImg950025.png"),
+    products: [
+      {
+        title: "Hydrographic & Marine Survey",
+        subtitle: "Hi-Target",
+        image: "/upload/categoryImg/ProdImg950025.png",
+        href: "/category/hydrographic-marine-survey/hi-target",
+      },
+    ],
   },
   {
     title: "SLAM / LiDAR Scanners",
@@ -402,7 +360,14 @@ export const categories: CategoryInfo[] = [
     description:
       "SLAM and LiDAR scanners for rapid 3D mapping, site digitization, and spatial modeling across infrastructure and survey projects.",
     heroImage: "/upload/categoryImg/ProdImg90323.png",
-    products: makeProducts("SLAM / LiDAR Scanners", "/upload/categoryImg/ProdImg90323.png"),
+     products: [
+      {
+        title: "SLAM / LiDAR Scanners",
+        subtitle: "Hi-Target",
+        image: "/upload/categoryImg/ProdImg90323.png",
+        href: "/category/slam-lidar-scanners/hi-target",
+      },
+    ],
   },
   {
     title: "Survey Accessories",
@@ -414,7 +379,14 @@ export const categories: CategoryInfo[] = [
     description:
       "Survey accessories and field tools that complement your instruments and improve setup, measurement, and data capture efficiency.",
     heroImage: "/upload/categoryImg/ProdImg498210.png",
-    products: makeProducts("Survey Accessories", "/upload/categoryImg/ProdImg498210.png"),
+    products: [
+      {
+        title: "Survey Accessories",
+        subtitle: "Nikon",
+        image: "/upload/categoryImg/ProdImg498210.png",
+        href: "/category/survey-accessories/nikon",
+      },
+    ],
   },
   {
     title: "Lab & Material Testing",
@@ -426,7 +398,14 @@ export const categories: CategoryInfo[] = [
     description:
       "Laboratory and material testing equipment for soil, concrete, and construction materials with reliable test results.",
     heroImage: "/upload/categoryImg/ProdImg770158.jpg",
-    products: makeProducts("Lab & Material Testing", "/upload/categoryImg/ProdImg770158.jpg"),
+    products: [
+      {
+        title: "Lab & Material Testing",
+        subtitle: "Soil Testing",
+        image: "/upload/categoryImg/ProdImg770158.jpg",
+        href: "/category/lab-material-testing/soil-testing",
+      },
+    ],
   },
 ];
 
