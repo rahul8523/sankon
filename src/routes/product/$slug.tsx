@@ -1,5 +1,5 @@
 ﻿import { openRequestQuote } from "../../lib/requestQuote";
-import { useState } from "react";
+import React, { JSX, useState } from "react";
 import { SiteHeader } from "../../components/site-header";
 import { SiteFooter } from "../../components/site-footer";
 import {
@@ -39,6 +39,8 @@ interface ProductInfo {
     rows: { label: string; values: string[] }[];
   };
   brochure: { label: string; href: string; meta: string };
+  about?: string;
+  faq?: { question: string; answer: string }[];
 }
 
 function toSlug(value: string) {
@@ -3149,6 +3151,99 @@ The 100 Series is one of our most versatile systems, as the tablet and software 
 
 Think of your 100 Series system as more than a high-powered GPR device. When conducting a survey, you are doing more than seeing beneath the surface. You are compiling essential data that can be used to create an instant deliverable in the field – right from your tablet controller. This ensures everyone is on the same page and operating from a shared point-of-reference with greater efficiency, safety, and confidence.
 `,
+
+about: `
+
+# Unlock Hidden Underground Assets with Advanced GPR Ground Penetrating Radar Technology
+
+# Discover Underground with Precision Using Advanced GPR Solutions
+
+Modern infrastructure projects really need exact underground mapping before anyone goes digging. Like whether it’s utility detection, civil engineering, archaeological surveys, mining , or even environmental investigations, advanced **GPR ground penetrating radar** tech gives you a safer, faster, and non destructive way to look at what’s down there. Without that, people can end up guessing, which is not exactly ideal. It helps a lot to understand the subsurface before excavation begins, so you do less guesswork and more accurate planning, right.
+
+The 100 Series Geophysical Scanner, Ground Penetrating Radar System, is made to deliver dependable subterrain imaging with high precision, or so to speak, for real work. It helps professionals find buried utilities, pipelines, empty spaces, cables, concrete reinforcements and even geological structures, all while not harming the infrastructure that is already there. With fewer excavation troubles and better project preparation it supports organizations saving time and also operational expenses, which is nice in practice.
+
+# Why Modern Projects Depend on Ground Penetrating Radar
+
+Traditional excavation approaches tend to come with uncertainty, some project delays, and costly repairs from accidental damage here and there. An advanced **GPR ground penetrating radar** system, lets engineers and survey people basically see what’s underfoot before construction starts, so fewer expensive mistakes happen and overall workplace safety improves as well. 
+
+Whether it’s municipal infrastructure development, or transportation projects in general, this technology supports smarter decisions thanks to clearer high-resolution subsurface imaging that is clearer.
+
+# Key Applications
+
+| **Industry**                   | **Primary Benefits**                                    |
+| ------------------------------ | ------------------------------------------------------- |
+| **Civil Engineering**          | Utility mapping, foundation assessment, road inspection |
+| **Construction**               | Locate buried cables, pipes, and reinforcement bars     |
+| **Archaeology**                | Identify buried structures without excavation           |
+| **Mining & Geology**           | Detect underground formations and voids                 |
+| **Environmental Studies**      | Soil profiling and contamination assessment             |
+| **Infrastructure Maintenance** | Pavement evaluation and structural inspection           |
+
+| <br> |
+| ---- |
+
+# Features That Improve Survey Accuracy
+
+The advanced scanning capabilities make the system suitable for professionals requiring dependable field performance.
+
+- High-resolution underground imaging
+- Fast and efficient field surveys
+- Non-destructive inspection technology
+- Easy-to-operate interface
+- Accurate utility and pipeline detection
+- Suitable for multiple soil conditions
+- Portable design for on-site applications
+- Reliable data collection for informed decision-making
+
+These capabilities are what make the **GPR ground penetrating radar** a ideal option for organizations that want real accuracy, faster processing , and good long-term returns for underground investigation work . It’s basically a practical path where precision meets efficiency, and the overall value stays useful, even down the line.
+
+# Why Choose the 100 Series Geophysical Scanner?
+
+Choosing the proper radar set really does affect the whole project outcome. The 100 Series blends advanced imaging capabilities with a more easy-going, user-friendly setup, so professionals can finish their surveys fast, yet still keep that high level of precision.
+
+No matter what you are trying to do, say preventing utility strikes, checking out existing infrastructure, or carrying out intricate subsurface work, this system still delivers dependable results through a broad mix of real-world uses.
+
+# Benefits for Your Business
+
+- Reduce unnecessary excavation costs
+- Improve worker and site safety
+- Accelerate project timelines
+- Minimize operational downtime
+- Increase survey confidence
+- Generate accurate underground mapping reports
+- Support better engineering decisions
+- Enhance overall project efficiency
+
+Organisations around the world mostly trust **GPR ground penetrating radar** tech because it gives dependable underground intel that actually helps safer builds, better scheduling, and more efficient use of resources.
+
+`,
+faq: [
+  {
+    question: "What is GPR ground penetrating radar used for?",
+    answer:
+      "GPR, short for ground penetrating radar, is used to track underground utilities such as pipelines , cables and yes, sometimes even empty spaces or voids. It also assists in figuring out concrete reinforcement and different geological formations, other buried structures, which is done all without having to excavate or even dig in the first place.",
+  },
+  {
+    question: "Can GPR detect both metallic and non-metallic objects?",
+    answer:
+      "Yeah, Ground Penetrating Radar can sometimes pick up metallic things and even non metallic buried materials too, depending on how the soil decides to behave, the general size of the target, plus how you run the scanning frequency, not just with one set number, but with more than that in a s varied way.",
+  },
+  {
+    question: "Which industries benefit the most from GPR technology?",
+    answer:
+      "GPR surveys help a lot with construction, civil engineering , archaeology, mining, transportation, environmental studies, utility management, and keeping infrastructure in proper shape for maintenance—like altogether, it’s a whole set of practical uses.",
+  },
+  {
+    question: "Is Ground Penetrating Radar a non-destructive inspection method?",
+    answer:
+      "Yes, one of its biggest benefits is that it gives you underground imaging without digging, drilling, or damaging the existing infrastructure, like somehow. It’s kind of low impact, you know, because it doesn’t mess with what’s already there.",
+  },
+  {
+    question: "Why should businesses invest in an advanced GPR system?",
+    answer:
+      "An advanced GPR setup helps make the survey more accurate, it also cuts down on excavation risks a bit, brings down repair costs, improves overall safety, speeds up the project process, and still gives solid underground readouts so the planning is better.",
+  },
+],
     price: "₹0.00",
     mrp: "₹2.00",
     savings: "100.00% OFF",
@@ -4067,6 +4162,127 @@ The iBoat BS12 emerges as the embodiment of sophistication and simplicity, exper
     description: `
 HD-MAX dual-frequency echo sounder is universal in sediment measurement for dredging and other water depth measurement projects in shallow water, deep water and sandy water. The full-featured Hi-MAX Sounder hydrographic software integrates bathymetry, navigation, and post-processing. Equipped with the 17’’ large screen and industrial computer platform, HD-MAX offers a set of reliable solution for hydrographic offices around the world along with a robust dual-frequency transducer and a user-friendly survey pole.
 `,
+    about: `
+
+# Unlock High-Resolution Underwater Mapping with Advanced Multibeam Echosounder Technology
+
+Marine surveying has been changing pretty fast lately, like faster data taking, higher accuracy, and those seabed views that are way more detailed. For hydrographic surveys, offshore engineering, dredging, port development and even environmental monitoring, a **Multibeam Echosounder** has become one of the most trustworthy options for getting full underwater data , like the whole picture under the surface, without too much fuss. And unlike older sonar systems that basically sample one single point below the vessel, modern multibeam tech gathers hundreds of depth readings at once. That means you get very detailed bathymetric maps in just one survey, efficiently, and with less back and forth.
+
+ 
+
+If your organization is searching for dependable hydrographic gear that provides precision, productivity, and steady long-term operation then picking the right Multibeam Echosounder really can boost how your projects turn out, while cutting down both survey time and the day to day operational costs.
+
+# Why Modern Hydrographic Projects Demand Advanced Survey Technology
+
+For today’s sea based infrastructure work, you really do need precise underwater terrain information before construction starts, before maintenance kicks in, or even when an environmental assessment begins. High resolution seabed data makes it easier for engineers to spot underwater dangers, estimate dredging volumes, carry out pipeline inspections and improve navigation safety, basically all the things that matter early. 
+
+An advanced Multibeam Echosounder gives wide area coverage with very strong accuracy, so it’s a good fit for multiple jobs such as:
+
+- Hydrographic surveying
+- Port and harbour development
+- Offshore oil & gas inspections
+- Inland waterway mapping
+- Coastal engineering
+- River and reservoir surveys
+- Environmental monitoring
+- Marine construction projects
+
+# Key Advantages of Using a Multibeam Echosounder
+
+| **Feature**                | **Customer Benefit**                           |
+| -------------------------- | ---------------------------------------------- |
+| Wide Swath Coverage        | Maps larger underwater areas in less time      |
+| High-Resolution Imaging    | Produces highly detailed seabed models         |
+| Accurate Depth Measurement | Improves survey reliability and planning       |
+| Faster Data Collection     | Reduces project duration and operational costs |
+| Real-Time Data Processing  | Enables quicker decision-making during surveys |
+| Reliable Performance       | Suitable for demanding marine environments     |
+
+# Applications Across Multiple Industries
+
+A professional **Multibeam Echosounder** supports a wide range of industries where underwater accuracy is critical.
+
+## Marine Infrastructure
+
+It helps with bridge building stuff, and also coastal development, harbour enlargement, those underwater inspections where you verify the foundation while it’s still down there. You know the general idea, the usual sort of scenario.
+
+## Dredging Operations
+
+Basically, it helps with bridge building, and maybe along the coast development too, harbour expansion, you know, like those things. It can be used for pretty practical stuff, so it makes sense.
+
+## Offshore Energy
+
+Used for mapping the seabed, in offshore wind farm areas, oil  and gas installations, and also for laying subsea cables, all in a measured, more-or-less precise mode.
+
+## Environmental Studies
+
+It helps researchers keep an eye on what’s happening under the seabed, the aquatic ecosystems as well, and the way sediment moves around, almost like a quiet meter.
+
+## Government & Defence
+
+Delivers dependable hydro graphic information for navigational safety , coastal watchfulness and maritime planning.
+
+# Why Choose a High-Performance Survey Solution?
+
+Investing in advanced hydrographic technology isn't just about buying equipment more like, it is about nudging operational efficiency, sharpening the data quality, and boosting project confidence . A current surveying system should really provide , for example:
+
+- Superior depth accuracy
+- High-speed data acquisition
+- Easy integration with hydrographic software
+- Durable construction for challenging marine conditions
+- Reliable technical support and long-term performance
+
+These capabilities help survey professionals complete projects faster while maintaining international surveying standards.
+
+`,
+    faq: [
+      {
+        question: "What is a Multibeam Echosounder used for?",
+        answer:
+          "A Multibeam Echosounder is used, more or less, to  create very detailed underwater maps, by measuring multiple depth points at once, simultaneously, and in a very practical way. It is great for hydrographic surveys, dredging, offshore construction. and also marine research, where you need broad coverage, faster than single beam systems.",
+      },
+      {
+        question:
+          "How is a multibeam system better than a single beam echosounder?",
+        answer:
+          "A multibeam system actually sweeps a much broader region in a single pass, gives you better, higher resolution seabed information, and it cuts down survey time quite a lot compared with the older single beam approach.",
+      },
+      {
+        question: "Which industries benefit the most from multibeam surveying?",
+        answer:
+          "Ports, offshore energy, marine construction, environmental agencies, defence organizations, inland waterways, and hydrographic survey companies all get something extra from multibeam tech, you know, like it helps a lot more than usual.",
+      },
+      {
+        question:
+          "How Does a Multibeam Echosounder Improve Project Efficiency?",
+        answer:
+          "Yeah, so by gathering more data in fewer survey passes, it just cuts down the operational costs, it shortens the project timelines a bit, and it also ups the overall precision for underwater mapping.",
+      },
+      {
+        question:
+          "What factors should be considered when selecting a multibeam survey system?",
+        answer:
+          "When you think about it, there are a few important considerations, like how deep the survey range really goes , the beam density you end up using, positioning accuracy and software compatibility too, plus how straightforward deployment feels, how durable the hardware is, and whether you get solid technical support afterward.",
+      },
+      {
+        question:
+          "Can a Multibeam Echosounder Be Used for Both Shallow and Deep-Water Surveys?",
+        answer:
+          "Yeah, modern multibeam echosounder systems are really built to work across a broad spectrum of water depths, so they end up being handy for shallow coastal mapping, inland waterways, ports, rivers, reservoirs and also deeper offshore hydrographic surveys. In other words, they’re not limited to just one setting, they can handle it, even when the depth changes a lot , which is the point.",
+      },
+      {
+        question:
+          "Can a Multibeam Echosounder be integrated with other marine survey equipment?",
+        answer:
+          "Sure. A Multibeam Echosounder can be plugged into GNSS/GPS positioning, and motion sensors, plus an inertial navigation system (INS), and also a sound velocity profiler (SVP). Then, hydrographic survey software makes it all connect so you end up with underwater mapping outputs that are, both highly precise and dependable.",
+      },
+      {
+        question:
+          "Why should businesses invest in an advanced Multibeam Echosounder?",
+        answer:
+          "An advanced multibeam echosounder helps organizations make their surveys more precise, cut down on field time, lower operational costs, and build high resolution seabed models, so they can take more informed decisions for marine construction , offshore engineering, dredging, and environmental monitoring efforts. It’s like better data, in a faster cadence, and that really matters when the plan has to stay on track.",
+      },
+    ],
     price: "₹18,45,000.00",
     mrp: "₹20,43,000.00",
     savings: "9.69% OFF",
@@ -4151,6 +4367,120 @@ HD-MAX dual-frequency echo sounder is universal in sediment measurement for dred
     description: `
 HD-Lite echo sounder is a rugged and compact PC built-in professional portable echo sounder. Boosted by an upgraded sounder platform and enhanced hardware, HD-Lite provides users with a portable solution with accuracy and credibility.
 `,
+    about: `
+
+# Choosing the Right Echo Sounder for Accurate Depth Measurement and Reliable Marine Survey Performance
+
+Getting accurate underwater depth measurements is very important for hydrographic surveying, dredging, inland waterways, ports, reservoirs and marine engineering jobs , because even small differences can make a real mess. In other words , if you know the bathymetry in a proper way, you can plan better routes and avoid unpleasant surprises later, which is  the whole point of depth keeping. With the right unit you can get very precise depth numbers in real time, which is the point. If you’re comparing solutions by echo sounder price, it’s important to look at a lot more than the first cost. Long-run measurement accuracy, consistent reliability, smooth integration, and what it takes to maintain everything all add up to the real overall value of the system.
+
+# Why Modern Echo Sounders Are Essential for Marine Operations
+
+An echo sounder uses this advanced sonar know how to determine, how deep the water is, by throwing sound waves out and then counting the seconds from when the signals go, until the moment they bounce back from the seabed. The data from this method is rather crucial for safe vessel piloting, hydrographic surveys, dredging work, construction efforts, and even for environmental follow up.
+
+Whether you’re running on rivers lakes, coastal waters or even reservoirs, choosing the proper equipment helps make the whole thing more steady, even when conditions get tricky, and the visibility or the currents act a bit strange.
+
+# Key Benefits of a High-Performance Echo Sounder
+
+
+| Feature | Why It Matters |
+| --- | --- |
+| High-Precision Depth Measurement | Delivers accurate underwater data for surveys and navigation |
+| Real-Time Sonar Technology | Instant depth readings improve operational efficiency |
+| Easy System Integration | Compatible with GPS, GIS, and hydrographic survey software |
+| Rugged Industrial Design | Performs reliably in demanding marine environments |
+| Low Maintenance | Reduces downtime and long-term operating costs |
+
+
+# What Influences Echo Sounder Price?
+
+When you are checking the echo sounder price, buyers should lock in on the total performance, not just grabbing the cheapest cost model, and thinking that’s it. Because the lowest priced option can still be, you know, underwhelming in real use. In real use, pricing tends to shift based on a bunch of things, like:
+
+- Survey-grade measurement accuracy
+- Beam technology and sonar performance
+- Display quality and user interface
+- Integration with GPS and navigation systems
+- Environmental durability and waterproof construction
+- Technical support and after-sales service
+
+Getting a grip on these variables helps organizations pick a solution that can, deliver a stronger return-on-investment during the whole operational life, sort of like from start to finish, even when it’s a bit unpredictable.
+
+# Industries That Benefit from Echo Sounder Technology
+
+## Modern echo sounders are widely used across numerous sectors, including:
+
+- Hydrographic Survey Companies
+- Dredging Contractors
+- Inland Waterway Authorities
+- Port & Harbour Management
+- Irrigation Departments
+- Dam & Reservoir Monitoring
+- Marine Construction Projects
+- Environmental Research Organizations
+
+These industries rely on consistent depth measurement  for planning, compliance and operational safety, like pretty much all the time. You know, for stuff you must to do, and to keep the risk low , they need a steady sense of depth. Without it, the whole schedule goes off, and even the rules get messy.
+
+# How to Choose the Best Echo Sounder
+
+Before you make a purchase decision, consider the following check-list, like a quick routine in your head:
+Required operating depth range
+
+- Measurement accuracy
+- Ease of installation
+- Software compatibility
+- Real-time data output
+- Technical support availability
+- Warranty coverage
+- Long-term maintenance costs
+
+When you compare these specifications together you get a more exact picture than just looking at the echo sounder price alone. The right solution helps cut down on operational risks, at the same time it boosts survey productivity a bit more, too.
+
+# Why Quality Matters More Than Initial Cost
+
+Choosing surveying equipment just because the purchase price looks lower can feel cost-effective at first, but it often turns into a bigger problem later, what with extra upkeep costs, more frequent repairs, and accuracy that gradually slips. Putting money into a high-quality, long-lasting echo sounder tends to keep things steady and smooth, it reduces operational delays, and it gives dependable measurements for years. Teams that really care about equipment reliability, exactness, and the technical support that actually shows up on time usually see better output, lower total ownership cost
+
+`,
+    faq: [
+      {
+        question: "What factors affect echo sounder price?",
+        answer:
+          "Echo sounder pricing really hinges on measurement accuracy, the sonar technology used, how deep you plan to work, and the display features. It also depends on GPS compatibility, overall build quality, and whether the software integration feels smooth or not.",
+      },
+      {
+        question: "Where are echo sounders commonly used?",
+        answer:
+          "Echo sounders are commonly used for hydrographic surveys, dredging, and port management, plus reservoir monitoring and inland waterways. They are also used in marine construction and environmental research wherever consistent depth measurement is needed.",
+      },
+      {
+        question: "Can an echo sounder integrate with GPS systems?",
+        answer:
+          "Yes, most modern echo sounders can link up with GPS receivers and hydrographic survey software to deliver depth and positioning data together in one coordinated view.",
+      },
+      {
+        question: "How accurate is a professional echo sounder?",
+        answer:
+          "Professional echo sounders are built to deliver accurate depth readings suitable for commercial marine surveys and engineering purposes. They are made for precision because trusted depth measurement is the whole point.",
+      },
+      {
+        question: "How should I compare echo sounder price before buying?",
+        answer:
+          "Instead of just comparing price, look at measurement accuracy, durability, software fit, warranty terms, technical backing, and total lifecycle value before choosing the right solution.",
+      },
+      {
+        question: "What is the ideal frequency range for an echo sounder?",
+        answer:
+          "Ideal frequency depends on the application. Higher frequencies give more detail in shallow waters, whereas lower frequencies work better in deeper water and reach farther.",
+      },
+      {
+        question: "How often should an echo sounder be calibrated?",
+        answer:
+          "An echo sounder should be calibrated regularly per manufacturer recommendations and before major survey jobs to keep depth readouts consistent and reduce measurement errors.",
+      },
+      {
+        question: "Can an echo sounder operate in rough weather conditions?",
+        answer:
+          "Yes, professional-grade echo sounders are designed to operate in difficult marine conditions. Still, overall performance depends on correct installation, ongoing maintenance, and following the operating guidelines.",
+      },
+    ],
     price: "₹6,39,000.00",
     mrp: "₹7,20,000.00",
     savings: "11.25% OFF",
@@ -4244,6 +4574,55 @@ HD-Lite echo sounder is a rugged and compact PC built-in professional portable e
     description: `
 HD-MAX Ⅱ dual-frequency echo sounder redefines underwater surveying. Its enhanced host unit is water-resistant, portable, and offers versatile interfaces. The integrated temperature sensor in the transducer enables precise sound velocity calibration, and the fully automated algorithm tackles challenging terrains. Ideal for a wide range of underwater environments, including dredging, siltation, high sediment areas, and deep waters, HD-MAX Ⅱ is the unrivaled choice for hydrographic professionals.
 `,
+    about: `
+
+
+Why Quality Matters More Than Initial Cost
+
+Choosing surveying equipment just because the purchase price looks lower can feel cost-effective at first, but it often turns into a bigger problem later, what with extra upkeep costs, more frequent repairs, and accuracy that gradually slips. Putting money into a high-quality, long-lasting echo sounder tends to keep things steady and smooth, it reduces operational delays, and it gives dependable measurements for years. Teams that really care about equipment reliability, exactness, and the technical support that actually shows up on time usually see better output, lower total ownership costs over time, and a stronger sense of confidence during each survey work.
+`,
+    faq: [
+      {
+        question: "What factors affect echo sounder price?",
+        answer:
+          "Echo sounder pricing really hinges on measurement accuracy, the sonar technology used, how deep you plan to work, and the display features. It also depends on GPS compatibility, overall build quality, and whether the software integration feels smooth or not.",
+      },
+      {
+        question: "Where are echo sounders commonly used?",
+        answer:
+          "Echo sounders are commonly used for hydrographic surveys, dredging, and port management, plus reservoir monitoring and inland waterways. They are also used in marine construction and environmental research wherever consistent depth measurement is needed.",
+      },
+      {
+        question: "Can an echo sounder integrate with GPS systems?",
+        answer:
+          "Yes, most modern echo sounders can link up with GPS receivers and hydrographic survey software to deliver depth and positioning data together in one coordinated view.",
+      },
+      {
+        question: "How accurate is a professional echo sounder?",
+        answer:
+          "Professional echo sounders are built to deliver accurate depth readings suitable for commercial marine surveys and engineering purposes. They are made for precision because trusted depth measurement is the whole point.",
+      },
+      {
+        question: "How should I compare echo sounder price before buying?",
+        answer:
+          "Instead of just comparing price, look at measurement accuracy, durability, software fit, warranty terms, technical backing, and total lifecycle value before choosing the right solution.",
+      },
+      {
+        question: "What is the ideal frequency range for an echo sounder?",
+        answer:
+          "Ideal frequency depends on the application. Higher frequencies give more detail in shallow waters, whereas lower frequencies work better in deeper water and reach farther.",
+      },
+      {
+        question: "How often should an echo sounder be calibrated?",
+        answer:
+          "An echo sounder should be calibrated regularly per manufacturer recommendations and before major survey jobs to keep depth readouts consistent and reduce measurement errors.",
+      },
+      {
+        question: "Can an echo sounder operate in rough weather conditions?",
+        answer:
+          "Yes, professional-grade echo sounders are designed to operate in difficult marine conditions. Still, overall performance depends on correct installation, ongoing maintenance, and following the operating guidelines.",
+      },
+    ],
     price: "₹19,45,000.00",
     mrp: "₹21,00,000.00",
     savings: "7.38% OFF",
@@ -4330,7 +4709,7 @@ HD-MAX Ⅱ dual-frequency echo sounder redefines underwater surveying. Its enhan
 
   // P9 Outdoor Laser Measure with Camera
 
-"p9-outdoor-laser-measure-with-camera": {
+  "p9-outdoor-laser-measure-with-camera": {
     slug: "p9-outdoor-laser-measure-with-camera",
     title: "P9 Outdoor Laser Measure with Camera",
     brand: "Mileseey",
@@ -4419,11 +4798,9 @@ The advanced indirect measuring features of P9, like point-to-point, trapezium, 
     },
   },
 
+  // Mileseey S50C Green Laser Measure with Camera
 
-
-// Mileseey S50C Green Laser Measure with Camera
-  
-"mileseey-s50c-green-laser-measure-with-camera": {
+  "mileseey-s50c-green-laser-measure-with-camera": {
     slug: "mileseey-s50c-green-laser-measure-with-camera",
     title: "Mileseey S50C Green Laser Measure with Camera",
     brand: "Mileseey",
@@ -4507,12 +4884,11 @@ Advanced P2P and indirect measurement modes make it easy to capture distance, ar
       href: "/upload/products/mileseey-s50c-green-laser-measure-with-camera/S50C-Quick-Guide.pdf",
       meta: "PDF · 1.0 MB · English",
     },
-    
   },
 
-// Mileseey DTX-10 Laser Tape Measure
-  
-"mileseey-dtx-10-laser-tape-measure": {
+  // Mileseey DTX-10 Laser Tape Measure
+
+  "mileseey-dtx-10-laser-tape-measure": {
     slug: "mileseey-dtx-10-laser-tape-measure",
     title: "Mileseey DTX-10 Laser Tape Measure",
     brand: "Mileseey",
@@ -4580,7 +4956,10 @@ With easy-to-use distance, area, volume, height, and Pythagorean measurement mod
       { label: "Accuracy", value: "± 1.5 mm" },
       { label: "Laser wavelength", value: "635 nm green beam" },
       { label: "Laser class", value: "Class 2" },
-      { label: "Measurement modes", value: "Distance, area, volume, Pythagoras, continuous" },
+      {
+        label: "Measurement modes",
+        value: "Distance, area, volume, Pythagoras, continuous",
+      },
       { label: "Display", value: "Large color LCD" },
       { label: "Connectivity", value: "Bluetooth" },
       { label: "Battery", value: "Rechargeable lithium-ion" },
@@ -4595,9 +4974,7 @@ With easy-to-use distance, area, volume, height, and Pythagorean measurement mod
       href: "/upload/products/mileseey-dtx-10-laser-tape-measure/DTX-10-Quick-Guide.pdf",
       meta: "PDF · 1.0 MB · English",
     },
-    
   },
-
 
   // S7 330ft Outdoor Laser Measure with Camera
 
@@ -5846,6 +6223,198 @@ Supplied complete with 3 speed Load Frame, 2.5 KN or 2 KN Proving ring fitted wi
       {
         label: "Application",
         value: "Unconfined compression testing of soils",
+      },
+    ],
+
+    brochure: {
+      label: "unconfined-compression-tester Brochure — (English)",
+      href: "",
+      meta: "PDF · 2.0 MB · English",
+    },
+  },
+
+
+   // /unconfined-compression-tester
+
+  "compression-testing-machine": {
+    slug: "compression-testing-machine",
+    title: "COMPRESSION TESTING MACHINE",
+    brand: "Soil Testing",
+    category: "Lab & Material Testing",
+    tagline:
+      "Low cost Model for basic test. The loading unit consists of a four pillar type load frame with adjustable screw to adjust the height of the platen as per the sample size. Resolution 0.1 KN. Manual Pace rate control and Manual release of pressure. Reading in KN with peak hold and reset facility. Auto Calculation of strength. Rate of loading displayed on bar graph. Manual Pace rate Control will have certain limitations.",
+    description: `
+The Compression Testing Machine is a versatile laboratory instrument engineered for accurate unconfined compression testing of soil specimens. Built with a robust four-pillar load frame construction, it provides stable and repeatable loading conditions. The system includes a precision-calibrated 2.5 kN or 2 kN proving ring with certified accuracy, complemented by a high-resolution dial gauge for displacement measurement. The 3-speed loading mechanism allows controlled strain application, making it suitable for various soil types and testing conditions. Complete kit includes tooling for 38 mm diameter specimens, with expandable options available for larger samples up to 100 mm diameter.
+`,
+
+about: `
+
+# Choosing the Ideal Compression Testing Machine for Precise Material Strength Evaluation
+
+When you’re looking into laboratory testing equipment, buyers tend to compare the quality, precision, endurance, and price of **compression testing machine price** before they commit. And honestly, whether you run a construction lab, a research institute, a quality control facility, or even a school or training organization, picking the right compression testing equipment matters because it helps with dependable strength evaluation for concrete , cement , bricks , blocks , pavers, and other construction materials too, in a way that is practical and less stubborn about accuracy .
+
+If you understand what affects **compression testing machine price**, then your business can select gear that offers lasting value not just what you pay at the start.
+
+# Compression Testing Machines: A Key to Reliable Quality Control
+
+Compression testing machines are build to measure how strong different materials are when they are squeezed, under controlled loading conditions. These machines are crucial, for making sure construction materials actually meet national international quality standards too, because otherwise its not really reliable.
+
+Modern testing equipment offers:
+
+- High-precision load measurement
+- Digital data recording
+- Stable hydraulic performance
+- User-friendly operation
+- Consistent and repeatable test results
+- Long operational lifespan with minimal maintenance
+
+For laboratories seeking dependable performance, evaluating **compression testing machine price** along with technical specifications provides a more informed purchasing decision.
+
+# Factors That Influence Compression Testing Machine Price
+
+Different models are designed for different testing capacities and applications. The overall **compression testing machine price** depends on several technical and operational factors.
+
+| **Feature**            | **Why It Matters**                                           |
+| ---------------------- | ------------------------------------------------------------ |
+| Load Capacity          | Suitable for different material strengths and specimen sizes |
+| Digital Control System | Improves testing accuracy and reporting                      |
+| Hydraulic Performance  | Ensures smooth and stable loading                            |
+| Automation Level       | Reduces operator effort and increases efficiency             |
+| Build Quality          | Enhances durability and long-term reliability                |
+
+Instead of selecting equipment based solely on cost, laboratories should compare performance, precision, and future maintenance requirements.
+
+# Applications Across Multiple Industries
+
+Compression testing machines are widely used in:
+
+- Civil engineering laboratories
+- Construction companies
+- Infrastructure development projects
+- Cement manufacturing plants
+- Concrete batching plants
+- Educational institutions
+- Government testing laboratories
+- Research and material testing centers
+
+These industries depend on precise compression testing to keep product quality solid, boost structural safety, and also meet regulatory needs or rules. It’s like the basis of things, not just for the paperwork.
+
+# Choosing the Right Compression Testing Machine for Accurate and Reliable Material Testing
+
+Before comparing **compression testing machine price**, consider the following:
+
+- Required testing capacity
+- Types of materials to be tested
+- Accuracy and calibration standards
+- Digital reporting capabilities
+- Ease of maintenance
+- Availability of technical support
+- Future expansion requirements
+
+Choosing equipment based on both performance and operational efficiency helps maximize return on investment while ensuring dependable testing for years.
+
+# Why Quality Equipment Delivers Better Value
+
+A pretty reliable compression testing machine really helps cut testing errors, in a way that feels steadier, it also speeds up the whole workflow, and it tends to reduce downtime too. At the same time it keeps quality control more even, you know. And when you’re looking at a compression testing machine price, don’t only stare at the upfront buying number. Instead, think about the bigger lifecycle value, like how it performs technically in routine use, how durable it is day-to-day, whether service support is actually accessible, and of course the testing accuracy. The best unit usually turns into a long term asset that supports lab efficiency and also helps strengthen customer trust— not just right then, but across those repeated rounds.
+
+`,
+faq: [
+  {
+    question: "What affects compression testing machine price?",
+    answer:
+      "The cost depends on testing capacity, the automation level, those digital features too, the hydraulic system’s quality, build materials and calibration standards, along with any extra accessories that come with it.",
+  },
+  {
+    question: "How does a compression testing machine test different materials?",
+    answer:
+      "Compression testing machines are very often used for checking concrete cubes, cement samples, bricks, blocks, paving stones, and other related construction stuff. In practice, people run these tests to see how these materials behave under pressure, and it can include quite a range—like blocks and bricks, you know, sometimes even paving stones.",
+  },
+  {
+    question: "What Makes Digital Compression Testing Equipment a Preferred Choice?",
+    answer:
+      "Digital systems tend to give you better measurement accuracy; they also make data recording automated and painless, while reporting becomes easier, plus testing stays more consistent.",
+  },
+  {
+    question: "How do I choose the correct compression testing machine?",
+    answer:
+      "Pick a machine according to what you can test at, your industry norms, the types of materials you’ll deal with, the lab’s daily volume and also what comes next for future verification needs, ideally a bit more capacity than you think you need.",
+  },
+  {
+    question: "Is buying a high-quality compression testing machine a good long-term investment?",
+    answer:
+      "Yes, high-quality gear usually brings better precision, a longer usable lifespan and reduced upkeep costs, plus a steadier performance . It’s like when everything works more harmoniously, without as much fuss later on . In that sense it can be more cost effective in the long run, even if the starting price feels a bit higher.",
+  },
+  {
+    question: "Does compression testing machine price include installation and calibration?",
+    answer:
+      "It kind of really depends on who actually made it, and well on who is selling it too, I guess. Some packages include the fit-out, the first calibration, operator training, and warranty support all together, but others charge you separately for each one. So, best to confirm what’s actually in there before you decide to buy.",
+  },
+  {
+    question: "What is the ideal calibration frequency for a compression testing machine?",
+    answer:
+      "For accurate, and reliable test results, compression testing machines should be calibrated periodically, as recommended by the manufacturer or based on applicable industry standards. When calibration happens regularly it keeps measurement accuracy intact and also ensures compliance with the quality requirements, sort of, you could say it’s a steady control measure.",
+  },
+  {
+    question: "Is It Possible to Customize a Compression Testing Machine for Different Testing Requirements?",
+    answer:
+      "Yeah, quite a few manufacturers provide customization based on their testing capacity, the specimen size they can handle, plus some software features that can matter, like digital reporting and the level of automation required. Picking the proper configuration lets a lab cover those specific testing applications, but also it usually improves day to day operational efficiency.",
+  },
+],
+    price: "₹18,5000",
+    mrp: "₹19,5000",
+    savings: "5.13% OFF",
+    badges: ["In Stock", "Soil Testing"],
+    rating: "4.8 · 72 verified reviews",
+    sku: "Compression Testing Machine",
+    images: ["/upload/products/compression-testing-machine/1.png"],
+    inTheBox: [
+      "1× COMPRESSION TESTING MACHINE",
+      "1× Carrying Case",
+      "1× Plumb Bob",
+      "1× Manual",
+    ],
+
+    features: [
+      {
+        title: "Precision proving ring system",
+        body: "Certified 2.5 kN or 2 kN proving ring ensures accurate force measurement with calibration certificate included for compliance and reliability.",
+      },
+      {
+        title: "3-speed variable loading control",
+        body: "Manual operation with three distinct loading speeds provides flexibility to accommodate different soil behavior and testing requirements.",
+      },
+      {
+        title: "High-resolution displacement measurement",
+        body: "0.01 mm precision dial gauge with 25 mm travel range enables detailed recording of specimen deformation throughout the test cycle.",
+      },
+      {
+        title: "Robust four-pillar frame design",
+        body: "Heavy-duty load frame construction with vertical adjustable platens ensures uniform loading distribution and minimizes lateral deflection.",
+      },
+      {
+        title: "Comprehensive specimen tooling included",
+        body: "Supplied with complete tooling kit for 38 mm diameter specimens including coning tools and split mould for immediate testing.",
+      },
+      {
+        title: "Expandable specimen size options",
+        body: "Modular design allows upgrades to test 50 mm, 75 mm, and 100 mm diameter specimens with separately available accessory kits.",
+      },
+    ],
+
+    specs: [
+      { label: "Frame Type", value: "Four-pillar rigid steel construction" },
+      { label: "Loading Speeds", value: "3-speed manual hand-operated system" },
+      { label: "Proving Ring Capacity", value: "2.5 kN or 2 kN (selectable)" },
+      { label: "Force Resolution", value: "0.1 kN minimum" },
+      { label: "Dial Gauge Precision", value: "0.01 mm accuracy" },
+      { label: "Gauge Travel Range", value: "25 mm" },
+      { label: "Standard Specimen Size", value: "38 mm diameter" },
+      { label: "Optional Specimen Sizes", value: "50 mm, 75 mm, 100 mm diameter" },
+      { label: "Included Accessories", value: "Coning tools, split mould, dial gauge holder" },
+      { label: "Calibration", value: "Factory calibrated; NABL calibration available separately" },
+      {
+        label: "Application",
+        value: "Unconfined compression testing of cohesive soils",
       },
     ],
 
@@ -8103,7 +8672,7 @@ function ProductDetailPage() {
   const [active, setActive] = useState(0);
   const [qty, setQty] = useState(1);
   const [tab, setTab] = useState<
-    "overview" | "features" | "specs" | "brochure"
+    "overview" | "features" | "specs" | "brochure" | "about" | "faq"
   >("overview");
 
   if (!product) {
@@ -8129,6 +8698,247 @@ function ProductDetailPage() {
     .split("\n")
     .map((line) => line.trim())
     .filter(Boolean);
+
+  const aboutLines = (product.about ?? product.description)
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  const faqList = product.faq ?? [
+    {
+      question: "How can I request a quote for this product?",
+      answer:
+        "Click the Request Quote button and submit your contact details. Our team will get back to you with pricing and availability.",
+    },
+    {
+      question: "Is shipping included?",
+      answer:
+        "Yes, this product includes free shipping pan-India as shown on the product page.",
+    },
+    {
+      question: "Can I get support after purchase?",
+      answer:
+        "Yes, we offer field support and calibration services through our authorized dealer network.",
+    },
+  ];
+
+  const renderRichContent = (lines: string[]) => {
+    const content: JSX.Element[] = [];
+    let listItems: string[] = [];
+    let tableRows: string[][] = [];
+    let currentSection = "";
+    let inMarkdownTable = false;
+
+    const flushList = () => {
+      if (!listItems.length) return;
+      content.push(
+        <ul
+          key={`list-${content.length}`}
+          className="list-disc space-y-2 pl-6 text-sm text-muted-foreground"
+        >
+          {listItems.map((item, itemIndex) => (
+            <li key={itemIndex}>{item}</li>
+          ))}
+        </ul>,
+      );
+      listItems = [];
+    };
+
+    const flushTable = () => {
+      if (!tableRows.length) return;
+
+      const isSeparatorRow = (cells: string[]) =>
+        cells.every((cell) => /^[-\s]+$/.test(cell));
+
+      const header = tableRows[0];
+      const body =
+        tableRows.length > 1 && isSeparatorRow(tableRows[1])
+          ? tableRows.slice(2)
+          : tableRows.slice(1);
+
+      content.push(
+        <div
+          key={`table-${content.length}`}
+          className="overflow-x-auto rounded-xl border border-border bg-surface"
+        >
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-muted/30 text-left text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                {header.map((cell, index) => (
+                  <th key={index} className="px-6 py-3">
+                    {cell}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {body.map((row, rowIndex) => (
+                <tr
+                  key={`${row.join("-")}-${rowIndex}`}
+                  className={rowIndex % 2 === 0 ? "bg-white" : "bg-muted/30"}
+                >
+                  {row.map((cell, cellIndex) => (
+                    <td
+                      key={cellIndex}
+                      className="px-6 py-3 text-sm text-muted-foreground"
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>,
+      );
+      tableRows = [];
+      currentSection = "";
+      inMarkdownTable = false;
+    };
+
+    const renderInlineFormatting = (text: string) => {
+      const parts: (string | JSX.Element)[] = [];
+      let lastIndex = 0;
+      const regex = /(\*\*([^*]+)\*\*|\*([^*]+)\*)/g;
+      let match: RegExpExecArray | null;
+
+      while ((match = regex.exec(text)) !== null) {
+        const [token, , boldText, italicText] = match;
+        if (match.index > lastIndex) {
+          parts.push(text.slice(lastIndex, match.index));
+        }
+
+        if (boldText) {
+          parts.push(
+            <strong key={match.index} className="font-semibold text-foreground">
+              {boldText}
+            </strong>,
+          );
+        } else if (italicText) {
+          parts.push(
+            <em
+              key={match.index}
+              className="not-italic font-medium text-foreground"
+            >
+              {italicText}
+            </em>,
+          );
+        }
+
+        lastIndex = match.index + token.length;
+      }
+
+      if (lastIndex < text.length) {
+        parts.push(text.slice(lastIndex));
+      }
+
+      return parts;
+    };
+
+    for (let i = 0; i < lines.length; i += 1) {
+      const line = lines[i];
+      if (!line) {
+        flushList();
+        flushTable();
+        continue;
+      }
+
+      const trimmedLine = line.trim();
+      const isMarkdownTableRow = trimmedLine.startsWith("|");
+      if (isMarkdownTableRow) {
+        const cells = trimmedLine
+          .split("|")
+          .slice(1, -1)
+          .map((cell) => cell.trim());
+
+        if (cells.length === 0) {
+          continue;
+        }
+
+        if (!inMarkdownTable) {
+          flushList();
+          flushTable();
+          inMarkdownTable = true;
+        }
+
+        tableRows.push(cells);
+        continue;
+      }
+
+      if (inMarkdownTable) {
+        flushTable();
+      }
+
+      const headingMatch = line.match(/^(#{1,3})\s+(.*)$/);
+      if (headingMatch) {
+        flushList();
+        flushTable();
+        currentSection = headingMatch[2].trim();
+        const level = headingMatch[1].length;
+        const headingTag = level === 1 ? "h3" : "h4";
+        const className =
+          level === 1
+            ? "mt-6 mb-2 text-xl font-semibold text-foreground"
+            : "mt-0 text-lg font-semibold text-foreground";
+
+        content.push(
+          React.createElement(
+            headingTag,
+            { key: `heading-${i}`, className },
+            renderInlineFormatting(headingMatch[2].trim()),
+          ),
+        );
+        continue;
+      }
+
+      if (line.startsWith("-")) {
+        if (
+          currentSection === "Key Benefits of a High-Performance Echo Sounder"
+        ) {
+          const row = line.replace(/^-+\s*/, "").split(/:\s*/);
+          if (row.length >= 2) {
+            tableRows.push([row[0], row.slice(1).join(": ")]);
+            continue;
+          }
+        }
+        listItems.push(line.replace(/^-+\s*/, ""));
+        continue;
+      }
+
+      flushList();
+      flushTable();
+      currentSection = "";
+
+      const isSubheading =
+        /^(Feature|Customer Benefit|What Influences|Industries That Benefit)/i.test(
+          line,
+        );
+      if (isSubheading) {
+        content.push(
+          <div
+            key={`subheading-${i}`}
+            className="mt-6 text-sm font-semibold text-foreground"
+          >
+            {renderInlineFormatting(line)}
+          </div>,
+        );
+        continue;
+      }
+
+      content.push(
+        <p
+          key={`paragraph-${i}`}
+          className="text-sm leading-7 text-muted-foreground"
+        >
+          {renderInlineFormatting(line)}
+        </p>,
+      );
+    }
+
+    flushList();
+    flushTable();
+    return content;
+  };
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -8341,6 +9151,8 @@ function ProductDetailPage() {
                 ["features", "Features & Benefits"],
                 ["specs", "Specifications"],
                 ["brochure", "Brochures"],
+                ["about", "About More"],
+                ["faq", "FAQ"],
               ] as const
             ).map(([k, label]) => (
               <button
@@ -8511,6 +9323,50 @@ function ProductDetailPage() {
               </div>
             )}
 
+            {tab === "about" && (
+              <div className="grid lg:grid-cols-[2fr_1fr] gap-12">
+                <div className="space-y-5 text-[15px] leading-7 text-muted-foreground max-w-2xl">
+                  {renderRichContent(aboutLines)}
+                </div>
+                <aside className="rounded-xl border border-border bg-surface p-6">
+                  <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mb-4">
+                    Product Details
+                  </div>
+                  <dl className="space-y-3 text-sm">
+                    {product.specs.slice(0, 5).map((s) => (
+                      <div
+                        key={s.label}
+                        className="flex justify-between gap-4 border-b border-border/60 pb-2 last:border-0"
+                      >
+                        <dt className="text-muted-foreground">{s.label}</dt>
+                        <dd className="font-semibold font-mono text-right">
+                          {s.value}
+                        </dd>
+                      </div>
+                    ))}
+                  </dl>
+                </aside>
+              </div>
+            )}
+
+            {tab === "faq" && (
+              <div className="space-y-4 max-w-3xl">
+                {faqList.map((faq, index) => (
+                  <details
+                    key={`${faq.question}-${index}`}
+                    className="rounded-xl border border-border bg-surface overflow-hidden"
+                  >
+                    <summary className="cursor-pointer px-6 py-4 text-sm font-semibold text-foreground">
+                      {faq.question}
+                    </summary>
+                    <div className="border-t border-border/60 px-6 py-4 text-sm text-muted-foreground">
+                      {faq.answer}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            )}
+
             {tab === "brochure" && (
               <a
                 href={product.brochure.href}
@@ -8538,3 +9394,6 @@ function ProductDetailPage() {
 }
 
 export default ProductDetailPage;
+
+
+

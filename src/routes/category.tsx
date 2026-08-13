@@ -108,6 +108,8 @@ export default function CategoryPage() {
   }
 
   const activeBrand = getActiveBrand(category, path);
+  const pageAbout = activeBrand?.about ?? (!activeBrand ? category.about : undefined);
+  const pageFaq = activeBrand?.faq ?? (!activeBrand ? category.faq : undefined);
   // If a brand is active we may want to show brand-specific product listings.
   // Apply brand-specific product overrides only for the Total Stations category.
   const brandProducts =
@@ -446,6 +448,15 @@ export default function CategoryPage() {
                       image:
                         "/upload/categoryImg/lab-and-material-testing/24.jpg",
                       href: "/product-detail/proving-ring-compression-type-25-kn-with-dial-gauge",
+                    },
+                    {
+                      title:
+                        "COMPRESSION TESTING MACHINE",
+                      subtitle:
+                        "Low cost Model for basic test. The loading unit consists of a four pillar type load frame with adjustable screw to adjust the height of the platen as per the sample size.",
+                      image:
+                        "/upload/products/compression-testing-machine/1.png",
+                      href: "/product-detail/compression-testing-machine",
                     },
                   ]
                 : activeBrand?.slug === "by-model" &&
@@ -860,6 +871,8 @@ export default function CategoryPage() {
                                     href: "/product-detail/v700s-slam-rtk",
                                   },
                                 ]
+                                
+                                
                               : activeBrand?.slug === "nikon" &&
                                   category.slug === "digital-theodolites"
                                 ? [
@@ -1032,6 +1045,139 @@ export default function CategoryPage() {
             ))}
           </div>
         </section>
+
+        {/* About Section */}
+        {pageAbout && (
+          <section className="mt-10 py-12">
+            <div className="prose prose-lg max-w-7xl text-[var(--ink)]">
+              <div
+                className="space-y-6 text-base leading-8"
+                dangerouslySetInnerHTML={{
+                  __html: pageAbout
+                    .trim().split(/\r?\n\s*\r?\n/)
+                    .map((paragraph) => {
+                      const normalizedParagraph = paragraph.trim();
+                      // Convert markdown headers
+                      let html = normalizedParagraph
+                        .replace(
+                          /^\*\*(.*?)\*\*$/,
+                          "<h3 style=\"font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 1rem; font-family: Fraunces, serif;\">$1</h3>"
+                        )
+                        .replace(/^\- (.*?)$/gm, "<li style=\"margin-left: 1.5rem;\">$1</li>");
+
+                      // Convert markdown bold
+                      html = html.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+                      // Handle lists - group consecutive li elements
+                      if (html.includes("<li")) {
+                        html = `<ul style="margin-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; list-style-type: disc;">${html}</ul>`;
+                      }
+
+                      // Convert markdown tables
+                      if (normalizedParagraph.includes("|")) {
+                        const lines = normalizedParagraph.split("\n");
+                        if (lines.length >= 3) {
+                          // Check if it looks like a table
+                          const tableLines = lines.filter((line) => line.trim());
+                          const isTable =
+                            tableLines.length >= 2 &&
+                            tableLines.every((line) => /^\s*\|.*\|\s*$/.test(line));
+                          if (isTable) {
+                            const rows = tableLines
+                              .map((line) =>
+                                line
+                                  .split("|")
+                                  .slice(1, -1)
+                                  .map((cell) => cell.trim())
+                              )
+                              .filter((row) =>
+                                row.some((cell) => cell !== "")
+                              );
+
+                            if (rows.length > 0) {
+                              const headerRow = rows[0];
+                              const bodyRows = rows.slice(
+                                rows[1]?.some((cell) =>
+                                  cell.match(/^-+$/)
+                                )
+                                  ? 2
+                                  : 1
+                              );
+
+                              html = `<div style="overflow-x: auto; margin: 1.5rem 0; border: 1px solid rgba(15,23,42,0.12); border-radius: 0.75rem; background: #ffffff;">
+                                <table style="width: 100%; min-width: 620px; border-collapse: collapse;">
+                                  <thead>
+                                    <tr style="background-color: #f5f5f5;">
+                                      ${headerRow
+                                        .map(
+                                          (cell) =>
+                                            `<th style="border-bottom: 1px solid rgba(15,23,42,0.12); padding: 14px 16px; text-align: left; font-weight: 700;">${cell}</th>`
+                                        )
+                                        .join("")}
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    ${bodyRows
+                                      .map(
+                                        (row) =>
+                                          `<tr>
+                                      ${row
+                                        .map(
+                                          (cell) =>
+                                            `<td style="padding: 14px 16px; vertical-align: top;">${cell}</td>`
+                                        )
+                                        .join("")}
+                                    </tr>`
+                                      )
+                                      .join("")}
+                                  </tbody>
+                                </table>
+                              </div>`;
+                            }
+                          }
+                        }
+                      }
+
+                      return `<div style="margin-bottom: 1rem;">${html}</div>`;
+                    })
+                    .join("")
+                }}
+              />
+            </div>
+          </section>
+        )}
+
+        {/* FAQ Section */}
+        {pageFaq && pageFaq.length > 0 && (
+          <section className="mt-5 py-2">
+            <h2
+              className="mb-12 font-serif text-4xl leading-tight text-[var(--ink)]"
+              style={{ fontFamily: "Fraunces, serif" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <div className="space-y-6 max-w-7xl">
+              {pageFaq.map((item, index) => (
+                <details
+                  key={index}
+                  className="group border-b border-[rgba(15,23,42,0.08)] pb-6"
+                >
+                  <summary className="flex cursor-pointer items-center justify-between font-semibold text-[var(--ink)] hover:text-[#c21f2d] transition-colors">
+                    <span className="text-base leading-relaxed">
+                      {item.question}
+                    </span>
+                    <span className="ml-4 flex-shrink-0 transition-transform group-open:rotate-180">
+                      ➤
+                    </span>
+                  </summary>
+                  <p className="mt-4 text-base leading-8 text-[var(--ink-soft)]">
+                    {item.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
       </main>
       <SiteFooter />
     </div>
