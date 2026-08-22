@@ -24,7 +24,7 @@ export function SiteHeader() {
       {/* Utility strip */}
       <div className="hidden md:block border-b border-[var(--hairline)] bg-[#ffc800] py-3">
         <div className="container-page flex h-8 items-center justify-between eyebrow">
-          <span>Authorized Distributor & Service Centre</span>
+          <span>AUTHORIZED DISTRIBUTOR & SERVICE CENTRE- NIKON, HI-TARGET, US RADAR, BOSCH</span>
           <div className="flex items-center gap-6">
             <a href="tel:09971615537" className="hover:text-[var(--ink)] transition-colors">+91 99716 15537</a>
             <a href="mailto:sales@sankon.in" className="hover:text-[var(--ink)] transition-colors">sales@sankon.in</a>
