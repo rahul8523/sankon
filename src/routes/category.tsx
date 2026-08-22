@@ -18,14 +18,19 @@ function CategoryCard({
   return (
     <div className="group overflow-hidden rounded-[6px] border border-[var(--hairline)] bg-white shadow-sm transition-shadow hover:shadow-lg">
       <div className="overflow-hidden bg-[#f6f0e5]">
+        <a
+            href={href ?? "#specs"}
+          >
         <img
           src={image}
           alt={title}
           className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
-        />
+        /></a>
       </div>
       <div className="p-6 border-t">
-        <div className="text-[11px] uppercase tracking-[0.35em] text-[var(--muted-foreground)] mb-3">
+        <a
+            href={href ?? "#specs"}
+          ><div className="text-[11px] uppercase tracking-[0.35em] text-[var(--muted-foreground)] mb-3">
           {title}
         </div>
         <h3
@@ -37,7 +42,7 @@ function CategoryCard({
           }}
         >
           {subtitle}
-        </h3>
+        </h3></a>
         <div className="mt-6 flex flex-nowrap items-center gap-3">
           <a
             href={href ?? "#specs"}
@@ -49,7 +54,7 @@ function CategoryCard({
             </span>
           </a>
           <a
-            href="#contact"
+            href="/#contact"
             className="inline-flex min-w-[150px] h-10 items-center justify-center rounded-full border border-[var(--hairline)] bg-white px-3 text-sm font-semibold text-[var(--ink)] transition hover:bg-black hover:text-white"
           >
             Quick Quote
@@ -152,13 +157,13 @@ export default function CategoryPage() {
               image: "/upload/categoryImg/total-stations/HTS-420R.png",
               href: "/product-detail/hts-420r",
             },
-            {
-              title: "ZTS-320R",
-              subtitle:
-                "Total station with rugged design, easy to use and high-precision total station.",
-              image: "/upload/categoryImg/total-stations/ZTS-320R.png",
-              href: "/product-detail/zts-320r",
-            },
+            // {
+            //   title: "ZTS-320R",
+            //   subtitle:
+            //     "Total station with rugged design, easy to use and high-precision total station.",
+            //   image: "/upload/categoryImg/total-stations/ZTS-320R.png",
+            //   href: "/product-detail/zts-320r",
+            // },
             {
               title: "HTS-720",
               subtitle:
@@ -166,6 +171,8 @@ export default function CategoryPage() {
               image: "/upload/categoryImg/total-stations/HTS-720.png",
               href: "/product-detail/hi-target-hts-720-android-total-station",
             },
+
+            
           ]
         : activeBrand?.slug === "bosch" &&
             category.slug === "auto-digital-levels"
@@ -466,7 +473,7 @@ export default function CategoryPage() {
                         title: "Q5 Series GPR System",
                         subtitle:
                           "Simply put, the Q5 GPR system is a workhorse when it comes to locating buried utilities. Its easy-to-use interface can also be expanded and configured",
-                        image: "/upload/categoryImg/gpr-system/1.webp",
+                        image: "/upload/categoryImg/gpr-system/q5.jpg",
                         href: "/product-detail/q5-series-gpr-system",
                       },
 
@@ -474,7 +481,7 @@ export default function CategoryPage() {
                         title: "Q10 Utility and Geotechnical Locating System",
                         subtitle:
                           "The Q10 is a high-resolution 1000MHz GPR cart system for bridge deck scanning and other high-resolution/shallow penetration depth applications. Its ru",
-                        image: "/upload/categoryImg/gpr-system/2.webp",
+                        image: "/upload/categoryImg/gpr-system/q10.jpg",
                         href: "/product-detail/q10-utility-and-geotechnical-locating-system",
                       },
 
@@ -482,7 +489,7 @@ export default function CategoryPage() {
                         title: "Q25 Geophysical Radar System",
                         subtitle:
                           "The Q25 geophysical GPR system is a 250 MHz locating system for deep utilities and geophysical applications. The Q25 has the greatest penetration dep",
-                        image: "/upload/categoryImg/gpr-system/3.webp",
+                        image: "/upload/categoryImg/gpr-system/q25.jpg",
                         href: "/product-detail/q25-geophysical-radar-system",
                       },
 
@@ -499,7 +506,7 @@ export default function CategoryPage() {
                         title: "GPRover Utility Mapping System",
                         subtitle:
                           "GPRover harnesses ground penetrating radar technology for superior locating and data collection capabilities; integrating advanced subsurface imaging ",
-                        image: "/upload/categoryImg/gpr-system/5.png",
+                        image: "/upload/categoryImg/gpr-system/gprover-maping.jpg",
                         href: "/product-detail/gprover-utility-mapping-system",
                       },
 
@@ -507,7 +514,7 @@ export default function CategoryPage() {
                         title: "Quantum Imager Triple Frequency GPR System",
                         subtitle:
                           "Quantum Imaging Applications With greater depth and resolution than any other locating technology, the Quantum Imager can be used for anything from f",
-                        image: "/upload/categoryImg/gpr-system/6.webp",
+                        image: "/upload/categoryImg/gpr-system/quantum.jpg",
                         href: "/product-detail/quantum-imager-triple-frequency-gpr-system",
                       },
                     ]
@@ -555,6 +562,20 @@ export default function CategoryPage() {
                               "HD-MAX Ⅱ dual-frequency echo sounder redefines underwater surveying. Its enhanced host unit is water-resistant, portable, and offers versatile inter",
                             image: "/upload/categoryImg/marine/4.png",
                             href: "/product-detail/hd-max",
+                          },
+                          {
+                            title: "iFlow RP600 RP1200 ADCP",
+                            subtitle:
+                              "The iFlow RP series direct-reading Acoustic Doppler Current Profiler(ADCP) is an accurate and easy to use current profiling system, which can be deployed on flexible platform: trimaran, UVS and so on. ",
+                            image: "/upload/categoryImg/marine/iflow-n.jpg",
+                            href: "#",
+                          },
+                          {
+                            title: "iBeam-8140S",
+                            subtitle:
+                              "The iBeam 8140S is Hi-Target's latest portable multibeam product featuring an innovative data acquisition method. It delivers enhanced quality accuracy and intelligent operation",
+                            image: "/upload/categoryImg/marine/ibeam.jpg",
+                            href: "#",
                           },
                         ]
                       : activeBrand?.slug === "bosch" &&
@@ -814,14 +835,14 @@ export default function CategoryPage() {
                                     href: "/product-detail/v200-gnss",
                                   },
 
-                                  {
-                                    title: "iRTK4",
-                                    subtitle:
-                                      "iRTK4 GNSS RTK is a full-featured, intelligent receiver system equipped with an integrated new-generation full-frequency antenna and advanced multi-ch",
-                                    image:
-                                      "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
-                                    href: "/product-detail/irtk4",
-                                  },
+                                  // {
+                                  //   title: "iRTK4",
+                                  //   subtitle:
+                                  //     "iRTK4 GNSS RTK is a full-featured, intelligent receiver system equipped with an integrated new-generation full-frequency antenna and advanced multi-ch",
+                                  //   image:
+                                  //     "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
+                                  //   href: "/product-detail/irtk4",
+                                  // },
                                   {
                                     title: "iRTK5",
                                     subtitle:
@@ -980,7 +1001,7 @@ export default function CategoryPage() {
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <button
+              {/* <button
                 onClick={() => openRequestQuote({})}
                 className="inline-flex min-w-[220px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(15,23,42,0.12)] transition hover:bg-[#111]"
               >
@@ -988,16 +1009,15 @@ export default function CategoryPage() {
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
                   <ArrowRight className="h-4 w-4" />
                 </span>
-              </button>
-              <a
-                href="#brochure"
+              </button> */}
+              {/* <a href="#brochure"
                 className="inline-flex min-w-[230px] items-center justify-between rounded-full bg-black px-8 py-3 text-sm font-semibold text-white transition hover:bg-[#111]"
               >
                 <span>Download Brochure</span>
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-black">
                   <Download className="h-4 w-4" />
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
 

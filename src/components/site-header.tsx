@@ -24,10 +24,10 @@ export function SiteHeader() {
       {/* Utility strip */}
       <div className="hidden md:block border-b border-[var(--hairline)] bg-[#ffc800] py-3">
         <div className="container-page flex h-8 items-center justify-between eyebrow">
-          <span>Authorized Distributor & Service Centre - Trimble Nikon Spectra Precision</span>
+          <span>Authorized Distributor & Service Centre</span>
           <div className="flex items-center gap-6">
             <a href="tel:09971615537" className="hover:text-[var(--ink)] transition-colors">+91 99716 15537</a>
-            <a href="mailto:nikon@sankon.in" className="hover:text-[var(--ink)] transition-colors">nikon@sankon.in</a>
+            <a href="mailto:sales@sankon.in" className="hover:text-[var(--ink)] transition-colors">sales@sankon.in</a>
           </div>
         </div>
       </div>
@@ -42,11 +42,14 @@ export function SiteHeader() {
 
         <nav className="hidden lg:flex items-center gap-8 text-sm">
           <NavItem label="Home" />
+          <NavItem label="About Us" href="/about-us" />
           <ProductsDropdown />
-          <NavItem label="Service Centre" />
+          <NavItem label="Careers" href="/career" />
+          <NavItem label="Contact Us" href="/contact-us" />
+          {/* <NavItem label="Service Centre" />
           <NavItem label="About" />
           <NavItem label="Clients" />
-          <NavItem label="Contact" />
+          <NavItem label="Contact" /> */}
         </nav>
 
         <div className="flex items-center gap-2">
@@ -54,7 +57,7 @@ export function SiteHeader() {
             <Search className="h-4 w-4" />
           </button>
           <a
-            href="#contact"
+            href="/#contact"
             className="hidden sm:inline-flex items-center gap-2 rounded-full bg-[var(--ink)] pl-5 pr-2 py-2 text-sm font-medium text-[var(--ivory)] hover:bg-[var(--cobalt)] transition-colors group"
           >
             Enquiry Now
@@ -75,8 +78,8 @@ export function SiteHeader() {
       {open && (
         <div className="lg:hidden border-t border-[var(--hairline)] bg-[var(--ivory)]">
           <div className="container-page py-3 flex flex-col text-sm">
-            {["Home", "Products", "Service Centre", "About", "Clients", "Contact"].map((l) => (
-              <a key={l} href="#" className="py-3 text-[var(--ink)] border-b border-[var(--hairline)] last:border-0">{l}</a>
+            {["Home", "Products", "Service Centre", "About", "Careers", "Clients", "Contact"].map((l) => (
+                <a key={l} href={l === "About" ? "/about-us" : l === "Careers" ? "/career" : l === "Contact" ? "/contact-us" : l === "Home" ? "/" : "#"} className="py-3 text-[var(--ink)] border-b border-[var(--hairline)] last:border-0">{l}</a>
             ))}
           </div>
         </div>
@@ -85,9 +88,9 @@ export function SiteHeader() {
   );
 }
 
-function NavItem({ label }: { label: string }) {
+function NavItem({ label, href = "#" }: { label: string; href?: string }) {
   return (
-    <a href="#" className="relative text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-[var(--cobalt)] hover:after:w-full after:transition-all">
+    <a href={href} className="relative text-[var(--ink-soft)] hover:text-[var(--ink)] transition-colors after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-[var(--cobalt)] hover:after:w-full after:transition-all">
       {label}
     </a>
   );

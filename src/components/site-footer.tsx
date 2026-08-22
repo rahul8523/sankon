@@ -3,7 +3,7 @@ import { categories } from "../routes/categoryData";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-[#021B33] text-white mt-32 overflow-hidden">
+    <footer className="bg-[#021B33] text-white mt-10 overflow-hidden">
 
       {/* Top Section */}
       <div className="border-b border-white/10">
@@ -52,9 +52,7 @@ export function SiteFooter() {
           />
 
           <p className="mt-8 text-[14px] leading-8 text-white/60 max-w-md">
-            Complete solution for requirement of Surveying,
-            Construction, Measuring, Aligning and
-            Positioning instruments.
+            Complete solution for requirement of Building and Infrastructure Construction , mining & exploration ,GIS and mapping ,Bathymetric survey and hydrology
           </p>
         </div>
 
@@ -64,6 +62,7 @@ export function SiteFooter() {
             title="COMPANY"
             items={[
               "About Us",
+              "Careers",
               "Service Centre",
               "Our Clients",
               "Contact",
@@ -123,10 +122,10 @@ export function SiteFooter() {
             <div className="flex gap-4">
               <Mail className="w-5 h-5 text-red-500 shrink-0 mt-1" />
               <a
-                href="mailto:nikon@sankon.in"
+                href="mailto:sales@sankon.in"
                 className="hover:text-white transition-colors text-white/45"
               >
-                nikon@sankon.in
+                sales@sankon.in
               </a>
             </div>
           </div>
@@ -143,8 +142,7 @@ export function SiteFooter() {
           </p>
 
           <p>
-            Authorized Distributor & Service Centre — Trimble · Nikon ·
-            Spectra Precision
+            Authorized Distributor & Service Centre — Nikon, Hi-Target, U S Radar, Bosch
           </p>
         </div>
       </div>
@@ -171,7 +169,7 @@ function FooterCol({
         {items.map((item) => (
           <li key={item}>
             <a
-              href="#"
+                href={item === "About Us" ? "/about-us" : item === "Careers" ? "/career" : item === "Contact" ? "/contact-us" : "#"}
               className="text-[15px] text-white/45 hover:text-white transition-colors"
             >
               {item}

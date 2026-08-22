@@ -22,7 +22,7 @@ import {
   Users,
 } from "lucide-react";
 import { useState } from "react";
-import heroImg from "@/assets/hero-survey.jpg";
+import heroImg from "@/assets/banner-1.jpg";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
@@ -290,18 +290,10 @@ function About() {
         </div>
         <div className="lg:col-span-8 lg:pl-8 lg:border-l lg:border-[var(--hairline)]">
           <p className="text-[15px] md:text-[17px] leading-[1.8] text-[var(--ink-soft)]">
-            Sankon Technologies India Pvt Ltd are the Authorized Distributors
-            and Service Centre in INDIA for M/s Trimble Navigation India Pvt Ltd
-            (Owned Subsidiary of Trimble Europe BV, The Netherlands – a
-            world-leading manufacturer of Surveying & GNSS Equipments and also
-            worldwide resellers of Nikon Surveying Equipments manufactured by
-            Nikon-Trimble Co Ltd having factory at Technoport Mitsuiseimei
-            Building, 2-16-2, Minamikamata 2-chome, Ota-ku, Tokyo 144-0035
-            Japan) for their entire range of Nikon Surveying Instruments i.e.
-            Total Stations, Auto and Digital Levels, Digital Theodolites,
-            Geodetic Global Positioning Systems, DGPS, GNSS, Civil/Survey
-            Engineering Software and other allied Surveying Instruments and
-            Spectra Precision Total Stations.
+            Established in 2016, Sankon is a growing provider of comprehensive surveying and geospatial solutions across surveying, infrastructure, mining, GIS & mapping, bathymetry, and hydrology. With a strong focus on quality products, superior service, and 24×7 after-sales and technical support, Sankon has built trusted partnerships with leading global brands including Hi-Target, Nikon, Chasing, Feima Robotics, Bosch, Mileseey, Baywei Hungary, US Radar, SENSYS, and Fuzzr.
+          </p>
+          <p>
+            From DGPS, Total Stations and Auto Levels to Echosounders, USVs, Multibeam Echosounders, Side Scan Sonars, ADCPs, Industrial ROVs, SLAM systems, GPRs, Magnetometers, and Cable & Pipe Locators, Sankon offers technology-driven solutions for diverse field requirements. Our commitment to reliable products and responsive technical support makes us a trusted partner for professionals across the geospatial and construction industries.
           </p>
         </div>
       </div>
@@ -444,10 +436,10 @@ function DealBanner() {
                 className="mt-6 font-serif text-5xl md:text-6xl text-[var(--ink)] leading-[1]"
                 style={{ fontFamily: "Fraunces, serif" }}
               >
-                HTS-521L10
+                V 600L Laser RTK
               </h3>
               <p className="mt-4 text-[var(--ink-soft)]">
-                HD Color Screen Long Range Total Station
+                High-Accuracy GNSS Positioning for Professional Surveying
               </p>
             </div>
             <a
@@ -461,7 +453,7 @@ function DealBanner() {
             </a>
           </div>
           <div className="grid grid-cols-2 divide-x divide-y divide-[var(--hairline)]">
-            <Stat value="40+" label="Years of expertise" />
+            <Stat value="10+" label="Years of expertise" />
             <Stat value="500+" label="Happy clients" />
             <Stat value="100%" label="Genuine products" />
             <Stat value="24/7" label="Service support" />
@@ -507,7 +499,7 @@ function Service() {
       num: "01",
       icon: Wrench,
       title: "Authorized Repairs",
-      text: "Repair all kinds of NIKON & SPECTRA PRECISION Surveying Instruments.",
+      text: "Repair all kinds of NIKON &  Surveying Instruments.",
     },
     {
       num: "02",
@@ -548,31 +540,10 @@ function Service() {
               </span>
             </h2>
             <div className="mt-8 space-y-6 text-[15px] leading-[1.8] text-[var(--ink-soft)]">
+              <p>Sankon operates state-of-the-art service facilities across Noida, Bhopal, Pune, Raipur, and Lucknow, equipped to deliver reliable service for multiple brands. Every instrument undergoes rigorous performance, precision, and reliability checks against specified standards before reaching our customers. Our branches are also equipped with CORS Stations, providing 24×7 GNSS corrections for uninterrupted field operations.</p>
               <p>
-                Sankon Technologies India Pvt Ltd is the authorized Service
-                Centre to repair all kinds of NIKON & SPECTRA PRECISION
-                Surveying Instruments. The Service Centre is set-up as per
-                Trimble Nikon guidelines and equipped with all the Special Tools
-                and Jigs. The instruments are checked and calibrated with
-                Universal-4 Collimator which is self adjusted collimation system
-                and therefore, all the adjustments are free from human error.
-                The Diodes of the Distomats are aligned with a CCD Device
-                attached to the powerful Telescope. This service centre is
-                managed with highly technical qualified Engineers.
-              </p>
-              <p>
-                Sankon Technologies India Pvt Ltd has established its Surveying
-                Instruments Divisions in Noida with a state-of-the-art Service
-                Centre fully equipped to cater to all complex needs of these
-                highly sensitive equipments and to handle sales and service
-                needs of our customers. Our Service Centre has been built on the
-                Philosophy of "Centre for Competence" for providing prompt
-                "Pre-and-After Sales Support" to our customers. We are always
-                updated on the latest test equipment in our service laboratory,
-                as well as hold sufficient stock of spare parts to provide the
-                fastest response to our customers. We as a policy have made
-                "Service in Time" our motto.
-              </p>
+               Our service centres feature advanced calibration and diagnostic systems, OEM software, and dedicated ESD workspaces to ensure accurate servicing and internal adjustments. With readily available spare parts and highly trained service engineers with extensive global brand expertise, Sankon is committed to minimising downtime and keeping your equipment performing at its best.</p>
+
             </div>
           </div>
           <div className="lg:col-span-7 grid sm:grid-cols-2 border-t border-l border-[var(--hairline)] self-start">
@@ -673,10 +644,10 @@ function Contact() {
             </ContactRow>
             <ContactRow icon={Mail} title="Email">
               <a
-                href="mailto:nikon@sankon.in"
+                href="mailto:sales@sankon.in"
                 className="hover:text-[var(--cobalt)]"
               >
-                nikon@sankon.in
+                sales@sankon.in
               </a>
             </ContactRow>
           </ul>
@@ -770,7 +741,7 @@ function WhySankon() {
   const items = [
     {
       num: "01",
-      title: "5 Branches Across India",
+      title: "6 Branches Across India",
       text: "Regional presence ensuring rapid response and local support.",
     },
     {
@@ -853,7 +824,7 @@ function Industries() {
     {
       icon: Waves,
       title: "Hydrographic Survey",
-      text: "Marine and inland water surveys with echo sounders and GNSS RTK.",
+      text: "Marine and inland water surveys with Echosounder, USV, ROV, ADCP and Multibeam.",
     },
     {
       icon: HardHat,
@@ -924,7 +895,7 @@ function ServiceOfferings() {
     {
       num: "02",
       title: "Repair",
-      text: "Authorized repair of Nikon, Trimble and Spectra Precision instruments using OEM spares.",
+      text: "Authorized repair of Nikon, Trimble and Hi Target instruments using OEM spares.",
     },
     {
       num: "03",
@@ -1070,11 +1041,11 @@ function Faq() {
   const faqs = [
     {
       q: "Is Sankon Technologies an authorized distributor?",
-      a: "Yes. Sankon Technologies India Pvt Ltd is the Authorized Distributor and Service Centre in India for Trimble, Nikon and Spectra Precision surveying instruments.",
+      a: "Yes. Sankon Technologies India Pvt Ltd is the Authorized Distributor and Service Centre in India for Trimble, Nikon and  surveying instruments.",
     },
     {
       q: "Which products can Sankon service and repair?",
-      a: "We repair all kinds of Nikon and Spectra Precision surveying instruments — Total Stations, Auto and Digital Levels, Digital Theodolites, GNSS and DGPS systems, along with allied surveying equipment.",
+      a: "We repair all kinds of Nikon and  surveying instruments — Total Stations, Auto and Digital Levels, Digital Theodolites, GNSS and DGPS systems, along with allied surveying equipment.",
     },
     {
       q: "How is calibration performed?",
@@ -1090,7 +1061,7 @@ function Faq() {
     },
     {
       q: "How can I get an official quotation?",
-      a: "Use the Enquiry form, call us at 0997-161-5537 / 0120-4104677, or email nikon@sankon.in to receive an official quotation.",
+      a: "Use the Enquiry form, call us at 0997-161-5537 / 0120-4104677, or email sales@sankon.in to receive an official quotation.",
     },
   ];
   const [open, setOpen] = useState<number | null>(0);

@@ -9056,7 +9056,7 @@ function ProductDetailPage() {
               </span>
             </div>
 
-            <div className="mt-8 border-t border-b border-border py-6 flex items-end gap-4">
+            {/* <div className="mt-8 border-t border-b border-border py-6 flex items-end gap-4">
               <div>
                 <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mb-1">
                   Your Price
@@ -9079,7 +9079,7 @@ function ProductDetailPage() {
                   Free shipping pan-India
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="mt-6">
               <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mb-3">
@@ -9117,9 +9117,9 @@ function ProductDetailPage() {
               >
                 Request Quote <ArrowRight className="h-4 w-4" />
               </button>
-              <button className="h-12 px-5 border border-border rounded-md font-semibold hover:bg-muted transition-colors">
+              {/* <button className="h-12 px-5 border border-border rounded-md font-semibold hover:bg-muted transition-colors">
                 Enquire
-              </button>
+              </button> */}
             </div>
 
             <div className="mt-8 grid grid-cols-4 gap-3 text-center">

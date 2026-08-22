@@ -142,13 +142,13 @@ export default function ProductPage() {
 
             <div className="mt-8 border-t border-b border-border py-6 flex items-end gap-4">
               <div>
-                <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mb-1">Your Price</div>
-                <div className="text-4xl font-bold">₹3,96,000</div>
+                {/* <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mb-1">Your Price</div> */}
+                {/* <div className="text-4xl font-bold">₹3,96,000</div> */}
               </div>
-              <div className="pb-1.5">
+              {/* <div className="pb-1.5">
                 <div className="text-sm text-muted-foreground line-through">₹4,32,000</div>
                 <div className="text-sm font-semibold text-accent">Save ₹36,000 (8.33%)</div>
-              </div>
+              </div> */}
               <div className="ml-auto text-right pb-1.5">
                 <div className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Incl. GST</div>
                 <div className="text-xs text-muted-foreground">Free shipping pan-India</div>
@@ -212,7 +212,7 @@ export default function ProductPage() {
               ["overview", "Overview"],
               ["features", "Features & Benefits"],
               ["specs", "Specifications"],
-              ["brochure", "Brochures"],
+              // ["brochure", "Brochures"],
             ] as const).map(([k, label]) => (
               <button
                 key={k}

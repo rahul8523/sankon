@@ -237,7 +237,7 @@ faq: [
         title: "Hi-Target",
         subtitle:
           "Hi-Target mechanical total stations are packed with features that make survey work easier and faster.",
-        image: "/upload/categoryImg/NikonNK.png",
+        image: "/upload/categoryImg/total-stations/HTS-720.png",
         href: "/category/total-stations/hi-target",
       },
     ],
@@ -264,9 +264,9 @@ faq: [
     heroImage: "/upload/categoryImg/gnss-rtk-systems/ProdImg401085.png",
     products: [
       {
-        title: "GNSS / RTK Systems",
+        title: "V600L Laser RTK System",
         subtitle: "Hi-Target",
-        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg921380.png",
+        image: "/upload/categoryImg/gnss-rtk-systems/ProdImg922461.png",
         href: "/category/gnss-rtk-systems/hi-target",
       },
     ],
@@ -383,7 +383,7 @@ If your organization is growing its surveying capability or upgrading the equipm
     ],
   },
   {
-    title: "Auto & Digital Levels",
+    title: "Auto Levels",
     slug: "auto-digital-levels",
     brands: "Bosch · Sankon",
     img: "/upload/categoryImg/ProdImg549254.webp",
@@ -394,50 +394,50 @@ If your organization is growing its surveying capability or upgrading the equipm
         label: "Nikon",
         slug: "nikon",
         href: "/category/auto-digital-levels/nikon",
-        heroHeading: "Auto & Digital Levels by Nikon",
-        heroSubheading: "Auto & Digital Levels by Nikon",
+        heroHeading: "Auto Levels by Nikon",
+        heroSubheading: "Auto Levels by Nikon",
         heroText:
-          "Discover Nikon authorized Auto & Digital Levels with precision optics, rugged field build, and trusted support for every survey project.",
+          "Discover Nikon authorized Auto Levels with precision optics, rugged field build, and trusted support for every survey project.",
       },
       {
         label: "Bosch",
         slug: "bosch",
         href: "/category/auto-digital-levels/bosch",
-        heroHeading: "Auto & Digital Levels by Bosch",
-        heroSubheading: "Auto & Digital Levels by Bosch",
+        heroHeading: "Auto Levels by Bosch",
+        heroSubheading: "Auto Levels by Bosch",
         heroText:
-          "Discover Bosch authorized Auto & Digital Levels with precision optics, rugged field build, and trusted support for every survey project.",
+          "Discover Bosch authorized Auto Levels with precision optics, rugged field build, and trusted support for every survey project.",
       },
       {
         label: "Sankon",
         slug: "sankon",
         href: "/category/auto-digital-levels/sankon",
-        heroHeading: "Auto & Digital Levels by Sankon",
-        heroSubheading: "Auto & Digital Levels by Sankon",
+        heroHeading: "Auto Levels by Sankon",
+        heroSubheading: "Auto Levels by Sankon",
         heroText:
-          "Discover Sankon authorized Auto & Digital Levels with precision optics, rugged field build, and trusted support for every survey project.",
+          "Discover Sankon authorized Auto Levels with precision optics, rugged field build, and trusted support for every survey project.",
       },
     ],
     description:
       "Precision auto and digital levels for construction, civil works, and site layout with fast, accurate leveling results.",
-    heroImage: "/upload/categoryImg/auto-level/ProdImg716222.png",
+    heroImage: "/upload/categoryImg/auto-level/bosch-auto-level.jpg",
     products: [
       {
-        title: "Auto & Digital Levels",
+        title: "Auto Levels",
         subtitle: "Nikon",
         image: "/upload/categoryImg/auto-level/ProdImg85707.webp",
         href: "/category/auto-digital-levels/nikon",
       },
       {
-        title: "Auto & Digital Levels",
+        title: "Auto Levels",
         subtitle: "Bosch",
-        image: "/upload/categoryImg/auto-level/ProdImg716222.png",
+        image: "/upload/categoryImg/auto-level/bosch-auto-level.jpg",
         href: "/category/auto-digital-levels/bosch",
       },
       {
-        title: "Auto & Digital Levels",
+        title: "Self levelling Auto level",
         subtitle: "Sankon",
-        image: "/upload/categoryImg/auto-level/ProdImg716222.png",
+        image: "/upload/categoryImg/auto-level/self-level-n.jpg",
         href: "/category/auto-digital-levels/sankon",
       },
     ],
@@ -516,7 +516,7 @@ If your organization is growing its surveying capability or upgrading the equipm
       {
         title: "Laser Distance Meters",
         subtitle: "Bosch",
-        image: "/upload/categoryImg/ProdImg910895.png",
+        image: "/upload/categoryImg/laser-distance.jpg",
         href: "/category/laser-distance-meters/bosch",
       },
       {
@@ -536,12 +536,12 @@ If your organization is growing its surveying capability or upgrading the equipm
     brandLinks: makeBrandLinks("By model", "ground-penetrating-radar-gpr"),
     description:
       "Ground penetrating radar solutions for underground mapping, utility detection, and site investigation with model-specific performance.",
-    heroImage: "/upload/categoryImg/ProdImg875035.png",
+    heroImage: "/upload/categoryImg/gpr-system/gpr-2.jpg",
     products: [
       {
         title: "Ground Penetrating Radar (GPR)",
         subtitle: "By model",
-        image: "/upload/categoryImg/ProdImg910895.png",
+        image: "/upload/categoryImg/gpr-system/gpr-2.jpg",
         href: "/category/ground-penetrating-radar-gpr/by-model",
       },
     ],
@@ -593,7 +593,7 @@ If your organization is growing its surveying capability or upgrading the equipm
     brandLinks: makeBrandLinks("Hi-Target", "slam-lidar-scanners"),
     description:
       "SLAM and LiDAR scanners for rapid 3D mapping, site digitization, and spatial modeling across infrastructure and survey projects.",
-    heroImage: "/upload/categoryImg/ProdImg90323.png",
+    heroImage: "/upload/categoryImg/slam-lidar.jpg",
      products: [
       {
         title: "SLAM / LiDAR Scanners",
