@@ -22,12 +22,15 @@ import {
   Users,
 } from "lucide-react";
 import { useState } from "react";
+import { toast } from "sonner";
 import heroImg from "@/assets/banner-1.jpg";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { MobileCtaBar } from "@/components/mobile-cta-bar";
 import categories from "./categoryData";
+import { submitInquiry } from "@/lib/submitInquiry";
+import { phoneValidationProps } from "@/lib/phoneValidation";
 
 
 
@@ -614,6 +617,33 @@ function Clients() {
 
 /* ---------- Contact ---------- */
 function Contact() {
+  const [submitting, setSubmitting] = useState(false);
+
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const data = new FormData(form);
+    const toastId = toast.loading("Sending your message...");
+    setSubmitting(true);
+
+    try {
+      await submitInquiry({
+        formType: "Homepage Enquiry",
+        name: `${String(data.get("firstName") || "")} ${String(data.get("lastName") || "")}`.trim(),
+        email: String(data.get("email") || ""),
+        phone: String(data.get("phone") || ""),
+        message: String(data.get("message") || ""),
+        website: String(data.get("website") || ""),
+      });
+      form.reset();
+      toast.success("Thank you! Your message has been sent successfully.", { id: toastId });
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "Message could not be sent.", { id: toastId });
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
   return (
     <section id="contact" className="py-24 md:py-32 bg-[var(--ivory-deep)]">
       <div className="container-page grid lg:grid-cols-12 gap-12 lg:gap-16">
@@ -654,7 +684,8 @@ function Contact() {
         </div>
 
         <div className="lg:col-span-7">
-          <form className="border border-[var(--hairline)] bg-[var(--paper)] p-8 md:p-10">
+          <form onSubmit={handleSubmit} className="border border-[var(--hairline)] bg-[var(--paper)] p-8 md:p-10">
+            <input name="website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
             <h3
               className="font-serif text-2xl text-[var(--ink)]"
               style={{ fontFamily: "Fraunces, serif" }}
@@ -662,23 +693,26 @@ function Contact() {
               Enquiry Now
             </h3>
             <div className="mt-8 grid sm:grid-cols-2 gap-6">
-              <Field label="First Name" />
-              <Field label="Last Name" />
-              <Field label="Email" type="email" />
-              <Field label="Phone number" type="tel" />
+              <Field label="First Name" name="firstName" required />
+              <Field label="Last Name" name="lastName" />
+              <Field label="Email" name="email" type="email" required />
+              <Field label="Phone number" name="phone" type="tel" required />
             </div>
             <div className="mt-6">
               <label className="block eyebrow mb-2">— Write Your Message</label>
               <textarea
+                name="message"
+                required
                 rows={5}
                 className="w-full border-b border-[var(--hairline)] bg-transparent px-0 py-2 text-sm text-[var(--ink)] placeholder:text-[var(--ink-soft)] focus:outline-none focus:border-[var(--cobalt)] transition"
               />
             </div>
             <button
-              type="button"
-              className="mt-8 inline-flex items-center gap-3 rounded-full bg-[var(--ink)] text-[var(--ivory)] pl-6 pr-2 py-2 text-sm font-medium hover:bg-[var(--cobalt)] transition-colors"
+              type="submit"
+              disabled={submitting}
+              className="mt-8 inline-flex items-center gap-3 rounded-full bg-[var(--ink)] text-[var(--ivory)] pl-6 pr-2 py-2 text-sm font-medium hover:bg-[var(--cobalt)] transition-colors disabled:cursor-not-allowed disabled:opacity-60"
             >
-              Send Your Message
+              {submitting ? "Sending..." : "Send Your Message"}
               <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--ivory)] text-[var(--ink)]">
                 <ArrowUpRight className="h-3.5 w-3.5" />
               </span>
@@ -690,12 +724,15 @@ function Contact() {
   );
 }
 
-function Field({ label, type = "text" }: { label: string; type?: string }) {
+function Field({ label, name, type = "text", required = false }: { label: string; name: string; type?: string; required?: boolean }) {
   return (
     <div>
       <label className="block eyebrow mb-2">— {label}</label>
       <input
+        name={name}
         type={type}
+        required={required}
+        {...(type === "tel" ? phoneValidationProps : {})}
         className="w-full border-b border-[var(--hairline)] bg-transparent px-0 py-2 text-sm text-[var(--ink)] focus:outline-none focus:border-[var(--cobalt)] transition"
       />
     </div>

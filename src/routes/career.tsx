@@ -1,12 +1,5 @@
 import {
   ArrowRight,
-  BarChart3,
-  BriefcaseBusiness,
-  FileSearch,
-  FlaskConical,
-  Medal,
-  UsersRound,
-  Wrench,
 } from "lucide-react";
 
 import { MobileCtaBar } from "@/components/mobile-cta-bar";
@@ -16,19 +9,19 @@ import { WhatsAppFab } from "@/components/whatsapp-fab";
 
 const careerBenefits = [
   {
-    icon: Medal,
+    image: "/upload/career/career-8.png",
     title: "Industry Leadership",
     description:
       "Gain hands-on exposure to advanced GNSS, SLAM LiDAR, Hydrographic equipment, and precision optical instruments.",
   },
   {
-    icon: BarChart3,
+    image: "/upload/career/career-7.png",
     title: "Technical Growth",
     description:
       "Access continuous technical training, factory-standard calibration processes, and skill elevation.",
   },
   {
-    icon: UsersRound,
+    image: "/upload/career/career-6.png",
     title: "Collaborative Culture",
     description:
       "Work in an agile, performance-driven environment that values innovation, reliability, and professional ownership.",
@@ -37,7 +30,7 @@ const careerBenefits = [
 
 const openPositions = [
   {
-    icon: Wrench,
+    image: "/upload/career/career-1.png",
     title: "Service & Calibration Engineer",
     specialization: "Optical & GNSS",
     responsibilities: [
@@ -49,7 +42,7 @@ const openPositions = [
       "Diploma/B.Tech in Electronics, Instrumentation, Civil Engineering, or a related technical field.",
   },
   {
-    icon: BriefcaseBusiness,
+    image: "/upload/career/career-2.png",
     title: "Technical Sales Manager",
     specialization: "Survey & Geospatial",
     responsibilities: [
@@ -61,7 +54,7 @@ const openPositions = [
       "Diploma/B.Tech with technical sales experience in surveying, geospatial, or infrastructure solutions.",
   },
   {
-    icon: FlaskConical,
+    image: "/upload/career/career-3.png",
     title: "Application Specialist",
     specialization: "Soil & Material Testing Equipment",
     responsibilities: [
@@ -83,7 +76,7 @@ export default function CareerPage() {
         <section className="container-page py-6 md:py-8">
           <div className="relative isolate min-h-[520px] overflow-hidden rounded-sm md:min-h-[650px] lg:min-h-[min(70vh,760px)]">
             <img
-              src="/upload/aboutus/banner.jpg"
+              src="/upload/career/career-0.jpg"
               alt="Surveying professionals working with precision equipment"
               className="absolute inset-0 -z-20 h-full w-full object-cover object-[70%_center]"
             />
@@ -135,13 +128,18 @@ export default function CareerPage() {
             </div>
 
             <div className="mt-10 grid gap-4 md:grid-cols-3">
-              {careerBenefits.map(({ icon: Icon, title, description }) => (
+              {careerBenefits.map(({ image, title, description }) => (
                 <article
                   key={title}
                   className="flex min-h-[260px] flex-col items-center justify-center bg-[#fff0d1] px-6 py-9 text-center md:px-8"
                 >
-                  <div className="flex h-16 w-16 items-center justify-center rounded-full border border-[var(--ink)]/30 bg-[#ffdd8b] text-[var(--ink)]">
-                    <Icon className="h-8 w-8" strokeWidth={1.7} aria-hidden="true" />
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full border border-[var(--ink)]/30 bg-[#ffdd8b] p-2.5">
+                    <img
+                      src={image}
+                      alt=""
+                      className="h-full w-full object-contain"
+                      aria-hidden="true"
+                    />
                   </div>
                   <h3 className="mt-5 text-xl font-medium leading-tight text-[var(--ink)]">
                     {title}
@@ -177,7 +175,7 @@ export default function CareerPage() {
 
             <figure className="min-h-[260px] overflow-hidden bg-[var(--ivory-deep)] md:min-h-[320px] lg:min-h-[360px]">
               <img
-                src="/upload/aboutus/2C2A1044.jpg"
+                src="/upload/career/career.jpg"
                 alt="Sankon technician calibrating a precision surveying instrument"
                 className="h-full w-full object-cover"
               />
@@ -185,7 +183,7 @@ export default function CareerPage() {
 
             <figure className="min-h-[260px] overflow-hidden bg-[var(--ivory-deep)] md:min-h-[320px] lg:min-h-[360px]">
               <img
-                src="/upload/aboutus/banner.jpg"
+                src="/upload/career/career-5.jpg"
                 alt="Sankon professional working with surveying equipment"
                 className="h-full w-full object-cover object-[68%_center]"
               />
@@ -205,14 +203,19 @@ export default function CareerPage() {
 
             <div className="mt-8 grid gap-5 lg:grid-cols-3">
               {openPositions.map(
-                ({ icon: Icon, title, specialization, responsibilities, requirements }, index) => (
+                ({ image, title, specialization, responsibilities, requirements }, index) => (
                   <article
                     key={title}
                     className="flex min-h-full flex-col rounded-xl border border-[var(--ink)]/25 bg-[var(--paper)] p-5 sm:p-6"
                   >
                     <div className="flex items-start gap-4">
-                      <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-[#ffdda0] text-[var(--ink)]">
-                        <Icon className="h-9 w-9" strokeWidth={1.5} aria-hidden="true" />
+                      <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-[#ffdda0] p-1.5">
+                        <img
+                          src={image}
+                          alt=""
+                          className="h-full w-full object-contain"
+                          aria-hidden="true"
+                        />
                       </div>
                       <h3 className="pt-1 text-base font-medium uppercase leading-[1.12] text-[var(--ink)]">
                         {index + 1}. {title}
@@ -259,7 +262,12 @@ export default function CareerPage() {
 
             <div className="mt-10 grid gap-6 bg-[#ffdda0] px-6 py-7 sm:px-8 md:grid-cols-[64px_1fr_auto] md:items-center md:gap-7 lg:mt-16 lg:px-12">
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white text-[var(--ink)]">
-                <FileSearch className="h-9 w-9" strokeWidth={1.5} aria-hidden="true" />
+                <img
+                  src="/upload/career/career-4.png"
+                  alt=""
+                  className="h-11 w-11 object-contain"
+                  aria-hidden="true"
+                />
               </div>
               <div>
                 <h3 className="text-2xl leading-tight text-[var(--ink)] md:text-3xl">

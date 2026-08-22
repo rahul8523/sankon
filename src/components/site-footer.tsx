@@ -30,7 +30,7 @@ export function SiteFooter() {
           {/* Right */}
           <div className="flex lg:justify-end">
             <a
-              href="#contact"
+              href="/contact-us"
               className="group inline-flex items-center gap-4 text-2xl md:text-3xl text-white hover:text-white/80 transition-all"
             >
               Start an enquiry

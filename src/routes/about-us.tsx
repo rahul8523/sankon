@@ -76,7 +76,7 @@ export default function AboutUsPage() {
                 description="Authorized distributors for Nikon Total Stations, Auto Levels, Digital Theodolites, and Spectra Precision systems via Trimble Navigation India Pvt. Ltd."
               />
               <CapabilityCard
-                image="/upload/aboutus/Quantum%20Imager-Photoroom%20(1).jpg"
+                image="/upload/aboutus/V600LHD.jpg"
                 alt="Hi-Target GNSS receiver"
                 title="GNSS & LiDAR Innovations"
                 description="Hi-Target GNSS RTK, 3D SLAM LiDAR Systems, and Hydrographic/Marine survey technology (USVs and Echo Sounders)."
@@ -88,13 +88,13 @@ export default function AboutUsPage() {
                 description="Complete lab solutions for Soil, Aggregate, Concrete, Cement, Asphalt, and Bitumen testing compliant with IS & international standards."
               />
               <CapabilityCard
-                image="/upload/aboutus/2C2A1044.jpg"
+                image="/upload/aboutus/QuantumImagerPhotoroom.jpg"
                 alt="Ground penetrating radar system"
                 title="Non-Destructive Testing (NDT) & Underground Locators"
                 description="Advanced GPR systems and Cable/Pipe Locators for utility mapping."
               />
               <CapabilityCard
-                image="/upload/aboutus/Quantum%20Imager-Photoroom.jpg"
+                image="/upload/aboutus/QuantumImagerPhotoroom.jpg"
                 alt="Precision laser distance meter"
                 title="Precision Distance & Laser Tools"
                 description="Authorized Bosch and Mileseey indoor/outdoor laser distance meters, cross-line lasers, and digital measurement tools."

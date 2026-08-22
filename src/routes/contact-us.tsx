@@ -1,5 +1,6 @@
 import type { FormEvent, ReactNode } from "react";
 import type { LucideIcon } from "lucide-react";
+import { toast } from "sonner";
 import {
   BadgeCheck,
   Clock3,
@@ -21,28 +22,36 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
 import categories from "@/routes/categoryData";
+import { submitInquiry } from "@/lib/submitInquiry";
+import { phoneValidationProps } from "@/lib/phoneValidation";
 
 const fieldClassName =
   "mt-2 h-12 w-full border border-[var(--ink)]/20 bg-transparent px-4 text-sm text-[var(--ink)] outline-none transition-colors placeholder:text-[var(--ink-soft)]/65 focus:border-[var(--ink)]";
 
-function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
+async function handleContactSubmit(event: FormEvent<HTMLFormElement>) {
   event.preventDefault();
 
-  const data = new FormData(event.currentTarget);
-  const subject = `Website inquiry - ${data.get("inquiryType") || "General"}`;
-  const body = [
-    `Full Name: ${data.get("fullName") || ""}`,
-    `Company: ${data.get("company") || ""}`,
-    `Email: ${data.get("email") || ""}`,
-    `Phone: ${data.get("phone") || ""}`,
-    `Inquiry Type: ${data.get("inquiryType") || ""}`,
-    `Category / Equipment: ${data.get("category") || ""}`,
-    "",
-    "Message / Project Requirements:",
-    String(data.get("message") || ""),
-  ].join("\n");
+  const form = event.currentTarget;
+  const data = new FormData(form);
+  const toastId = toast.loading("Sending your message...");
 
-  window.location.href = `mailto:sales@sankon.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  try {
+    await submitInquiry({
+      formType: "Contact Us",
+      name: String(data.get("fullName") || ""),
+      company: String(data.get("company") || ""),
+      email: String(data.get("email") || ""),
+      phone: String(data.get("phone") || ""),
+      inquiryType: String(data.get("inquiryType") || ""),
+      category: String(data.get("category") || ""),
+      message: String(data.get("message") || ""),
+      website: String(data.get("website") || ""),
+    });
+    form.reset();
+    toast.success("Thank you! Your message has been sent successfully.", { id: toastId });
+  } catch (error) {
+    toast.error(error instanceof Error ? error.message : "Message could not be sent.", { id: toastId });
+  }
 }
 
 export default function ContactUsPage() {
@@ -129,6 +138,7 @@ export default function ContactUsPage() {
                 onSubmit={handleContactSubmit}
                 className="mt-5 grid gap-x-6 gap-y-5 rounded-xl border border-[var(--ink)]/25 bg-[var(--paper)] p-5 sm:p-7 md:grid-cols-2"
               >
+                <input name="website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
                 <ContactField label="Full Name*" name="fullName" placeholder="Enter your full name" required />
                 <ContactField label="Company / Organization Name*" name="company" placeholder="Enter company name" required />
                 <ContactField label="Email Address*" name="email" type="email" placeholder="Enter email address" required />
@@ -318,6 +328,7 @@ function ContactField({
         required={required}
         placeholder={placeholder}
         className={fieldClassName}
+        {...(type === "tel" ? phoneValidationProps : {})}
       />
     </label>
   );
