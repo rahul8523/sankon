@@ -593,7 +593,7 @@ If your organization is growing its surveying capability or upgrading the equipm
     brandLinks: makeBrandLinks("Hi-Target", "slam-lidar-scanners"),
     description:
       "SLAM and LiDAR scanners for rapid 3D mapping, site digitization, and spatial modeling across infrastructure and survey projects.",
-    heroImage: "/upload/categoryImg/slam-lidar.jpg",
+    heroImage: "/upload/categoryImg/ProdImg90323.png",
      products: [
       {
         title: "SLAM / LiDAR Scanners",

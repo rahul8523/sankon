@@ -21,9 +21,8 @@ import {
   Factory,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import heroImg from "@/assets/banner-1.jpg";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
@@ -60,6 +59,14 @@ const brandIds = [
   "IMG8415",
 ];
 
+const heroSlides = [
+  { image: "/upload/categoryImg/slider/slider-1.jpeg", alt: "Surveying equipment" },
+  { image: "/upload/categoryImg/slider/slider-2.jpeg", alt: "Surveying equipment" },
+  { image: "/upload/categoryImg/slider/slider-3.jpeg", alt: "Surveying equipment" },
+  { image: "/upload/categoryImg/slider/slider-4.jpeg", alt: "Surveying equipment" },
+  { image: "/upload/categoryImg/slider/slider-5.jpeg", alt: "Surveying equipment" },
+];
+
 export function Index() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -89,6 +96,23 @@ export function Index() {
 
 /* ---------- Hero ---------- */
 function Hero() {
+  const [activeSlide, setActiveSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+
+  useEffect(() => {
+    if (isPaused) return;
+
+    const timer = window.setInterval(() => {
+      setActiveSlide((current) => (current + 1) % heroSlides.length);
+    }, 5000);
+
+    return () => window.clearInterval(timer);
+  }, [isPaused]);
+
+  function showSlide(index: number) {
+    setActiveSlide((index + heroSlides.length) % heroSlides.length);
+  }
+
   return (
     <section className="border-b border-[var(--hairline)]">
       <div className="container-page pt-16 md:pt-24 pb-16 md:pb-20 grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
@@ -198,17 +222,59 @@ function Hero() {
         </div>
 
         <div className="lg:col-span-5">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
-            <img
-              src={heroImg}
-              alt="Field surveyor with total station"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
+          <div
+            className="relative aspect-[4/5] overflow-hidden rounded-sm"
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+            onFocus={() => setIsPaused(true)}
+            onBlur={() => setIsPaused(false)}
+          >
+            {heroSlides.map((slide, index) => (
+              <img
+                key={slide.image}
+                src={slide.image}
+                alt={slide.alt}
+                className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
+                  index === activeSlide ? "opacity-100" : "opacity-0"
+                }`}
+                aria-hidden={index !== activeSlide}
+              />
+            ))}
+            <button
+              type="button"
+              onClick={() => showSlide(activeSlide - 1)}
+              aria-label="Previous hero slide"
+              className="absolute left-4 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/25 text-white backdrop-blur-sm transition hover:bg-black/50"
+            >
+              <ArrowRight className="h-4 w-4 rotate-180" aria-hidden="true" />
+            </button>
+            <button
+              type="button"
+              onClick={() => showSlide(activeSlide + 1)}
+              aria-label="Next hero slide"
+              className="absolute right-4 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/25 text-white backdrop-blur-sm transition hover:bg-black/50"
+            >
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </button>
             <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between text-white">
               <div className="eyebrow text-white/80">— Field operations</div>
               <div className="font-mono-tech text-[10px] text-white/80">
                 N 28.58° · E 77.32°
               </div>
+            </div>
+            <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-2" aria-label="Hero slides">
+              {heroSlides.map((slide, index) => (
+                <button
+                  key={slide.image}
+                  type="button"
+                  onClick={() => showSlide(index)}
+                  aria-label={`Show slide ${index + 1}`}
+                  aria-current={index === activeSlide}
+                  className={`h-1.5 rounded-full transition-all ${
+                    index === activeSlide ? "w-7 bg-white" : "w-1.5 bg-white/60"
+                  }`}
+                />
+              ))}
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ export type InquiryPayload = {
 };
 
 export async function submitInquiry(payload: InquiryPayload) {
-  const response = await fetch("/api/send-inquiry", {
+  const response = await fetch("/api/send-inquiry.php", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
