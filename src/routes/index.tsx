@@ -60,10 +60,10 @@ const brandIds = [
 ];
 
 const heroSlides = [
-  { image: "/upload/categoryImg/slider/slider-1.jpeg", alt: "Surveying equipment" },
   { image: "/upload/categoryImg/slider/slider-2.jpeg", alt: "Surveying equipment" },
+  { image: "/upload/categoryImg/slider/slider-1.jpeg", alt: "Surveying equipment" },
   { image: "/upload/categoryImg/slider/slider-3.jpeg", alt: "Surveying equipment" },
-  { image: "/upload/categoryImg/slider/slider-4.jpeg", alt: "Surveying equipment" },
+  // { image: "/upload/categoryImg/slider/slider-4.jpeg", alt: "Surveying equipment 22" },
   { image: "/upload/categoryImg/slider/slider-5.jpeg", alt: "Surveying equipment" },
 ];
 
@@ -73,13 +73,13 @@ export function Index() {
       <SiteHeader />
       <main className="flex-1 pb-16 lg:pb-0">
         <Hero />
-        <TrustStrip />
+        {/* <TrustStrip /> */}
         <About />
         <WhySankon />
         <Products />
         {/* <Categories /> */}
         <Industries />
-        <DealBanner />
+        {/* <DealBanner /> */}
         <Service />
         <ServiceOfferings />
         <Resources />
@@ -115,15 +115,12 @@ function Hero() {
 
   return (
     <section className="border-b border-[var(--hairline)]">
-      <div className="container-page pt-16 md:pt-24 pb-16 md:pb-20 grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
+      <div className="container-page pt-10 pb-10 grid lg:grid-cols-12 gap-10 lg:gap-16 items-end">
         <div className="lg:col-span-7">
-          <div className="flex items-center gap-3 eyebrow">
-            <span className="h-px w-8 bg-[var(--ink)]" />
-            <span>Est. — Authorized Distributor & Service Centre · India</span>
-          </div>
+        
 
           <h1
-            className="mt-8 font-serif text-[44px] md:text-[64px] lg:text-[72px] leading-[1.1] tracking-[-0.02em] text-[var(--ink)]"
+            className="font-serif text-[44px] md:text-[60px] leading-[1.1] tracking-[-0.02em] text-[var(--ink)]"
             style={{ fontFamily: "Fraunces, serif" }}
           >
             India's Trusted Partner for{" "}
@@ -358,10 +355,11 @@ function About() {
           </h2>
         </div>
         <div className="lg:col-span-8 lg:pl-8 lg:border-l lg:border-[var(--hairline)]">
-          <p className="text-[15px] md:text-[17px] leading-[1.8] text-[var(--ink-soft)]">
-            Established in 2016, Sankon is a growing provider of comprehensive surveying and geospatial solutions across surveying, infrastructure, mining, GIS & mapping, bathymetry, and hydrology. With a strong focus on quality products, superior service, and 24×7 after-sales and technical support, Sankon has built trusted partnerships with leading global brands including Hi-Target, Nikon, Chasing, Feima Robotics, Bosch, Mileseey, Baywei Hungary, US Radar, SENSYS, and Fuzzr.
+          <p className="text-[16px] leading-[1.8] text-[var(--ink-soft)]">
+            Established in 2016, Sankon is a growing provider of comprehensive surveying and geospatial solutions across surveying, infrastructure, mining, GIS & mapping, bathymetry, and hydrology. With a strong focus on quality products, superior service, and 24×7 after-sales and technical support, Sankon has built trusted partnerships with leading global brands including <b>Hi-Target, Nikon, Chasing, Feima Robotics, Bosch, Mileseey, Baywei Hungary, US Radar, SENSYS, and Fuzzr.</b>
           </p>
-          <p>
+
+          <p className="mt-2 text-[16px] leading-[1.8] text-[var(--ink-soft)]">
             From DGPS, Total Stations and Auto Levels to Echosounders, USVs, Multibeam Echosounders, Side Scan Sonars, ADCPs, Industrial ROVs, SLAM systems, GPRs, Magnetometers, and Cable & Pipe Locators, Sankon offers technology-driven solutions for diverse field requirements. Our commitment to reliable products and responsive technical support makes us a trusted partner for professionals across the geospatial and construction industries.
           </p>
         </div>
@@ -401,11 +399,11 @@ function Products() {
             const content = (
               <div className="group relative border-r border-b border-[var(--hairline)] bg-[var(--paper)] flex flex-col overflow-hidden">
                 <div className="absolute top-3 left-3 z-10 font-mono-tech text-[10px] text-[var(--muted-foreground)]">
-                  {String(i + 1).padStart(2, "0")}
+                  {/* {String(i + 1).padStart(2, "0")} */}
                 </div>
-                <div className="absolute top-3 right-3 z-10 eyebrow text-[var(--cobalt)]">
+                {/* <div className="absolute top-3 right-3 z-10 eyebrow text-[var(--cobalt)]">
                   — New
-                </div>
+                </div> */}
 
                 <div className="aspect-square p-8 flex items-center justify-center overflow-hidden bg-gradient-to-br from-[var(--paper)] to-[var(--ivory)]">
                   <img
@@ -622,9 +620,7 @@ function Service() {
                 className="border-r border-b border-[var(--hairline)] bg-[var(--paper)] p-7 flex flex-col gap-5"
               >
                 <div className="flex items-center justify-between">
-                  <span className="font-mono-tech text-[10px] text-[var(--muted-foreground)]">
-                    {num} / 04
-                  </span>
+                 
                   <Icon className="h-4 w-4 text-[var(--ink-soft)]" />
                 </div>
                 <div>
@@ -735,7 +731,7 @@ function Contact() {
               </a>
               <br />
               <a href="tel:01204104677" className="hover:text-[var(--cobalt)]">
-                0120-4104677 / 4104711, 09971615537
+                0120-4104677 / 4104711
               </a>
             </ContactRow>
             <ContactRow icon={Mail} title="Email">
@@ -832,7 +828,7 @@ function ContactRow({
 function Eyebrow({ num, label }: { num: string; label: string }) {
   return (
     <div className="flex items-center gap-3 eyebrow">
-      <span className="font-mono-tech text-[var(--cobalt)]">{num}</span>
+      {/* <span className="font-mono-tech text-[var(--cobalt)]">{num}</span> */}
       <span className="h-px w-6 bg-[var(--ink)]" />
       <span>{label}</span>
     </div>
@@ -884,9 +880,7 @@ function WhySankon() {
               key={it.title}
               className="border-r border-b border-[var(--hairline)] bg-[var(--paper)] p-7 flex flex-col gap-5"
             >
-              <span className="font-mono-tech text-[10px] text-[var(--muted-foreground)]">
-                {it.num} / 04
-              </span>
+             
               <div>
                 <h3
                   className="font-serif text-xl text-[var(--ink)]"
@@ -1047,9 +1041,7 @@ function ServiceOfferings() {
                 key={it.title}
                 className="border-r border-b border-[var(--hairline)] bg-[var(--paper)] p-7 flex flex-col gap-5"
               >
-                <span className="font-mono-tech text-[10px] text-[var(--muted-foreground)]">
-                  {it.num} / 04
-                </span>
+                
                 <div>
                   <h3
                     className="font-serif text-xl text-[var(--ink)]"

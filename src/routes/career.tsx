@@ -249,7 +249,7 @@ export default function CareerPage() {
                     </div>
 
                     <a
-                      href={`mailto:hr@sankon.in?subject=${encodeURIComponent(`Application for ${title}`)}`}
+                      href={`mailto:sales@sankon.in?subject=${encodeURIComponent(`Application for ${title}`)}`}
                       className="mt-auto inline-flex items-center gap-2 pt-8 text-sm font-medium text-[var(--ink)] transition-colors hover:text-[var(--cobalt)]"
                     >
                       View Details
@@ -276,12 +276,12 @@ export default function CareerPage() {
                 <p className="mt-2 max-w-2xl text-sm leading-[1.35] text-[var(--ink-soft)] md:text-base">
                   We are always seeking exceptional talent to join our technical,
                   operations, and sales teams. Send your resume and a brief cover
-                  letter to hr@sankon.in with the subject line “Spontaneous
+                  letter to sales@sankon.in with the subject line “Spontaneous
                   Application - [Your Department]”.
                 </p>
               </div>
               <a
-                href="mailto:hr@sankon.in?subject=Spontaneous%20Application%20-%20%5BYour%20Department%5D"
+                href="mailto:sales@sankon.in?subject=Spontaneous%20Application%20-%20%5BYour%20Department%5D"
                 className="group inline-flex w-fit items-center gap-3 rounded-full bg-[var(--ink)] py-2 pl-5 pr-2 text-xs font-medium uppercase text-white transition-colors hover:bg-[var(--cobalt)]"
               >
                 Send Your Resume

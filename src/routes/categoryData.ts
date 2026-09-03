@@ -588,17 +588,17 @@ If your organization is growing its surveying capability or upgrading the equipm
     title: "SLAM / LiDAR Scanners",
     slug: "slam-lidar-scanners",
     brands: "Hi-Target",
-    img: "/upload/categoryImg/ProdImg90323.png",
+    img: "/upload/categoryImg/slam-lidar.jpg",
     href: "/category/slam-lidar-scanners",
     brandLinks: makeBrandLinks("Hi-Target", "slam-lidar-scanners"),
     description:
       "SLAM and LiDAR scanners for rapid 3D mapping, site digitization, and spatial modeling across infrastructure and survey projects.",
-    heroImage: "/upload/categoryImg/ProdImg90323.png",
+    heroImage: "/upload/categoryImg/slam-lidar.jpg",
      products: [
       {
         title: "SLAM / LiDAR Scanners",
         subtitle: "Hi-Target",
-        image: "/upload/categoryImg/ProdImg90323.png",
+        image: "/upload/categoryImg/slam-lidar.jpg",
         href: "/category/slam-lidar-scanners/hi-target",
       },
     ],

@@ -24,10 +24,10 @@ export function SiteHeader() {
       {/* Utility strip */}
       <div className="hidden md:block border-b border-[var(--hairline)] bg-[#ffc800] py-3">
         <div className="container-page flex h-8 items-center justify-between eyebrow">
-          <span>AUTHORIZED DISTRIBUTOR & SERVICE CENTRE- NIKON, HI-TARGET, US RADAR, BOSCH</span>
+          <span><b>AUTHORIZED DISTRIBUTOR & SERVICE CENTRE- NIKON, HI-TARGET, US RADAR, BOSCH</b></span>
           <div className="flex items-center gap-6">
-            <a href="tel:09971615537" className="hover:text-[var(--ink)] transition-colors">+91 99716 15537</a>
-            <a href="mailto:sales@sankon.in" className="hover:text-[var(--ink)] transition-colors">sales@sankon.in</a>
+            <a href="tel:09971615537" className="hover:text-[var(--ink)] transition-colors"><b>+91 99716 15537</b></a>
+            <a href="mailto:sales@sankon.in" className="hover:text-[var(--ink)] transition-colors"><b>sales@sankon.in</b></a>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ export function SiteHeader() {
         <div className="lg:hidden border-t border-[var(--hairline)] bg-[var(--ivory)]">
           <div className="container-page py-3 flex flex-col text-sm">
             {["Home", "Products", "Service Centre", "About", "Careers", "Clients", "Contact"].map((l) => (
-                <a key={l} href={l === "About" ? "/about-us" : l === "Careers" ? "/career" : l === "Contact" ? "/contact-us" : l === "Home" ? "/" : "#"} className="py-3 text-[var(--ink)] border-b border-[var(--hairline)] last:border-0">{l}</a>
+                <a key={l} href={l === "Home" ? "/" : l === "About" ? "/about-us" : l === "Careers" ? "/career" : l === "Contact" ? "/contact-us" : "#"} className="py-3 text-[var(--ink)] border-b border-[var(--hairline)] last:border-0">{l}</a>
             ))}
           </div>
         </div>
